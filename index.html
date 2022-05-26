@@ -187,9 +187,21 @@
     </div>
     <!-- End FOOTER -->
 
+
+    <div class="scroll-to-top" id="scroll-to-top">
+        <button type="button" class="p-0 m-0 bg-none border-0 active" data-toggle="button" aria-pressed="true" (click)="scrollToTop()">
+            <img src="./assets/images/scrollTop.svg" alt="icon">
+        </button>
+    </div>
     <!-- Start TEST -->
     <!-- End TEST -->
 
+    <script>
+        document.getElementById('scroll-to-top').addEventListener('click', () => {
+            window.scroll(0,0);
+
+        })
+    </script>
 
 </body>
 </html>

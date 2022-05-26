@@ -22,6 +22,26 @@ body {
     margin: 0 auto;
 }
 
+
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    transition: all .2s ease-in-out;
+}
+
+.scroll-to-top button {
+    background: none !important;
+}
+
+.show-scrollTop {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+}
+
+
+
 /* Start NAVBAR */
 .nav-container {
     z-index: 21;
@@ -55,6 +75,16 @@ body {
     font-size: 22px;
     font-weight: bold;
 }
+
+.eg8-navbar .esport-nav-menu span {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.eg8-navbar .esport-nav-menu span:hover {
+    opacity: 1;
+}
+
 
 .eg8-navbar .chng-to-arabic {
     font-weight: bold;
