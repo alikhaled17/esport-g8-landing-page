@@ -180,9 +180,42 @@ body {
 .professional-esports .content p {
     font-size: 30px;
     font-weight: 500;
-    width: 50%;
+    width: 38%;
 }
 /* End Professional-Esports  */
+
+
+/* Start FESTEVAL */
+.festival {
+    background: linear-gradient(#140739, rgba(255, 255, 255, 0),#1407393d, #140739), url('./assets/images/03-bg.png'); 
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.festival .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.festival .content > div {
+    margin-top: 20%;
+}
+
+.festival h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.festival p {
+    font-size: 30px;
+    font-weight: 500;
+    width: 38%;
+}
+/* End FESTEVAL */
 
 
 /* Start TEST */
