@@ -1,0 +1,189 @@
+@import "assets/fonts/fonts.css";
+
+:root {
+    --violet-dark-color: #140739;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fractul Alt";
+    color: #ffffff !important;
+    background-color: var(--violet-dark-color) !important;
+    transition: 0.1s all !important;
+}
+
+.eg8-container {
+    width: 1760px !important;
+    margin: 0 auto;
+}
+
+/* Start NAVBAR */
+.nav-container {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 0;
+}
+
+.eg8-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 40px;
+}
+
+.eg8-navbar .esport-logo {
+    width: 117px;
+    height: 97px;
+}
+
+.eg8-navbar .esport-logo img {
+    width: 100%;
+}
+
+.eg8-navbar .esport-nav-menu {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.eg8-navbar .chng-to-arabic {
+    font-weight: bold;
+}
+
+/* End NAVBAR */
+
+
+/* Start HEADER */
+.eg8-header {
+    background: linear-gradient(rgba(255, 255, 255, 0.171),#140739b7, #140739), url('./assets/images/header-bg.png'); 
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-bottom: 10vh;
+}
+
+.eg8-header > div {
+    height: 100%;
+}
+
+.eg8-header .header-title {
+    min-height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.eg8-header .header-title img {
+    width: 610px;
+}
+
+.eg8-header .header-title h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.eg8-header .scroll-down-note {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -6%;
+}
+
+.eg8-header .scroll-down-note span {
+    margin-top: 10px;
+    opacity: .8;
+    font-size: 11px;
+}
+
+
+/* End HEADER */
+
+
+/* Start INTODUCTION-TEXT */
+.introduction-text .content{
+    background: linear-gradient(#140739, rgba(255, 255, 255, 0),#140739b7, #140739), url('./assets/images/mask-group-bg.png');
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.introduction-text p {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.introduction-text .gamers-season {
+    background: linear-gradient(#140739, rgba(255, 255, 255, 0), #140739), url('./assets/images/02-bg.png');
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+}
+
+.introduction-text > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction-text .gamers-season img {
+    width: 590px;
+}
+/* End INTODUCTION-TEXT */
+
+
+/* Start Professional-Esports  */
+.professional-esports {
+    background: linear-gradient(#140739, rgba(255, 255, 255, 0),#140739b7, #140739), url('./assets/images/professional-esport-bg.png');
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.professional-esports .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.professional-esports .content > div {
+    margin-top: 10%;
+}
+
+.professional-esports .content h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.professional-esports .content img {
+    margin: 30px 0 30px -10px;
+
+}
+
+.professional-esports .content p {
+    font-size: 30px;
+    font-weight: 500;
+    width: 50%;
+}
+/* End Professional-Esports  */
+
+
+/* Start TEST */
+/* End TEST */
