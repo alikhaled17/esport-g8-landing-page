@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: "Fractul Alt";
+    font-family: "Fractul Alt" ;
     color: #ffffff !important;
     background-color: var(--violet-dark-color) !important;
     transition: 0.1s all !important;
@@ -24,6 +24,7 @@ body {
 
 /* Start NAVBAR */
 .nav-container {
+    z-index: 21;
     width: 100%;
     position: fixed;
     left: 0;
@@ -89,7 +90,7 @@ body {
 }
 
 .eg8-header .header-title h1 {
-    font-size: 70px;
+    font-size: 65px;
     font-weight: bold;
 }
 
@@ -217,6 +218,294 @@ body {
 }
 /* End FESTEVAL */
 
+/* Start SAUDI-SPORT */
+.saudi-esports  {
+    height: 90vh;
+}
+
+.saudi-esports .content {
+    padding-top: 10% ;
+}
+
+.saudi-esports .content > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.saudi-esports p {
+    font-size: 30px;
+    font-weight: 500;
+    width: 80%;
+    text-align: center;
+}
+/* End SAUDI-SPORT */
+
+/* Start MUSIC CONCERTS */
+.music-concert {
+    background: linear-gradient(#140739, rgba(255, 255, 255, 0),#140739b7, #140739), url('./assets/images/mask-group-bg.png'); 
+    background-position:bottom;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 120vh;
+    padding: 5% 0;
+
+}
+
+.music-concert .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.music-concert .content h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.music-concert .content p {
+    font-size: 30px;
+    font-weight: 500;
+    width: 70%;
+}
+/* End MUSIC CONCERTS */
+
+
+/* Start SUMMIT FACTSHEET */
+
+.summit-factsheet {
+    height: 120vh;
+    padding: 5% 0;
+
+}
+
+.summit-factsheet .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summit-factsheet .content h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.summit-factsheet .content p {
+    font-size: 30px;
+    font-weight: 500;
+    width: 70%;
+}
+
+.summit-factsheet .info {
+    padding: 5%;
+}
+
+.summit-factsheet .summit-date {
+    margin-top: 20px;
+}
+
+.summit-factsheet .summit-date > span {
+    display: block;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.summit-factsheet .summit-date i {
+    margin-right: 10px;
+}
+
+.summit-factsheet .more-info {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summit-factsheet .more-info > div {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.summit-factsheet .more-info img {
+    height: 85px;
+    margin-bottom: 20px;
+}
+
+.summit-factsheet .more-info p {
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.summit-factsheet-card {
+    position: relative;
+    filter: drop-shadow(-1px 2px 2px rgba(207, 207, 207, 0.719));
+    transition: all .1s ease-in-out;
+    cursor: pointer;
+    float: left;
+    margin: 10px 30px ;
+    font: normal normal normal 24px/30px 'Inter', sans-serif;
+    transition: all .4s ease-in-out;
+    width: 716px;
+    height: 819px;
+}
+
+.summit-factsheet-card .svg-clipped {
+    -webkit-clip-path: polygon(2% 20%, 10% 13%, 10% 2%, 81% 2%, 90% 10%, 90% 55%, 98% 63%, 98% 98%, 30% 98%, 10% 81%, 10% 57%, 2% 50%);
+    clip-path: polygon(2% 20%, 10% 13%, 10% 2%, 81% 2%, 90% 10%, 90% 55%, 98% 63%, 98% 98%, 30% 98%, 10% 81%, 10% 57%, 2% 50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    stroke-width: 3px ;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(#140739, rgba(255, 255, 255, 0),#1407393d, #140739), url('./assets/images/people.png'); 
+    background-repeat: no-repeat;
+}
+/* End SUMMIT FACTSHEET */
+
+
+/* Start GAME AND LEARN */
+.game-learn {
+    background: linear-gradient(#140739, rgba(255, 255, 255, 0),#140739b7, #140739), url('./assets/images/play-arms.png'); 
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    padding: 5% 0;
+}
+
+.game-learn  h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+/* End GAME AND LEARN */
+
+
+/* Start FOOTER */
+.eg8-footer {
+    height: 90px;
+    background-color: black;
+}
+
+.eg8-footer .content {
+    padding: 15px 0;
+}
+
+.eg8-footer .content div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eg8-footer .content div:nth-child(3) img {
+    margin: 0 10px;
+}
+
+.eg8-footer #footer-img {
+    width: 225px;
+}
+/* End FOOTER */
 
 /* Start TEST */
 /* End TEST */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* IMAGE CARD */
+.img-container2 {
+    position: relative;
+    filter: drop-shadow(-1px 2px 2px rgba(0, 0, 0, 0.719));
+    transition: all .1s ease-in-out;
+    cursor: pointer;
+    float: left;
+    margin: 10px 30px ;
+    font: normal normal normal 24px/30px 'Inter', sans-serif;
+    transition: all .4s ease-in-out;
+    width: 550px;
+    height: 900px;
+}
+
+.outer {
+    position: absolute;
+    left: -3%;
+    top: -3.5%;
+    height: 107%;
+
+}
+
+.svg-clipped2 {
+    clip-path: polygon(91% 0, 9% 0, 0 5%, 0 88%, 15% 100%, 93% 100%, 100% 95%, 100% 5%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    stroke-width: 3px ;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(#140739, rgba(255, 255, 255, 0),#1407393d, #140739), url('./assets/images/music-concert.png'); 
+    background-repeat: no-repeat;
+
+}
+
+.card-content {
+    position: absolute;
+    bottom: 0;
+    left: 14%;
+    z-index: 20;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    
+}
+
+.img-container2:hover {
+    filter: drop-shadow(-1px 2px 5px rgba(255, 255, 255, 0.719));
+}
+
+.img-container2:hover .card-content{
+    bottom: 9%;
+}
+
+.img-container2:hover .disable-content{
+    opacity: 1;
+}
+
+
+
