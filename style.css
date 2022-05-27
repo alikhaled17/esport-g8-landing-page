@@ -106,6 +106,7 @@ body {
     left: 0;
     top: 0;
     margin: 0;
+    background-image: linear-gradient(to bottom right, #140739d8, rgba(255, 255, 255, 0));
 }
 
 .eg8-navbar {
@@ -132,13 +133,31 @@ body {
     font-weight: bold;
 }
 
-.eg8-navbar .esport-nav-menu span {
+.eg8-navbar .esport-nav-menu .nav-item {
     cursor: pointer;
-    opacity: .8;
+    opacity: .2;
 }
 
-.eg8-navbar .esport-nav-menu span:hover {
+.eg8-navbar .esport-nav-menu .nav-item:nth-child(1) {
+    display: none;
+}
+
+
+.eg8-navbar .esport-nav-menu .nav-item.active , 
+.eg8-navbar .esport-nav-menu .nav-item:hover {
     opacity: 1;
+    position: relative;
+}
+
+.eg8-navbar .esport-nav-menu .nav-item.active:before {
+    position: absolute;
+    top: 35%;
+    left: -20px;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #9900e0;
 }
 
 
