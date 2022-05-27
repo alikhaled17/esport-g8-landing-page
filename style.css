@@ -12,11 +12,12 @@
 }
 
 body {
-    font-family: "Fractul Alt" ;
+    font-family: "Fractul Alt" !important;
     color: #ffffff !important;
     background-color: var(--violet-dark-color) !important;
     transition: 0.1s all !important;
     scroll-behavior: smooth;
+    position: relative;
 }
 
 body.ar {
@@ -30,14 +31,16 @@ body.ar {
 }
 
 
+
 /*  */
 .scroll-to-top {
-    position: fixed;
+    position: absolute;
     bottom: 140px;
     right: 40px;
     transition: all .2s ease-in-out;
     outline: none;
 }
+
 
 
 body.ar .scroll-to-top {
@@ -552,6 +555,7 @@ body.ar .scroll-bar-container {
     background-repeat: no-repeat;
     height: 120vh;
     padding: 5% 0;
+    margin-top: 10%;
 }
 
 .game-learn  h1 {
@@ -599,6 +603,245 @@ body.ar .scroll-bar-container {
 
 
 
+@media screen and (max-width: 680px) {
+    body {
+        text-align: center;
+        margin: 0;
+    }
+    .eg8-container {
+        width: 90% !important;
+        margin: 0 auto;
+    }
+    .scroll-down-note,
+    .scroll-bar-container,
+    .scroll-to-top,
+    .nav-big-screen {
+        display: none !important;
+    }
+
+    h1 {
+        font-size: 24px !important;
+    }
+
+    .eg8-header {
+        background-size: 190%;
+        background-position: 80% 30%;
+        height: 100% !important;
+        margin: 0;
+    }
+
+    .eg8-header .header-title > img {
+        width: 189px;
+        margin: 0;
+    }
+
+    .eg8-header .more-info {
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .eg8-header .more-info img {
+        width: 44px;
+        margin-bottom: 2px;
+    }
+    .eg8-header .more-info > div p {
+        font-size: 11px;
+        margin: 10px 25px;
+    }
+
+    .eg8-header {
+        margin-bottom: 10% !important;
+    }
+
+    .introduction-text .content {
+        height: 80% !important;
+        padding-top: 10%;
+    }
+
+    .introduction-text .content p {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .introduction-text .gamers-season img {
+        width: 295px;
+        margin: 10px 0 10px -5px ;
+    }
+    .introduction-text {
+        margin: 0;
+    }
+
+    .professional-esports {
+        height: 60vh;
+    }
+
+    .professional-esports img {
+        width: 300px;
+    }
+    .professional-esports p {
+        font-size: 16px !important;
+        width: 90% !important;
+    }
+
+    .festival {
+        height: 60vh;
+    }
+
+    .festival .content {
+        height: 100%;
+    }
+
+    .festival .content {
+        align-items: center;
+    }
+
+    .festival p {
+        font-size: 16px !important;
+        width: 90% !important;
+    }
+
+    .saudi-esports {
+        height: 60vh;
+    }
+
+    .saudi-esports p {
+        font-size: 16px !important;
+        width: 90% !important;
+    }
+    .saudi-esports img {
+        width: 223px;
+    }
+
+
+    .music-concert {
+        margin: 0;
+        height: 900px;
+    }
+
+    .music-concert .content {
+        flex-direction: column;
+    }
+
+    .music-concert .content > div:nth-child(1) {
+        margin-bottom: 10% !important;
+    }
+
+    .music-concert .content p {
+        font-size: 16px !important;
+        width: 90% !important;
+    }
+
+    .img-container2 {
+        width: 325px !important;
+        height: 532px !important;
+        margin-bottom: 40px;
+    }
+
+    .svg-clipped2 {
+        background-size: 100%;
+    }
+
+    /* .music-concert .content > div:nth-child(1) {order: 2 !important;} */
+    /* .music-concert .content > div:nth-child(2) {order: 1 !important;} */
+
+
+    .summit-factsheet {
+        margin: 0;
+        height: 1100px;
+    }
+
+    .summit-factsheet .content > div:nth-child(1) { order: 2; }
+    .summit-factsheet .content > div:nth-child(2) { order: 1; }
+
+    .summit-factsheet .content {
+        flex-direction: column;
+    }
+
+    .summit-factsheet .summit-factsheet-card {
+        width: 388px !important;   
+        height: 444px !important;   
+    }
+
+    .summit-factsheet .info p {
+        font-size: 16px;
+        width: 90% !important;
+    }
+
+    .summit-factsheet .summit-date span {
+        font-size: 14px !important;
+    }
+
+    .summit-factsheet .more-info {
+        margin-top: 10px !important;
+    }
+
+    .summit-factsheet .more-info  > div {
+        margin-top: 0 !important;
+    }
+
+    .summit-factsheet .more-info img {
+        max-width: 42px;
+        margin-bottom: 0px !important;
+    }
+    .summit-factsheet .more-info div:nth-child(3) img {
+        width: 28px;
+    }
+
+    .summit-factsheet .more-info p {
+        font-size: 12px;
+
+    }
+
+
+
+    .game-learn {
+        margin: 0;
+        height: 500px !important;
+    }
+
+
+
+
+
+
+
+
+
+
+    .eg8-footer {
+        height: auto;
+    }
+
+    .eg8-footer .content > div {
+        flex-direction: column;
+    }
+
+    .eg8-footer #footer-img img {
+        width: 225px;
+    }
+
+    .eg8-footer .copyrights {
+        font-size: 14px !important;
+    }
+
+    .eg8-footer .content > div > div:nth-child(3) img:nth-child(1),
+    .eg8-footer .content > div > div:nth-child(3) img:nth-child(3)
+    {
+        width: 136px;
+    }
+    .eg8-footer .content > div > div:nth-child(3) img:nth-child(2) {
+        width: 47px;
+    }
+
+    .eg8-footer .content > div > div {
+        margin-bottom: 8%;
+    }
+
+    .eg8-footer .content > div > div:nth-child(1) { order: 1; margin-top: 8%;} 
+    .eg8-footer .content > div > div:nth-child(2) { order: 3;} 
+    .eg8-footer .content > div > div:nth-child(3) { order: 2;} 
+}
 
 
 

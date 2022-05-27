@@ -50,7 +50,7 @@ let Data = {
             "SCROLL DOWN <br> & DISCOVER"
         ],
         "introduction" : [
-            "Gamers8 will be the ultimate destination for Gamers, Esports Enthusiasts & Fans, as well as Families and Children of All Ages, offering Elite & Competitive Tournaments, Entertainment, Activities & Attractions, Incredible Music Concerts & Shows, and so much more. To Top it all off the festival will end with a gaming & esports summit, that brings together sector leaders and experts from around the world.",
+            "Gamers8 will be the ultimate destination for Gamers, Esports Enthusiasts & Fans, as well as Families and Children of All Ages, offering Elite & Competitive Tournaments, Entertainment, Activities & Attractions, Incredible Music Concerts & Shows, and so much more. <br><br> To Top it all off the festival will end with a gaming & esports summit, that brings together sector leaders and experts from around the world.",
         ],
         "professional": [
             "Professional Esports",
