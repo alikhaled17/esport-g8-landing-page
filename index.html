@@ -32,7 +32,7 @@
     <!-- End NAVBAR -->
 
     <!-- Start HEADER -->
-    <div class="eg8-header">
+    <div class="eg8-header section"  id="01">
         <div class="eg8-container">
             <div class="header-title">
                 <img src="./assets/images/header-logo-title.png" alt="">
@@ -60,7 +60,7 @@
     <!-- End INTODUCTION-TEXT -->
 
     <!-- Start Professional-Esports -->
-    <div class="professional-esports">
+    <div class="professional-esports section"  id="02">
         <div class="eg8-container content">
             <div>
                 <h1>Professional Esports</h1>
@@ -72,7 +72,7 @@
     <!-- End Professional-Esports -->
 
     <!-- Start FESTEVAL -->
-    <div class="festival">
+    <div class="festival section"  id="03">
         <div class="eg8-container content">
             <div>
                 <h1>Festival</h1>
@@ -97,7 +97,7 @@
     <!-- End SAUDI-SPORT -->
 
     <!-- Start MUSIC CONCERTS -->
-    <div class="music-concert">
+    <div class="music-concert section"  id="04">
         <div class="eg8-container content">
             <div class="">
                 <h1>MUSIC CONCERTS</h1>
@@ -114,7 +114,7 @@
     <!-- End MUSIC CONCERTS -->
 
     <!-- Start SUMMIT FACTSHEET -->
-    <div class="summit-factsheet">
+    <div class="summit-factsheet section"  id="05">
         <div class="eg8-container content">
             <div class="">
                 <div class="summit-factsheet-card" >
@@ -158,7 +158,7 @@
     <!-- End SUMMIT FACTSHEET -->
 
     <!-- Start GAME AND LEARN -->
-    <div class="game-learn">
+    <div class="game-learn section"  id="06">
         <div class="eg8-container content">
             <h1>
                 Game & Learn
@@ -188,19 +188,84 @@
     <!-- End FOOTER -->
 
 
+    <!-- Start SCROLL TO TOP -->
     <div class="scroll-to-top" id="scroll-to-top">
         <button type="button" class="p-0 m-0 bg-none border-0 active" data-toggle="button" aria-pressed="true" (click)="scrollToTop()">
             <img src="./assets/images/scrollTop.svg" alt="icon">
         </button>
     </div>
-    <!-- Start TEST -->
-    <!-- End TEST -->
+    <!-- End SCROLL TO TOP -->
+
+    <!-- Start SCROLL BAR -->
+    <div class="scroll-bar-container">
+        <div class="scroll-squares">
+            <div class="scroll-bar-section active" data-content="01" >
+                <span class="square"></span>
+                <span class="section-title">
+                    <small>1</small>
+                    <small>Main</small>
+                </span>
+            </div>
+            <div class="scroll-bar-section" data-content="02" >
+                <span class="square"></span>
+                <span class="section-title">
+                    <small>02</small>
+                    <small>E-Sports</small>
+                </span>
+            </div>
+            <div class="scroll-bar-section" data-content="03" >
+                <span class="square"></span>
+                <span class="section-title">
+                    <small>03</small>
+                    <small>Festival</small>
+                </span>
+            </div>
+            <div class="scroll-bar-section" data-content="04" >
+                <span class="square"></span>
+                <span class="section-title">
+                    <small>04</small>
+                    <small>Music</small>
+                </span>
+            </div>
+            <div class="scroll-bar-section" data-content="05" >
+                <span class="square"></span>
+                <span class="section-title">
+                    <small>05</small>
+                    <small>Summit</small>
+                </span>
+            </div>
+            <div class="scroll-bar-section" data-content="06" >
+                <span class="square"></span>
+                <span class="section-title">
+                    <small>06</small>
+                    <small>Game & Learn</small>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- End SCROLL BAR -->
 
     <script>
         document.getElementById('scroll-to-top').addEventListener('click', () => {
             window.scroll(0,0);
-
         })
+
+        changeActiveDot = (id) => {
+            let x = document.querySelector(`[data-content="${id}"]`)
+            let xx = document.querySelector('.scroll-bar-section.active').classList.remove('active')
+            x.classList.add("active")
+        }
+
+        window.addEventListener("scroll", () => {
+            document.querySelectorAll(".section").forEach((secElement, i) => {
+                var secDim = secElement.getBoundingClientRect();
+                if(secDim.top > -(secDim.height /2) && secDim.top < (window.innerHeight/2) ) {
+                    changeActiveDot(secElement.getAttribute('id'))
+                }
+            });
+        })
+        
+        
     </script>
 
 </body>

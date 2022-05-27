@@ -15,6 +15,7 @@ body {
     color: #ffffff !important;
     background-color: var(--violet-dark-color) !important;
     transition: 0.1s all !important;
+    scroll-behavior: smooth;
 }
 
 .eg8-container {
@@ -23,7 +24,7 @@ body {
 }
 
 
-
+/*  */
 .scroll-to-top {
     position: fixed;
     bottom: 50px;
@@ -40,6 +41,61 @@ body {
     transition: all .2s ease-in-out;
 }
 
+/* Start SCROLL BAR */
+.scroll-bar-container {
+    position: fixed;
+    top: 40vh;
+    width: 120px;
+    left: 30px;
+}
+
+.scroll-bar-section {
+    width: 100% ;    
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 4px 0;
+    transition: all .5s ease-in-out;
+}
+
+.square {
+    margin-right: 10px;
+    margin-top: 4px;
+    width: 10px;
+    height: 15px;
+    background-color: #9900e0;
+    opacity: .4;
+    transition: all .3s ease-in-out;
+}
+
+.section-title {
+    display: none;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.section-title small:nth-child(1) {
+    font-weight: bold;
+}
+
+.section-title small:nth-child(2) {
+    font-size: 11px;
+}
+
+.scroll-bar-section.active {
+    margin: 8px 0;
+}
+
+.scroll-bar-section.active .square {
+    height: 30px;
+    width: 10px;
+    opacity: 1;
+}
+
+.scroll-bar-section.active .section-title {
+    display: flex;
+}
+/* End SCROLL BAR */
 
 
 /* Start NAVBAR */
