@@ -21,6 +21,7 @@ body {
 
 body.ar {
     direction: rtl;
+    font-family: 'Noto Kufi Arabic', sans-serif;;
 }
 
 .eg8-container {
