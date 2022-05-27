@@ -190,8 +190,8 @@ body {
     /* background-position:bottom; */
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    margin-bottom: 10vh;
+    height: 120vh;
+    margin-bottom: 2vh;
 }
 
 .eg8-header > div {
@@ -207,7 +207,8 @@ body {
 }
 
 .eg8-header .header-title > img {
-    width: 610px;
+    width: 600px;
+    margin-top: 300px;
 }
 
 .eg8-header .header-title h1 {
@@ -222,7 +223,7 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin-top: -6%;
+    margin-top: -4%;
 }
 
 .eg8-header .scroll-down-note span {
@@ -272,6 +273,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 40vh;
+    margin-top: 8%;
 }
 
 
