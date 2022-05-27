@@ -20,7 +20,7 @@ body {
 }
 
 .eg8-container {
-    width: 1760px !important;
+    width: 1680px !important;
     margin: 0 auto;
 }
 
@@ -28,12 +28,14 @@ body {
 /*  */
 .scroll-to-top {
     position: fixed;
-    bottom: 50px;
+    bottom: 140px;
     right: 40px;
     transition: all .2s ease-in-out;
+    outline: none;
 }
 
 .scroll-to-top button {
+    outline: none;
     background: none !important;
 }
 
@@ -151,9 +153,17 @@ body {
     opacity: 0;
 }
 
-.eg8-navbar .esport-nav-menu .nav-item.active img,
-.eg8-navbar .esport-nav-menu .nav-item:hover img {
+.eg8-navbar .esport-nav-menu .nav-item.active img {
     opacity: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    z-index: 1;
+}
+
+.eg8-navbar .esport-nav-menu .nav-item:hover img {
+    opacity: .6;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -223,7 +233,7 @@ body {
 
 
 .eg8-header .more-info {
-    width: 50%;
+    width: 40%;
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
@@ -243,7 +253,8 @@ body {
 }
 
 .eg8-header .more-info p {
-    margin-top: 15px;
+    margin-top: 5px;
+    width: 110%;
     font-size: 16px;
     text-align: center;
     font-weight: 500;
@@ -259,21 +270,27 @@ body {
     background-position:bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 40vh;
 }
+
 
 .introduction-text p {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 400;
     text-align: center;
 }
 
-.introduction-text .gamers-season {
+.introduction-text{
+
     background: linear-gradient(#140739, rgba(255, 255, 255, 0), #140739), url('./assets/images/02-bg.png');
     background-position:bottom;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.introduction-text .gamers-season {
     height: 45vh;
+    margin-top: -11%;
 }
 
 .introduction-text > div {
@@ -541,6 +558,10 @@ body {
     align-items: center;
 }
 
+.eg8-footer .copyrights {
+    font-size: 22px;
+}
+
 .eg8-footer .content div:nth-child(3) img {
     margin: 0 10px;
 }
@@ -603,10 +624,10 @@ body {
 
 .outer {
     position: absolute;
-    left: -3%;
+    left: -7%;
     top: -3.5%;
     height: 107%;
-
+    transition: all .3s ease-in-out;
 }
 
 .svg-clipped2 {
@@ -618,11 +639,12 @@ body {
     align-items: center;
     stroke-width: 3px ;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background: linear-gradient(#140739, rgba(255, 255, 255, 0),#1407393d, #140739), url('./assets/images/music-concert.png'); 
     background-repeat: no-repeat;
 
 }
+
 
 .card-content {
     position: absolute;
@@ -634,8 +656,14 @@ body {
     
 }
 
+.img-container2:hover .outer  {
+    left: -8%;
+    top: -4.5%;
+    filter: drop-shadow(-1px 2px 1.5px rgba(255, 255, 255, 0));
+}
+
 .img-container2:hover {
-    filter: drop-shadow(-1px 2px 5px rgba(255, 255, 255, 0.719));
+    filter: drop-shadow(-1px 2px 3.5px rgba(255, 255, 255, 0.719));
 }
 
 .img-container2:hover .card-content{
