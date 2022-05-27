@@ -20,7 +20,7 @@ body {
 }
 
 .eg8-container {
-    width: 1680px !important;
+    width: 1520px !important;
     margin: 0 auto;
 }
 
@@ -143,6 +143,7 @@ body {
     align-items: center;
     padding: 40px 10px !important;
     position: relative;
+    font-size: 22px;
 }   
 
 .eg8-navbar .esport-nav-menu .nav-item img {
