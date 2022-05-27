@@ -1,4 +1,5 @@
 @import "assets/fonts/fonts.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Noto+Kufi+Arabic:wght@600&display=swap');
 
 :root {
     --violet-dark-color: #140739;
@@ -106,14 +107,13 @@ body {
     left: 0;
     top: 0;
     margin: 0;
-    background-image: linear-gradient(to bottom right, #140739d8, rgba(255, 255, 255, 0));
 }
 
 .eg8-navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px 40px;
+    padding: 0 40px;
 }
 
 .eg8-navbar .esport-logo {
@@ -131,38 +131,43 @@ body {
     justify-content: space-around;
     font-size: 22px;
     font-weight: bold;
+    height: 100%;
 }
 
 .eg8-navbar .esport-nav-menu .nav-item {
     cursor: pointer;
-    opacity: .2;
-}
-
-.eg8-navbar .esport-nav-menu .nav-item:nth-child(1) {
-    display: none;
-}
-
-
-.eg8-navbar .esport-nav-menu .nav-item.active , 
-.eg8-navbar .esport-nav-menu .nav-item:hover {
-    opacity: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 40px 10px !important;
     position: relative;
-}
+}   
 
-.eg8-navbar .esport-nav-menu .nav-item.active:before {
+.eg8-navbar .esport-nav-menu .nav-item img {
     position: absolute;
-    top: 35%;
-    left: -20px;
-    content: "";
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #9900e0;
+    bottom: 200px;
+    left: 0;
+    transition: all .2s ease-in-out;
+    opacity: 0;
 }
 
+.eg8-navbar .esport-nav-menu .nav-item.active img,
+.eg8-navbar .esport-nav-menu .nav-item:hover img {
+    opacity: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    z-index: 1;
+}
+
+.eg8-navbar .esport-nav-menu .nav-item small {
+    z-index: 2;
+}
 
 .eg8-navbar .chng-to-arabic {
     font-weight: bold;
+    font-family: 'Noto Kufi Arabic', sans-serif;
 }
 
 /* End NAVBAR */
@@ -171,7 +176,7 @@ body {
 /* Start HEADER */
 .eg8-header {
     background: linear-gradient(rgba(255, 255, 255, 0.171),#140739b7, #140739), url('./assets/images/header-bg.png'); 
-    background-position:bottom;
+    /* background-position:bottom; */
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -190,7 +195,7 @@ body {
     align-items: flex-start;
 }
 
-.eg8-header .header-title img {
+.eg8-header .header-title > img {
     width: 610px;
 }
 
@@ -213,6 +218,35 @@ body {
     margin-top: 10px;
     opacity: .8;
     font-size: 11px;
+}
+
+
+
+.eg8-header .more-info {
+    width: 50%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eg8-header .more-info > div {
+    margin-top: 15px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eg8-header .more-info img {
+    height: 85px;
+    margin-bottom: 20px;
+}
+
+.eg8-header .more-info p {
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
 }
 
 
