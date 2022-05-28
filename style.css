@@ -1,6 +1,13 @@
 @import "assets/fonts/fonts.css";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Noto+Kufi+Arabic:wght@600&display=swap');
-
+@font-face {font-family: "Swissra Regular";
+src: url("020c2dc3c0d68296ff9850218827ae6b.eot"); /* IE9*/
+src: url("020c2dc3c0d68296ff9850218827ae6b.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+url("020c2dc3c0d68296ff9850218827ae6b.woff2") format("woff2"), /* chrome、firefox */
+url("020c2dc3c0d68296ff9850218827ae6b.woff") format("woff"), /* chrome、firefox */
+url("020c2dc3c0d68296ff9850218827ae6b.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+url("020c2dc3c0d68296ff9850218827ae6b.svg#Swissra Regular") format("svg"); /* iOS 4.1- */
+}
 :root {
     --violet-dark-color: #140739;
 }
@@ -22,15 +29,18 @@ body {
 
 body.ar {
     direction: rtl;
-    font-family: 'Noto Kufi Arabic', sans-serif;;
+    font-family:"Swissra Regular" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .eg8-container {
     width: 1672px !important;
     margin: 0 auto;
 }
-
-
 
 /*  */
 .scroll-to-top {
@@ -40,8 +50,6 @@ body.ar {
     transition: all .2s ease-in-out;
     outline: none;
 }
-
-
 
 body.ar .scroll-to-top {
     left: 40px;
@@ -67,7 +75,7 @@ body.ar .scroll-to-top {
 }
 
 body.ar .scroll-bar-container {
-    right: 30px;
+    right: 50px;
     left: auto;
 }
 
@@ -78,6 +86,8 @@ body.ar .scroll-bar-container {
     align-items: flex-start;
     margin: 4px 0;
     transition: all .5s ease-in-out;
+    font-family: "Fractul Alt" !important;
+
 }
 
 .square {
@@ -127,6 +137,7 @@ body.ar .scroll-bar-container {
     left: 0;
     top: 0;
     margin: 0;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .eg8-navbar {
@@ -159,9 +170,11 @@ body.ar .scroll-bar-container {
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 40px 10px !important;
     position: relative;
     font-size: 22px;
+    min-width: 100px;
 }   
 
 .eg8-navbar .esport-nav-menu .nav-item img {
@@ -229,11 +242,11 @@ body.ar .scroll-bar-container {
     right: -100%;
     background-color: #140739;
     z-index: 99;
-    display: flex;
     justify-content: space-between;
     flex-direction: column;
     opacity: 0;
     transition: all .5s ease-in-out;
+    display: none;
 }
 
 .side-bar.active {
@@ -329,7 +342,7 @@ body.ar .scroll-bar-container {
 
 .eg8-header .header-title > img {
     width: 600px;
-    margin-top: 300px;
+    margin-top: 120px;
 }
 
 .eg8-header .header-title h1 {
@@ -340,11 +353,14 @@ body.ar .scroll-bar-container {
 .eg8-header .scroll-down-note {
     width: 100%;
     display: flex;
+    padding: 30px 0 50px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
     margin-top: -4%;
+    background:  url('./assets/images/mask-group-bg.png');
+    
 }
 
 .eg8-header .scroll-down-note span {
@@ -356,7 +372,7 @@ body.ar .scroll-bar-container {
 
 
 .eg8-header .more-info {
-    width: 40%;
+    width: 50%;
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
@@ -364,7 +380,7 @@ body.ar .scroll-bar-container {
 
 .eg8-header .more-info > div {
     margin-top: 15px;
-    width: 100px;
+    width: 178px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -377,7 +393,7 @@ body.ar .scroll-bar-container {
 
 .eg8-header .more-info p {
     margin-top: 5px;
-    width: 110%;
+    width: 158px;
     font-size: 16px;
     text-align: center;
     font-weight: 500;
@@ -392,7 +408,7 @@ body.ar .scroll-bar-container {
     background-size: cover;
     background-repeat: no-repeat;
     height: 40vh;
-    margin-top: 8%;
+    margin-top: 4%;
 }
 
 
@@ -403,7 +419,7 @@ body.ar .scroll-bar-container {
 }
 
 .introduction-text{
-    background: linear-gradient(#140739, rgba(255, 255, 255, 0), #140739), url('./assets/images/02-bg.png');
+    background: linear-gradient(#140739, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), #140739), url('./assets/images/02-bg.png');
     background-position:bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -440,9 +456,11 @@ body.ar .scroll-bar-container {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: -4%;
 }
 .professional-esports .content > div {
-    margin-top: 10%;
+    margin-top: 18%;
+    
 }
 
 .professional-esports .content h1 {
@@ -457,8 +475,8 @@ body.ar .scroll-bar-container {
 
 .professional-esports .content p {
     font-size: 30px;
-    font-weight: 500;
-    width: 38%;
+    font-weight: 400;
+    width: 49%;
 }
 /* End Professional-Esports  */
 
@@ -469,7 +487,7 @@ body.ar .scroll-bar-container {
     background-position:bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 110vh;
 }
 
 .festival .content {
@@ -480,7 +498,7 @@ body.ar .scroll-bar-container {
 }
 
 .festival .content > div {
-    margin-top: 20%;
+    margin-top: 35%;
 }
 
 .festival h1 {
@@ -490,14 +508,14 @@ body.ar .scroll-bar-container {
 
 .festival p {
     font-size: 30px;
-    font-weight: 500;
-    width: 38%;
+    font-weight: 400;
+    width: 49%;
 }
 /* End FESTEVAL */
 
 /* Start SAUDI-SPORT */
 .saudi-esports  {
-    height: 90vh;
+    height: 75vh;
 }
 
 .saudi-esports .content {
@@ -513,8 +531,8 @@ body.ar .scroll-bar-container {
 
 .saudi-esports p {
     font-size: 30px;
-    font-weight: 500;
-    width: 80%;
+    font-weight: 400;
+    width: 70%;
     text-align: center;
 }
 /* End SAUDI-SPORT */
@@ -523,11 +541,10 @@ body.ar .scroll-bar-container {
 .music-concert {
     background: url('./assets/images/mask-group-bg.png'); 
     background-position:bottom;
-    background-size: cover;
-    /* background-repeat: no-repeat; */
-    height: 120vh;
-    padding: 5% 0;
-
+    background-size: contain;
+    background-repeat: repeat;
+    height: 100vh;
+    padding: 5% 0 ;
 }
 
 .music-concert .content {
@@ -552,8 +569,8 @@ body.ar .scroll-bar-container {
 /* Start SUMMIT FACTSHEET */
 
 .summit-factsheet {
-    height: 120vh;
-    padding: 5% 0;
+    height: 86vh;
+    padding: 5% 0 0;
 
 }
 
@@ -570,8 +587,8 @@ body.ar .scroll-bar-container {
 
 .summit-factsheet .content p {
     font-size: 30px;
-    font-weight: 500;
-    width: 70%;
+    font-weight: 400;
+    width: 90%;
 }
 
 .summit-factsheet .info {
@@ -595,6 +612,7 @@ body.ar .scroll-bar-container {
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
+    width: 95%;
 }
 
 .summit-factsheet .more-info > div {
@@ -613,7 +631,11 @@ body.ar .scroll-bar-container {
     margin-top: 15px;
     font-size: 16px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
+}
+
+.summit-factsheet #calender-icon {
+    margin: 0 10px 0 -10px;
 }
 
 .summit-factsheet-card {
@@ -652,9 +674,9 @@ body.ar .scroll-bar-container {
     background-position:bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 120vh;
+    height: 77vh;
     padding: 5% 0;
-    margin-top: 10%;
+    margin-top: 18%;
 }
 
 .game-learn  h1 {
@@ -971,12 +993,6 @@ body.ar .scroll-bar-container {
 
 
 
-
-
-
-
-
-
 /* IMAGE CARD */
 .img-container2 {
     position: relative;
@@ -984,7 +1000,7 @@ body.ar .scroll-bar-container {
     transition: all .1s ease-in-out;
     cursor: pointer;
     float: left;
-    margin: 10px 30px ;
+    margin: 10px 0 ;
     font: normal normal normal 24px/30px 'Inter', sans-serif;
     transition: all .4s ease-in-out;
     width: 550px;
@@ -993,8 +1009,8 @@ body.ar .scroll-bar-container {
 
 .outer {
     position: absolute;
-    left: -7%;
-    top: -3.5%;
+    left: -4%;
+    top: -3.1%;
     height: 107%;
     transition: all .3s ease-in-out;
 }
@@ -1009,7 +1025,13 @@ body.ar .scroll-bar-container {
     stroke-width: 3px ;
     background-size: cover;
     background-position: top;
-    background: linear-gradient(#140739, rgba(255, 255, 255, 0),#1407393d, #140739), url('./assets/images/music-concert.png'); 
+    background: linear-gradient(
+    #140739,
+    rgba(255, 255, 255, 0),
+    #1407393d, #140739
+    ), 
+    url('./assets/images/music-concert.png'); 
+
     background-repeat: no-repeat;
 
 }
@@ -1026,8 +1048,8 @@ body.ar .scroll-bar-container {
 }
 
 .img-container2:hover .outer  {
-    left: -8%;
-    top: -4.5%;
+    left: -6%;
+    top: -4.1%;
     filter: drop-shadow(-1px 2px 1.5px rgba(255, 255, 255, 0));
 }
 
@@ -1043,5 +1065,17 @@ body.ar .scroll-bar-container {
     opacity: 1;
 }
 
+.img-container2:hover .svg-clipped2 {
+    background-size: cover;
+    background-position: top;
+    background: url('./assets/images/card-logo-effect.svg') 0 100%,linear-gradient(
+    #140739,
+    rgba(255, 255, 255, 0),
+    #1407393d, #140739
+    ), 
+    url('./assets/images/music-concert.png'); 
+
+    background-repeat: no-repeat;
+}
 
 

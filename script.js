@@ -4,11 +4,8 @@ document.getElementById('scroll-to-top').addEventListener('click', () => {
 
 changeActiveDot = (id) => {
     document.querySelector('.scroll-bar-section.active').classList.remove('active')
-    document.querySelector('.nav-item.active').classList.remove('active')
-    let relatedSections = document.querySelectorAll(`[data-content="${id}"]`)
-    relatedSections.forEach((el, i) => {
-        el.classList.add('active')
-    })
+    let el = document.querySelector(`[data-content="${id}"]`)
+    el.classList.add('active')
 
     document.querySelector('.side-list-item.active').classList.remove('active')
     let relatedSections2 = document.querySelectorAll(`[data-section="${id}"]`)
@@ -24,16 +21,14 @@ document.querySelectorAll('.side-list-item').forEach((el,  i) => {
         document.querySelector('.side-bar').classList.remove('active');
         let id = el.getAttribute('data-section')
         let sec = document.getElementById(id)
-        console.log(sec);
         window.scroll(sec.x, sec.offsetTop - 50);
     })
 })
 
 document.querySelectorAll('.nav-item').forEach((el,  i) => {
     el.addEventListener("click", ()=>{
-        let id = el.getAttribute('data-content')
+        let id = el.getAttribute('data-nav-content')
         let sec = document.getElementById(id)
-        console.log(sec);
         window.scroll(sec.x, sec.offsetTop);
     })
 })
@@ -71,7 +66,7 @@ let Data = {
             "اللغة العربية",
         ],
         "header" : [
-            "The Gate To the New Text",
+            "The Gate To the New World",
             "eight-week mega-festival",
             "6 international esports tournaments",
             "$15,000,000 prize pool",
@@ -80,7 +75,7 @@ let Data = {
             "SCROLL DOWN <br> & DISCOVER"
         ],
         "introduction" : [
-            "Gamers8 will be the ultimate destination for Gamers, Esports Enthusiasts & Fans, as well as Families and Children of All Ages, offering Elite & Competitive Tournaments, Entertainment, Activities & Attractions, Incredible Music Concerts & Shows, and so much more. <br><br> To Top it all off the festival will end with a gaming & esports summit, that brings together sector leaders and experts from around the world.",
+            "Gamers8 will be the ultimate destination for Gamers, Esports Enthusiasts & Fans, as well as Families and Children of All Ages, offering Elite & Competitive Tournaments, Entertainment, Activities & Attractions, Incredible Music Concerts & Shows, and so much more. To Top it all off the festival will end with a gaming & esports summit, that brings together sector leaders and experts from around the world.",
         ],
         "professional": [
             "Professional Esports",
@@ -100,8 +95,8 @@ let Data = {
         "summit": [
             "SUMMIT FACTSHEET",
             "The Summit will provide highly engaging and innovative formats to provide a platform for every stakeholder of the gaming & sports ecosystem. Furthermore, the youth will be at the center of the event, thanks to the participation of leading academic institutions and organizations.",
-            "<i class='fa-solid fa-location-dot'></i> Gamers8 Festival - boulevard",
-            "<i class='fa-solid fa-calendar-days'></i> To be confirmed",
+            "<i class='fa-solid fa-location-dot'></i> Gamers8 Festival - Boulevard",
+            "<img src='./assets/images/calender.svg' id='calender-icon' alt=''>To be confirmed",
             "2 days full of Events, shows & activities",
             "Riyadh Kingdom of Saudi Arabia",
             "Leading Speakers in E-Sports World",

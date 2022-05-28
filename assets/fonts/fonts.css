@@ -214,3 +214,11 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'Swissra';
+    src: url('Swissra Condensed Bold [TheFontsMaster.com].otf');
+    src: local('Swissra Medium Italic'), local('Swissra-MediumItalic');
+    font-weight: 500;
+    font-style: italic;
+}
+
