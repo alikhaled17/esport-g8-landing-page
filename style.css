@@ -548,7 +548,7 @@ body.ar .summit-factsheet #calender-icon {
 
 .summit-factsheet-card {
     position: relative;
-    filter: drop-shadow(-1px 2px 2px rgba(207, 207, 207, 0.719));
+    filter: drop-shadow(-1px 2px 4px rgba(0, 0, 0, 0.301));
     transition: all .1s ease-in-out;
     cursor: pointer;
     float: left;
