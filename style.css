@@ -26,7 +26,7 @@ body.ar {
 }
 
 .eg8-container {
-    width: 1520px !important;
+    width: 1672px !important;
     margin: 0 auto;
 }
 
@@ -202,6 +202,107 @@ body.ar .scroll-bar-container {
 
 /* End NAVBAR */
 
+/* Start SMALL NAVBAR */
+.nav-small-screen {
+    display: none;
+}
+
+.nav-small-screen > div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.nav-small-screen img:nth-child(1) { width: 81px; }
+.nav-small-screen img:nth-child(2) { width: 27px; }
+
+.side-bar {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: #140739;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+.side-bar.active {
+    opacity: 1;
+    right: 0;
+}
+
+.side-bar .side-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 23px;
+    border-bottom: 1px solid #9900e09a;
+}
+
+.side-bar .side-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.side-bar .side-list > span {
+    height: 40px;
+    font-size: 22px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #9900e09a;
+}
+.side-bar .side-list > .side-list-item.active span {
+    width: 10%;
+    border: .5px solid #9900e09a;
+    margin-right: 10px;
+}
+.side-bar .side-list > .side-list-item {
+    padding: 30px;
+}
+
+.side-bar .side-list > .side-list-item.active {
+    padding: 30px 0 ;
+    color: #9900e0;
+    font-weight: 500;
+}
+
+.side-bar .side-head img:nth-child(2) {
+    width: 80px;
+}
+
+.side-bar .side-footer {
+    background-color: #4015BA;
+    color: #fff;
+    height: 150px;
+}
+
+.side-bar .side-footer .side-footer-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    border-bottom: 1px solid #ffffff9a;
+    margin: 0 30px;
+}
+
+.side-bar .side-copyrights {
+    padding: 20px;
+    text-align: center;
+}
+/* End SMALL NAVBAR */
 
 /* Start HEADER */
 .eg8-header {
@@ -281,8 +382,6 @@ body.ar .scroll-bar-container {
     text-align: center;
     font-weight: 500;
 }
-
-
 /* End HEADER */
 
 
@@ -312,7 +411,7 @@ body.ar .scroll-bar-container {
 
 .introduction-text .gamers-season {
     height: 45vh;
-    margin-top: -11%;
+    margin-top: -6%;
 }
 
 .introduction-text > div {
@@ -329,7 +428,7 @@ body.ar .scroll-bar-container {
 
 /* Start Professional-Esports  */
 .professional-esports {
-    background: linear-gradient(#140739, rgba(255, 255, 255, 0),#140739b7, #140739), url('./assets/images/professional-esport-bg.png');
+    background: linear-gradient(#140739, #0606086c ,#09070e6c, #140739), url('./assets/images/professional-esport-bg.png');
     background-position:bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -422,7 +521,7 @@ body.ar .scroll-bar-container {
 
 /* Start MUSIC CONCERTS */
 .music-concert {
-    background: linear-gradient(#140739, rgba(255, 255, 255, 0),#140739b7, #140739), url('./assets/images/mask-group-bg.png'); 
+    background: url('./assets/images/mask-group-bg.png'); 
     background-position:bottom;
     background-size: cover;
     /* background-repeat: no-repeat; */
@@ -594,8 +693,6 @@ body.ar .scroll-bar-container {
 }
 /* End FOOTER */
 
-/* Start TEST */
-/* End TEST */
 
 
 
@@ -604,6 +701,11 @@ body.ar .scroll-bar-container {
 
 
 @media screen and (max-width: 680px) {
+
+    .nav-small-screen {
+        display: block;
+    }
+
     body {
         text-align: center;
         margin: 0;
@@ -625,9 +727,13 @@ body.ar .scroll-bar-container {
 
     .eg8-header {
         background-size: 190%;
-        background-position: 80% 30%;
-        height: 100% !important;
+        background-position: 60% 0%;
+        height: 120% !important;
         margin: 0;
+    }
+
+    .eg8-header > div {
+        padding-top: 38%;
     }
 
     .eg8-header .header-title > img {
@@ -647,7 +753,8 @@ body.ar .scroll-bar-container {
     }
     .eg8-header .more-info > div p {
         font-size: 11px;
-        margin: 10px 25px;
+        margin: 2px 25px;
+        width: 90%;
     }
 
     .eg8-header {

@@ -9,7 +9,25 @@ changeActiveDot = (id) => {
     relatedSections.forEach((el, i) => {
         el.classList.add('active')
     })
+
+    document.querySelector('.side-list-item.active').classList.remove('active')
+    let relatedSections2 = document.querySelectorAll(`[data-section="${id}"]`)
+    relatedSections2.forEach((el, i) => {
+        el.classList.add('active')
+    })
+
 }
+
+
+document.querySelectorAll('.side-list-item').forEach((el,  i) => {
+    el.addEventListener("click", ()=>{
+        document.querySelector('.side-bar').classList.remove('active');
+        let id = el.getAttribute('data-section')
+        let sec = document.getElementById(id)
+        console.log(sec);
+        window.scroll(sec.x, sec.offsetTop - 50);
+    })
+})
 
 document.querySelectorAll('.nav-item').forEach((el,  i) => {
     el.addEventListener("click", ()=>{
@@ -32,6 +50,18 @@ window.addEventListener("scroll", () => {
 
 let Data = {
     "en" : {
+        
+        "esportsmallnav" : [
+            "Home",
+            "E-Sports",
+            "Festival",
+            "Music",
+            "Summit",
+            "Game & Learn",
+            "اللغة العربية",
+            "change language",
+            "© 2022 Gamers8. All rights reserved"
+        ],
         "esportnav" : [
             "E-Sports",
             "Festival",
@@ -89,6 +119,17 @@ let Data = {
         ]
     },
     "ar": {
+        "esportsmallnav" : [
+            "الرئيسية",
+            "الرياضات اللاكترونية",
+            "فعاليات المهرجان",
+            "حفلات",
+            "المؤتمر",
+            "العب وتعلم",
+            "English",
+            "تغيير اللغة",
+            "© مهرجان Gamers8 - كل الحقوق محفوظة"
+        ],
         "esportnav" : [
             "الرياضات اللاكترونية",
             "فعاليات المهرجان",
@@ -209,7 +250,18 @@ function showData() {
     $(".scroll-bar-container .scroll-bar-section:nth-child(4) small:nth-child(2)").innerHTML = PageData.scroll[3];
     $(".scroll-bar-container .scroll-bar-section:nth-child(5) small:nth-child(2)").innerHTML = PageData.scroll[4];
     $(".scroll-bar-container .scroll-bar-section:nth-child(6) small:nth-child(2)").innerHTML = PageData.scroll[5];
+    
+    $(".side-bar .side-list-item:nth-child(1) small").innerHTML = PageData.esportsmallnav[0];
+    $(".side-bar .side-list-item:nth-child(2) small").innerHTML = PageData.esportsmallnav[1];
+    $(".side-bar .side-list-item:nth-child(3) small").innerHTML = PageData.esportsmallnav[2];
+    $(".side-bar .side-list-item:nth-child(4) small").innerHTML = PageData.esportsmallnav[3];
+    $(".side-bar .side-list-item:nth-child(5) small").innerHTML = PageData.esportsmallnav[4];
+    $(".side-bar .side-list-item:nth-child(6) small").innerHTML = PageData.esportsmallnav[5];
 
+    $(".side-bar .change-to-arabic").innerHTML = PageData.esportsmallnav[6];
+    $(".side-bar .side-footer-head span:nth-child(1)").innerHTML = PageData.esportsmallnav[7];
+    $(".side-bar .side-copyrights").innerHTML = PageData.esportsmallnav[8];
+    
 }
 
 function changeLang() {
@@ -228,3 +280,13 @@ function changeLang() {
 
 document.querySelector(".chng-to-arabic").addEventListener("click", changeLang)
 showData()
+
+document.getElementById('list-icon').addEventListener("click", () => {
+    document.querySelector('.side-bar').classList.add('active');
+})
+
+document.getElementById('close-side').addEventListener("click", () => {
+    document.querySelector('.side-bar').classList.remove('active');
+})
+
+document.querySelector(".side-bar .change-to-arabic").addEventListener('click', changeLang)
