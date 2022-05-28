@@ -37,8 +37,13 @@ body.ar {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.eg8-nav-container {
+    width: 1682px !important;
+    margin: 0 auto;
+}
+
 .eg8-container {
-    width: 1672px !important;
+    width: 1490px !important;
     margin: 0 auto;
 }
 
@@ -145,6 +150,7 @@ body.ar .scroll-bar-container {
     align-items: center;
     justify-content: space-between;
     padding: 0 40px;
+    height: 142px;
 }
 
 .eg8-navbar .esport-logo {
@@ -195,7 +201,7 @@ body.ar .scroll-bar-container {
 }
 
 .eg8-navbar .esport-nav-menu .nav-item:hover img {
-    opacity: .6;
+    opacity: 1;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -214,108 +220,6 @@ body.ar .scroll-bar-container {
 }
 
 /* End NAVBAR */
-
-/* Start SMALL NAVBAR */
-.nav-small-screen {
-    display: none;
-}
-
-.nav-small-screen > div {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 10px;
-}
-
-.nav-small-screen img:nth-child(1) { width: 81px; }
-.nav-small-screen img:nth-child(2) { width: 27px; }
-
-.side-bar {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: -100%;
-    background-color: #140739;
-    z-index: 99;
-    justify-content: space-between;
-    flex-direction: column;
-    opacity: 0;
-    transition: all .5s ease-in-out;
-    display: none;
-}
-
-.side-bar.active {
-    opacity: 1;
-    right: 0;
-}
-
-.side-bar .side-head {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 23px;
-    border-bottom: 1px solid #9900e09a;
-}
-
-.side-bar .side-list {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-}
-
-.side-bar .side-list > span {
-    height: 40px;
-    font-size: 22px;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-    display: flex;
-    border-bottom: 1px solid #9900e09a;
-}
-.side-bar .side-list > .side-list-item.active span {
-    width: 10%;
-    border: .5px solid #9900e09a;
-    margin-right: 10px;
-}
-.side-bar .side-list > .side-list-item {
-    padding: 30px;
-}
-
-.side-bar .side-list > .side-list-item.active {
-    padding: 30px 0 ;
-    color: #9900e0;
-    font-weight: 500;
-}
-
-.side-bar .side-head img:nth-child(2) {
-    width: 80px;
-}
-
-.side-bar .side-footer {
-    background-color: #4015BA;
-    color: #fff;
-    height: 150px;
-}
-
-.side-bar .side-footer .side-footer-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 0;
-    border-bottom: 1px solid #ffffff9a;
-    margin: 0 30px;
-}
-
-.side-bar .side-copyrights {
-    padding: 20px;
-    text-align: center;
-}
-/* End SMALL NAVBAR */
 
 /* Start HEADER */
 .eg8-header {
@@ -418,7 +322,7 @@ body.ar .scroll-bar-container {
     text-align: center;
 }
 
-.introduction-text{
+.introduction-text.two{
     background: linear-gradient(#140739, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), #140739), url('./assets/images/02-bg.png');
     background-position:bottom;
     background-size: cover;
@@ -726,6 +630,116 @@ body.ar .summit-factsheet #calender-icon {
 
 
 
+
+
+
+
+
+/* Start SMALL NAVBAR */
+.nav-small-screen {
+    display: none;
+}
+
+.nav-small-screen > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.nav-small-screen img:nth-child(1) { width: 81px; }
+.nav-small-screen img:nth-child(2) { width: 27px; }
+
+.side-bar {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: #140739;
+    z-index: 999;
+    justify-content: space-between;
+    flex-direction: column;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    display: none;
+}
+
+.side-bar.active {
+    opacity: 1;
+    right: 0 ;
+    display: flex;
+
+}
+
+.side-bar .side-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 23px;
+    border-bottom: 1px solid #9900e09a;
+}
+
+.side-bar .side-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.side-bar .side-list > span {
+    height: 40px;
+    font-size: 22px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #9900e09a;
+}
+.side-bar .side-list > .side-list-item.active span {
+    width: 10%;
+    border: .5px solid #9900e09a;
+    margin-right: 10px;
+}
+.side-bar .side-list > .side-list-item {
+    padding: 30px;
+}
+
+.side-bar .side-list > .side-list-item.active {
+    padding: 30px 0 ;
+    color: #9900e0;
+    font-weight: 500;
+}
+
+.side-bar .side-head img:nth-child(2) {
+    width: 80px;
+}
+
+.side-bar .side-footer {
+    background-color: #4015BA;
+    color: #fff;
+    height: 150px;
+}
+
+.side-bar .side-footer .side-footer-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    border-bottom: 1px solid #ffffff9a;
+    margin: 0 30px;
+}
+
+.side-bar .side-copyrights {
+    padding: 20px;
+    text-align: center;
+}
+/* End SMALL NAVBAR */
+
+
 @media screen and (max-width: 680px) {
 
     .nav-small-screen {
@@ -748,48 +762,71 @@ body.ar .summit-factsheet #calender-icon {
     }
 
     h1 {
-        font-size: 24px !important;
+        font-size: 30px !important;
     }
 
     .eg8-header {
-        background-size: 190%;
+        background-size: 250%;
         background-position: 60% 0%;
-        height: 120% !important;
         margin: 0;
+        margin-bottom: -70% !important;
+    }
+
+    .eg8-header h1 {
+        font-size: 36px !important;
     }
 
     .eg8-header > div {
-        padding-top: 38%;
+        height: 50%;
+        padding-top: 40%;
+    }
+
+    .eg8-header .header-title {
+        margin-top: 0;
     }
 
     .eg8-header .header-title > img {
-        width: 189px;
+        width: 60%;
         margin: 0;
+        margin-bottom: 17px;
     }
 
     .eg8-header .more-info {
         width: 90%;
         flex-wrap: wrap;
         justify-content: flex-start;
+        margin-top: 0;
+    }
+
+    .eg8-header .more-info > div {
+        width: 80px;
+        margin: 0 10px;
     }
 
     .eg8-header .more-info img {
-        width: 44px;
-        margin-bottom: 2px;
+        margin-bottom: 0;
     }
+
+    .eg8-header .more-info > div:nth-child(1) img { width: 44px; }
+    .eg8-header .more-info > div:nth-child(2) img { width: 36px; }
+    .eg8-header .more-info > div:nth-child(3) img { width: 89px; }
+    .eg8-header .more-info > div:nth-child(4) img { width: 44px; }
+    .eg8-header .more-info > div:nth-child(5) img { width: 38px; }
+
     .eg8-header .more-info > div p {
         font-size: 11px;
         margin: 2px 25px;
-        width: 90%;
+        width: 99%;
     }
 
-    .eg8-header {
-        margin-bottom: 10% !important;
-    }
 
     .introduction-text .content {
-        height: 80% !important;
-        padding-top: 10%;
+        height: 60vh !important;
+        margin-top: -10%;
+    }
+    .introduction-text .gamers-season {
+        margin-top: -40% !important;
+        margin-bottom: -10% !important;
     }
 
     .introduction-text .content p {
@@ -806,19 +843,27 @@ body.ar .summit-factsheet #calender-icon {
     }
 
     .professional-esports {
-        height: 60vh;
+        margin-top: -22%;
+        height: 80vh;
+    }
+    .professional-esports .content > div {
+        margin-top: 45%;
     }
 
     .professional-esports img {
         width: 300px;
+        margin: 12px 0 15px -10px !important;
     }
+
+    
     .professional-esports p {
         font-size: 16px !important;
         width: 90% !important;
     }
 
     .festival {
-        height: 60vh;
+        height: 50vh;
+        margin-top: -23% !important;
     }
 
     .festival .content {
@@ -835,12 +880,18 @@ body.ar .summit-factsheet #calender-icon {
     }
 
     .saudi-esports {
-        height: 60vh;
+        background: linear-gradient(#140739, rgba(255, 255, 255, 0),#140739b7, #140739), url('./assets/images/mask-group-bg.png');
+        background-position:bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 70vh;
+        padding: 17% 0 1%;
+        margin-bottom: -45%;
     }
 
     .saudi-esports p {
         font-size: 16px !important;
-        width: 90% !important;
+        width: 95% !important;
     }
     .saudi-esports img {
         width: 223px;
@@ -850,6 +901,7 @@ body.ar .summit-factsheet #calender-icon {
     .music-concert {
         margin: 0;
         height: 900px;
+        padding-top: 14%;
     }
 
     .music-concert .content {
@@ -862,22 +914,18 @@ body.ar .summit-factsheet #calender-icon {
 
     .music-concert .content p {
         font-size: 16px !important;
-        width: 90% !important;
+        width: 95% !important;
     }
 
     .img-container2 {
         width: 325px !important;
         height: 532px !important;
-        margin-bottom: 40px;
+        /* margin-bottom: 40px; */
     }
 
     .svg-clipped2 {
-        background-size: 100%;
+        background-size: 130% !important;
     }
-
-    /* .music-concert .content > div:nth-child(1) {order: 2 !important;} */
-    /* .music-concert .content > div:nth-child(2) {order: 1 !important;} */
-
 
     .summit-factsheet {
         margin: 0;
@@ -892,8 +940,12 @@ body.ar .summit-factsheet #calender-icon {
     }
 
     .summit-factsheet .summit-factsheet-card {
-        width: 388px !important;   
-        height: 444px !important;   
+        width: 370px !important;   
+        height: 430px !important;  
+    }
+
+    .summit-factsheet .summit-factsheet-card .svg-clipped {
+        background-size: 140%;
     }
 
     .summit-factsheet .info p {
