@@ -648,7 +648,12 @@ body.ar .summit-factsheet #calender-icon {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 10px;
+    padding: 45px 20px;
+}
+
+body.ar .nav-small-screen img:nth-child(2) {
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .nav-small-screen img:nth-child(1) { width: 81px; }
@@ -771,19 +776,20 @@ body.ar .side-bar .side-list > .side-list-item.active span { margin-right: 0 ; m
     }
 
     .eg8-header {
-        background-size: 250%;
+        background-size: 300%;
         background-position: 60% 0%;
         margin: 0;
         margin-bottom: -70% !important;
+        height: 130vh !important;
     }
 
     .eg8-header h1 {
-        font-size: 36px !important;
+        font-size: 30px !important;
     }
 
     .eg8-header > div {
         height: 50%;
-        padding-top: 40%;
+        padding-top: 60%;
     }
 
     .eg8-header .header-title {
