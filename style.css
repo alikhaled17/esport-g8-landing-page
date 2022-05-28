@@ -699,11 +699,16 @@ body.ar .summit-factsheet #calender-icon {
     display: flex;
     border-bottom: 1px solid #9900e09a;
 }
+
 .side-bar .side-list > .side-list-item.active span {
     width: 10%;
     border: .5px solid #9900e09a;
     margin-right: 10px;
 }
+
+body.ar .side-bar .side-list > .side-list-item.active span { margin-right: 0 ; margin-left: 10px; }
+
+
 .side-bar .side-list > .side-list-item {
     padding: 30px;
 }
