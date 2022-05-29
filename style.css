@@ -858,7 +858,7 @@ body.ar .side-bar .side-list > .side-list-item.active span { margin-right: 0 ; m
 
 
     .introduction-text {
-        background: linear-gradient(#140739, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0),#1407398f, #140739), url('./assets/images/00005.png');
+        background: linear-gradient(#14073918, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0),#14073952, #140739), url('./assets/images/00005.png');
         background-position:center;
         background-size: cover;
         background-repeat: no-repeat;
