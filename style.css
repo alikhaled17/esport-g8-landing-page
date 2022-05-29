@@ -33,7 +33,7 @@ body.ar {
     font-size:16px;
     font-style:normal;
     -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-width: 0.1px;
     -moz-osx-font-smoothing: grayscale;
 }
 
@@ -137,7 +137,7 @@ body.ar .scroll-bar-container {
 /* Start NAVBAR */
 .nav-container {
     z-index: 21;
-    width: 100%;
+    width: 101%;
     position: fixed;
     left: 0;
     top: 0;
@@ -163,11 +163,11 @@ body.ar .scroll-bar-container {
 }
 
 .eg8-navbar .esport-nav-menu {
-    width: 45%;
+    width: 48%;
     display: flex;
     justify-content: space-around;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 500;
     height: 100%;
 }
 
@@ -180,7 +180,7 @@ body.ar .scroll-bar-container {
     padding: 40px 10px !important;
     position: relative;
     font-size: 22px;
-    min-width: 100px;
+    min-width: 125px;
 }   
 
 .eg8-navbar .esport-nav-menu .nav-item img {
@@ -585,6 +585,14 @@ body.ar .summit-factsheet #calender-icon {
     height: 77vh;
     padding: 5% 0;
     margin-top: 18%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+
+.game-learn > div {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 .game-learn  h1 {
@@ -596,12 +604,13 @@ body.ar .summit-factsheet #calender-icon {
 
 /* Start FOOTER */
 .eg8-footer {
-    height: 90px;
+    height: 83px;
     background-color: black;
+    padding-bottom: 10px;
 }
 
 .eg8-footer .content {
-    padding: 15px 0;
+    padding: 15px 0 0;
 }
 
 .eg8-footer .content div {
@@ -660,8 +669,8 @@ body.ar .nav-small-screen img:nth-child(2) {
 .nav-small-screen img:nth-child(2) { width: 27px; }
 
 .side-bar {
-    width: 100%;
-    height: 100vh;
+    width: 102%;
+    height: 101%;
     position: fixed;
     top: 0;
     right: -100%;
@@ -721,7 +730,7 @@ body.ar .side-bar .side-list > .side-list-item.active span { margin-right: 0 ; m
 .side-bar .side-list > .side-list-item.active {
     padding: 30px 0 ;
     color: #9900e0;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .side-bar .side-head img:nth-child(2) {
@@ -761,7 +770,7 @@ body.ar .side-bar .side-list > .side-list-item.active span { margin-right: 0 ; m
         margin: 0;
     }
     .eg8-container {
-        width: 90% !important;
+        width: 91% !important;
         margin: 0 auto;
     }
     .scroll-down-note,
@@ -987,6 +996,17 @@ body.ar .side-bar .side-list > .side-list-item.active span { margin-right: 0 ; m
     .summit-factsheet .more-info p {
         font-size: 12px;
 
+    }
+    
+    .summit-factsheet #calender-icon {
+        width: 20px;
+        margin-left: -5px !important;
+    }
+
+    body.ar .summit-factsheet #calender-icon {
+        width: 20px;
+        margin-left: 1px !important;
+        margin-right: 5px !important;
     }
 
 
