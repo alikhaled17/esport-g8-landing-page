@@ -801,6 +801,7 @@ body.ar .side-bar .side-list > .side-list-item.active span { margin-right: 0 ; m
     }
 
     .eg8-header {
+        background: linear-gradient(rgba(255, 255, 255, 0),#140739b7, #140739), url('./assets/images/header-bg.png'); 
         background-size: 300%;
         background-position: 60% 0%;
         margin: 0;
@@ -857,10 +858,10 @@ body.ar .side-bar .side-list > .side-list-item.active span { margin-right: 0 ; m
 
 
     .introduction-text .content {
-        height: 60vh !important;
+        height: 45vh !important;
         margin-top: -10%;
         background-size: 20%;
-        background-position: 50%;
+        background-position: 30%;
         
     }
     .introduction-text .gamers-season {
