@@ -540,7 +540,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
     height: 80vh;
   }
   .professional-esports .content > div {
-    margin-top: 45%;
+    margin-top: 30%;
   }
 
   .professional-esports img {
@@ -556,15 +556,16 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   .festival {
     height: 45vh;
     /*margin-top: 35% !important;*/
-    padding-top: 39%;
+    /*padding-top: 39%;*/
   }
 
   .festival .content {
     height: 100%;
+    align-items: center;
   }
 
-  .festival .content {
-    align-items: center;
+  .festival .content > div {
+    margin-top: 0;
   }
 
   .festival p {
@@ -590,16 +591,18 @@ body.ar .side-bar .side-list > .side-list-item.active span {
 
   .saudi-esports p {
     /*font-size: 16px !important;*/
-    width: 95% !important;
+    width: 82% !important;
   }
   .saudi-esports img {
     width: 223px;
+    margin-bottom: 20px;
   }
 
   .music-concert {
     margin: 0;
-    height: 900px;
-    padding-top: 39%;
+    height: auto;
+    padding-top: 24%;
+    padding-bottom: 0;
   }
 
   .music-concert .content {
@@ -627,8 +630,8 @@ body.ar .side-bar .side-list > .side-list-item.active span {
 
   .summit-factsheet {
     margin: 0;
-    height: 1100px;
-    padding-top: 35%;
+    height: 998px;
+    padding-top: 19%;
   }
 
   .summit-factsheet .content > div:nth-child(1) {
@@ -694,6 +697,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   .game-learn {
     margin: 0;
     height: 500px !important;
+    padding-top: 0;
   }
 
   .eg8-footer {
