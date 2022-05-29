@@ -394,6 +394,17 @@ body.ar .scroll-bar-container {
     height: 110vh;
 }
 
+body.ar .festival {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+
+body.ar .festival > div {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 .festival .content {
     display: flex;
     justify-content: center;
@@ -585,12 +596,16 @@ body.ar .summit-factsheet #calender-icon {
     height: 77vh;
     padding: 5% 0;
     margin-top: 18%;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+    
 
 }
 
-.game-learn > div {
+body.ar .game-learn {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+body.ar .game-learn > div {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
