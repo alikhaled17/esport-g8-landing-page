@@ -38,12 +38,12 @@ body.ar {
 }
 
 .eg8-nav-container {
-    width: 1682px !important;
+    width: 1702px !important;
     margin: 0 auto;
 }
 
 .eg8-container {
-    width: 1490px !important;
+    width: 1450px !important;
     margin: 0 auto;
 }
 
@@ -1022,8 +1022,8 @@ body.ar .side-bar .side-list > .side-list-item.active span { margin-right: 0 ; m
     }
 
     .img-container2 {
-        width: 325px !important;
-        height: 532px !important;
+        width: 300px !important;
+        height: 491px !important;
         /* margin-bottom: 40px; */
     }
 
