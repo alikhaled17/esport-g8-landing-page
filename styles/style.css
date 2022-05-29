@@ -227,7 +227,7 @@ body.ar .scroll-bar-container {
 /* Start HEADER */
 .eg8-header {
   background: linear-gradient(rgba(255, 255, 255, 0.171), #140739b7, #140739),
-    url("./assets/images/header-bg.png");
+    url("./../assets/images/header-bg.png");
   /* background-position:bottom; */
   background-size: cover;
   background-repeat: no-repeat;
@@ -266,7 +266,7 @@ body.ar .scroll-bar-container {
   flex-direction: column;
   text-align: center;
   margin-top: -4%;
-  background: url("./assets/images/mask-group-bg.png");
+  background: url("./../assets/images/mask-group-bg.png");
 }
 
 .eg8-header .scroll-down-note span {
@@ -314,7 +314,7 @@ body.ar .scroll-bar-container {
       #140739c2,
       #14073986
     ),
-    url("./assets/images/00005.png");
+    url("./../assets/images/00005.png");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -352,7 +352,7 @@ body.ar .scroll-bar-container {
 }
 
 /* .introduction-text .content{
-    background: linear-gradient(#140739, rgba(255, 255, 255, 0),#140739b7, #140739), url('./assets/images/mask-group-bg.png');
+    background: linear-gradient(#140739, rgba(255, 255, 255, 0),#140739b7, #140739), url('./../assets/images/mask-group-bg.png');
     background-position:bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -368,7 +368,7 @@ body.ar .scroll-bar-container {
 }
 
 .introduction-text.two{
-    background: linear-gradient(#140739, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), #140739), url('./assets/images/02-bg.png');
+    background: linear-gradient(#140739, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), #140739), url('./../assets/images/02-bg.png');
     background-position:bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -393,7 +393,7 @@ body.ar .scroll-bar-container {
 /* Start Professional-Esports  */
 .professional-esports {
   background: linear-gradient(#140739, #0606086c, #09070e6c, #140739),
-    url("./assets/images/professional-esport-bg.png");
+    url("./../assets/images/professional-esport-bg.png");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -435,7 +435,7 @@ body.ar .scroll-bar-container {
       #1407393d,
       #140739
     ),
-    url("./assets/images/03-bg.png");
+    url("./../assets/images/03-bg.png");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -501,7 +501,7 @@ body.ar .festival > div {
 
 /* Start MUSIC CONCERTS */
 .music-concert {
-  background: url("./assets/images/mask-group-bg.png");
+  background: url("./../assets/images/mask-group-bg.png");
   background-position: bottom;
   background-size: contain;
   background-repeat: repeat;
@@ -658,7 +658,7 @@ body.ar .summit-factsheet #calender-icon {
       #1407393d,
       #140739
     ),
-    url("./assets/images/people.png");
+    url("./../assets/images/people.png");
   background-repeat: no-repeat;
 }
 /* End SUMMIT FACTSHEET */
@@ -671,7 +671,7 @@ body.ar .summit-factsheet #calender-icon {
       #140739b7,
       #140739
     ),
-    url("./assets/images/play-arms.png");
+    url("./../assets/images/play-arms.png");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -878,7 +878,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
 
   .eg8-header {
     background: linear-gradient(#140739b7, #140739b7, #140739),
-      url("./assets/images/header-bg.png");
+      url("./../assets/images/header-bg.png");
     background-size: 300%;
     background-position: 60% 0%;
     margin: 0;
@@ -957,7 +957,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
         #14073952,
         #140739
       ),
-      url("./assets/images/00005.png");
+      url("./../assets/images/00005.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1052,7 +1052,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
         #140739b7,
         #140739
       ),
-      url("./assets/images/mask-group-bg.png");
+      url("./../assets/images/mask-group-bg.png");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1256,7 +1256,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
       #1407393d,
       #140739
     ),
-    url("./assets/images/music-concert.png");
+    url("./../assets/images/music-concert.png");
 
   background-repeat: no-repeat;
 }
@@ -1291,9 +1291,9 @@ body.ar .side-bar .side-list > .side-list-item.active span {
 .img-container2:hover .svg-clipped2 {
   background-size: cover;
   background-position: top;
-  background: url("./assets/images/card-logo-effect.svg") 0 100%,
+  background: url("./../assets/images/card-logo-effect.svg") 0 100%,
     linear-gradient(#140739, rgba(255, 255, 255, 0), #1407393d, #140739),
-    url("./assets/images/music-concert.png");
+    url("./../assets/images/music-concert.png");
 
   background-repeat: no-repeat;
 }
