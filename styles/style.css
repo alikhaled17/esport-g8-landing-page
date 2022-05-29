@@ -87,7 +87,7 @@ body.ar .scroll-bar-container {
 }
 
 .professional-esports .content h1 {
-  font-size: 60px;
+  /*font-size: 60px;*/
   font-weight: bold;
 }
 
@@ -139,7 +139,7 @@ body.ar .festival > div {
 }
 
 .festival h1 {
-  font-size: 60px;
+  /*font-size: 60px;*/
   font-weight: bold;
 }
 
@@ -191,7 +191,7 @@ body.ar .festival > div {
 }
 
 .music-concert .content h1 {
-  font-size: 60px;
+  /*font-size: 60px;*/
   font-weight: bold;
 }
 
@@ -216,7 +216,7 @@ body.ar .festival > div {
 }
 
 .summit-factsheet .content h1 {
-  font-size: 60px;
+  /*font-size: 60px;*/
   font-weight: bold;
 }
 
@@ -263,7 +263,7 @@ body.ar .festival > div {
 
 .summit-factsheet .more-info p {
   margin-top: 15px;
-  font-size: 16px;
+  /*font-size: 16px;*/
   text-align: center;
   font-weight: 400;
 }
@@ -365,7 +365,7 @@ body.ar .game-learn > div {
 }
 
 .game-learn h1 {
-  font-size: 60px;
+  /*font-size: 60px;*/
   font-weight: bold;
 }
 /* End GAME AND LEARN */
@@ -532,7 +532,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   }
 
   h1 {
-    font-size: 30px !important;
+    /*font-size: 30px !important;*/
   }
 
   .professional-esports {
@@ -549,7 +549,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   }
 
   .professional-esports p {
-    font-size: 16px !important;
+    /*font-size: 16px !important;*/
     width: 90% !important;
   }
 
@@ -568,7 +568,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   }
 
   .festival p {
-    font-size: 16px !important;
+    /*font-size: 16px !important;*/
     width: 90% !important;
   }
 
@@ -589,7 +589,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   }
 
   .saudi-esports p {
-    font-size: 16px !important;
+    /*font-size: 16px !important;*/
     width: 95% !important;
   }
   .saudi-esports img {
@@ -611,7 +611,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   }
 
   .music-concert .content p {
-    font-size: 16px !important;
+    /*font-size: 16px !important;*/
     width: 95% !important;
   }
 
@@ -652,7 +652,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   }
 
   .summit-factsheet .info p {
-    font-size: 16px;
+    /*font-size: 16px;*/
     width: 90% !important;
   }
 

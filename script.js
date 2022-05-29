@@ -223,18 +223,18 @@ function showData() {
 
   $(".introduction-text p").innerHTML = PageData.introduction[0];
 
-  $(".professional-esports .content h1").innerHTML = PageData.professional[0];
+  $(".professional-esports .content h2").innerHTML = PageData.professional[0];
   $(".professional-esports .content p").innerHTML = PageData.professional[1];
 
-  $(".festival .content h1").innerHTML = PageData.festival[0];
+  $(".festival .content h2").innerHTML = PageData.festival[0];
   $(".festival .content p").innerHTML = PageData.festival[1];
 
   $(".saudi-esports .content p").innerHTML = PageData.saudi[0];
 
-  $(".music-concert .content h1").innerHTML = PageData.music[0];
+  $(".music-concert .content h2").innerHTML = PageData.music[0];
   $(".music-concert .content p").innerHTML = PageData.music[1];
 
-  $(".summit-factsheet .info > h1").innerHTML = PageData.summit[0];
+  $(".summit-factsheet .info > h2").innerHTML = PageData.summit[0];
   $(".summit-factsheet .info > p").innerHTML = PageData.summit[1];
   $(".summit-factsheet .info .summit-date span:nth-child(1)").innerHTML =
     PageData.summit[2];
@@ -249,7 +249,7 @@ function showData() {
   $(".summit-factsheet .more-info > div:nth-child(4) p").innerHTML =
     PageData.summit[7];
 
-  $(".game-learn h1").innerHTML = PageData.game[0];
+  $(".game-learn h2").innerHTML = PageData.game[0];
 
   $(".eg8-footer .copyrights").innerHTML = PageData.footer[0];
 

@@ -28,7 +28,7 @@
 }
 
 .eg8-header .header-title h1 {
-  font-size: 65px;
+  /*font-size: 65px;*/
   font-weight: bold;
 }
 
@@ -85,13 +85,13 @@
       url("./../../assets/images/header-bg.png");
     background-size: 300%;
     background-position: 60% 0%;
-    margin: 0;
-    margin-bottom: -70% !important;
-    height: 130vh !important;
+    /*margin: 0;*/
+    /*margin-bottom: -70% !important;*/
+    height: 100vh !important;
   }
 
   .eg8-header h1 {
-    font-size: 30px !important;
+    /*font-size: 30px !important;*/
   }
 
   .eg8-header h1 span {
@@ -100,7 +100,7 @@
 
   .eg8-header > div {
     height: 50%;
-    padding-top: 60%;
+    /*padding-top: 60%;*/
   }
 
   .eg8-header .header-title {

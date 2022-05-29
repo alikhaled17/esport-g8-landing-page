@@ -1,0 +1,17 @@
+h1.main-title {
+  font-size: 4.1vw;
+}
+
+h2.main-title {
+  font-size: 3.1vw;
+}
+
+@media (max-width: 1024px) {
+  h1.main-title {
+    font-size: 8.5vw;
+  }
+
+  h2.main-title {
+    font-size: 7vw;
+  }
+}
