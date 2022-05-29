@@ -1,25 +1,3 @@
-@import "assets/fonts/fonts.css";
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Noto+Kufi+Arabic:wght@600&display=swap");
-
-@font-face {
-  font-family: "Swissra Regular";
-  src: url("020c2dc3c0d68296ff9850218827ae6b.eot"); /* IE9*/
-  src: url("020c2dc3c0d68296ff9850218827ae6b.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("020c2dc3c0d68296ff9850218827ae6b.woff2") format("woff2"),
-    /* chrome、firefox */ url("020c2dc3c0d68296ff9850218827ae6b.woff")
-      format("woff"),
-    /* chrome、firefox */ url("020c2dc3c0d68296ff9850218827ae6b.ttf")
-      format("truetype"),
-    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-      url("020c2dc3c0d68296ff9850218827ae6b.svg#Swissra Regular") format("svg"); /* iOS 4.1- */
-}
-/* ============================= */
-/* ============================= */
-/* ============================= */
-/* ============================= */
-/* ============================= */
-
 :root {
   --violet-dark-color: #140739;
 }
