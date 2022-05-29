@@ -321,7 +321,7 @@ body.ar .scroll-bar-container {
   display: flex;
   flex-direction: column;
   height: 90vh;
-  padding-top: 2%;
+  padding-top: 16%;
   margin-top: 2%;
 }
 
@@ -336,7 +336,7 @@ body.ar .scroll-bar-container {
 
   font-size: 1.55vw;
   text-align: center;
-  margin-top: 5%;
+  margin-top: -1%;
 }
 
 .introduction-text .gamers-season {
@@ -348,7 +348,7 @@ body.ar .scroll-bar-container {
 .introduction-text .gamers-season img {
   /*width: 600px;*/
   width: 100%;
-  margin-top: 8%;
+  margin-top: 12%;
 }
 
 /* .introduction-text .content{
@@ -546,13 +546,13 @@ body.ar .festival > div {
 }
 
 .summit-factsheet .content p {
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 400;
-  width: 90%;
+  /*width: 90%;*/
 }
 
 .summit-factsheet .info {
-  padding: 5%;
+  /*padding: 5%;*/
 }
 
 .summit-factsheet .summit-date {
@@ -748,10 +748,10 @@ body.ar .nav-small-screen img:nth-child(2) {
 }
 
 .nav-small-screen img:nth-child(1) {
-  width: 81px;
+  width: 19vw;
 }
 .nav-small-screen img:nth-child(2) {
-  width: 27px;
+  width: 6.3vw;
 }
 
 .side-bar {
@@ -844,6 +844,12 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   text-align: center;
 }
 /* End SMALL NAVBAR */
+
+@media screen and (max-width: 450px) {
+  .introduction-text p {
+    font-size: 3.9vw !important;
+  }
+}
 
 @media screen and (max-width: 1024px) {
   .nav-small-screen {
@@ -962,7 +968,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   }
 
   .introduction-text p {
-    font-size: 16px !important;
+    font-size: 3.4vw !important;
     width: 100% !important;
     text-align: center;
   }
