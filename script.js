@@ -73,7 +73,7 @@ let Data = {
       "6 international esports tournaments",
       "$15,000,000 prize pool",
       "World's top artists",
-      "Countless events, shows, and experiences",
+      "SCROLL DOWN & DISCOVER",
       "SCROLL DOWN <br> & DISCOVER",
     ],
     introduction: [
@@ -219,7 +219,7 @@ function showData() {
     PageData.header[4];
   $(".eg8-header .more-info > div:nth-child(5) p").innerHTML =
     PageData.header[5];
-  $(".eg8-header .scroll-down-note span").innerHTML = PageData.header[6];
+  $(".eg8-header .scroll-down-note p").innerHTML = PageData.header[6];
 
   $(".introduction-text p").innerHTML = PageData.introduction[0];
 

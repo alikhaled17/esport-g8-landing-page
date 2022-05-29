@@ -71,6 +71,7 @@ body.ar .scroll-bar-container {
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
+  /*margin-bottom: 600px;*/
   height: 100vh;
 }
 
@@ -112,6 +113,7 @@ body.ar .scroll-bar-container {
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
+  /*margin-bottom: 350px;*/
   height: 110vh;
 }
 
@@ -150,6 +152,7 @@ body.ar .festival > div {
 /* Start SAUDI-SPORT */
 .saudi-esports {
   height: 75vh;
+  /*margin-bottom: 300px;*/
 }
 
 .saudi-esports .content {
@@ -178,6 +181,7 @@ body.ar .festival > div {
   background-repeat: repeat;
   height: 100vh;
   padding: 5% 0;
+  /*margin-bottom: 150px;*/
 }
 
 .music-concert .content {
@@ -202,6 +206,7 @@ body.ar .festival > div {
 .summit-factsheet {
   height: 86vh;
   padding: 5% 0 0;
+  /*margin-bottom: 320px;*/
 }
 
 .summit-factsheet .content {
@@ -225,6 +230,7 @@ body.ar .festival > div {
 
 .summit-factsheet .summit-date {
   margin-top: 20px;
+  font-family: "Fractul-Alt";
 }
 
 .summit-factsheet .summit-date > span {
@@ -343,7 +349,7 @@ body.ar .summit-factsheet #calender-icon {
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 77vh;
+  height: 93vh;
   padding: 5% 0;
   margin-top: 18%;
 }
@@ -383,6 +389,7 @@ body.ar .game-learn > div {
 
 .eg8-footer .copyrights {
   font-size: 22px;
+  font-family: "Fractul-Alt";
 }
 
 .eg8-footer .content div:nth-child(3) img {

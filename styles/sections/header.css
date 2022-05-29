@@ -2,10 +2,10 @@
 .eg8-header {
   background: linear-gradient(rgba(255, 255, 255, 0.171), #140739b7, #140739),
     url("./../../assets/images/header-bg.png");
-  /* background-position:bottom; */
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;
+  padding-top: 248px;
   margin-bottom: 2vh;
 }
 
@@ -19,6 +19,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
+  margin-bottom: 100px;
 }
 
 .eg8-header .header-title > img {
@@ -43,10 +44,11 @@
   background: url("./../../assets/images/mask-group-bg.png");
 }
 
-.eg8-header .scroll-down-note span {
+.eg8-header .scroll-down-note p {
   margin-top: 10px;
   opacity: 0.8;
   font-size: 11px;
+  width: 125px;
 }
 
 .eg8-header .more-info {
