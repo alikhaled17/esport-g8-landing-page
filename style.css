@@ -859,6 +859,7 @@ body.ar .side-bar .side-list > .side-list-item.active span { margin-right: 0 ; m
     .introduction-text .content {
         height: 60vh !important;
         margin-top: -10%;
+        background-size: auto;
     }
     .introduction-text .gamers-season {
         margin-top: -40% !important;
