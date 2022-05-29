@@ -306,7 +306,7 @@ body.ar .scroll-bar-container {
 
 
 /* Start INTODUCTION-TEXT */
-.introduction-text .content{
+/* .introduction-text .content{
     background: linear-gradient(#140739, rgba(255, 255, 255, 0),#140739b7, #140739), url('./assets/images/mask-group-bg.png');
     background-position:bottom;
     background-size: cover;
@@ -342,7 +342,7 @@ body.ar .scroll-bar-container {
 
 .introduction-text .gamers-season img {
     width: 590px;
-}
+} */
 /* End INTODUCTION-TEXT */
 
 
@@ -801,7 +801,7 @@ body.ar .side-bar .side-list > .side-list-item.active span { margin-right: 0 ; m
     }
 
     .eg8-header {
-        background: linear-gradient(rgba(255, 255, 255, 0),#140739b7, #140739), url('./assets/images/header-bg.png'); 
+        background: linear-gradient(#140739b7,#140739b7, #140739), url('./assets/images/header-bg.png'); 
         background-size: 300%;
         background-position: 60% 0%;
         margin: 0;
@@ -857,6 +857,32 @@ body.ar .side-bar .side-list > .side-list-item.active span { margin-right: 0 ; m
     }
 
 
+    .introduction-text {
+        background: linear-gradient(#140739, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), #140739), url('./assets/images/00005.png');
+        background-position:bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        padding-top: 20%;
+    }
+
+    .introduction-text p {
+        font-size: 16px !important;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .introduction-text .gamers-season {
+        width: 70% !important;
+    }
+
+    .introduction-text .gamers-season img {
+        width: 100%;
+    }
+
+/* 
     .introduction-text .content {
         height: 45vh !important;
         margin-top: -10%;
@@ -880,7 +906,7 @@ body.ar .side-bar .side-list > .side-list-item.active span { margin-right: 0 ; m
     }
     .introduction-text {
         margin: 0;
-    }
+    } */
 
     .professional-esports {
         margin-top: -22%;
