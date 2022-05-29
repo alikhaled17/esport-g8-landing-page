@@ -210,7 +210,7 @@ function showData() {
     $(".eg8-header .more-info > div:nth-child(5) p").innerHTML = PageData.header[5];
     $(".eg8-header .scroll-down-note span").innerHTML = PageData.header[6];
 
-    $(".introduction-text .content p").innerHTML = PageData.introduction[0];
+    $(".introduction-text p").innerHTML = PageData.introduction[0];
 
     $(".professional-esports .content h1").innerHTML = PageData.professional[0];
     $(".professional-esports .content p").innerHTML = PageData.professional[1];
