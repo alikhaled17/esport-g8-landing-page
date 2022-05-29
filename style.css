@@ -38,12 +38,12 @@ body.ar {
 }
 
 .eg8-nav-container {
-    width: 1702px !important;
+    width: 1802px !important;
     margin: 0 auto;
 }
 
 .eg8-container {
-    width: 1450px !important;
+    width: 1550px !important;
     margin: 0 auto;
 }
 
@@ -321,6 +321,11 @@ body.ar .scroll-bar-container {
     height: 90vh;
     padding-top: 2%;
     margin-top: 2%;
+}
+
+.introduction-text > div:nth-child(1) {
+    display: flex;
+    justify-content: center;
 }
 
 
