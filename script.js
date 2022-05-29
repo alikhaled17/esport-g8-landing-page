@@ -8,11 +8,8 @@ changeActiveDot = (id) => {
     el.classList.add('active')
 
     document.querySelector('.side-list-item.active').classList.remove('active')
-    let relatedSections2 = document.querySelectorAll(`[data-section="${id}"]`)
-    relatedSections2.forEach((el, i) => {
-        el.classList.add('active')
-    })
-
+    let el2 = document.querySelector(`[data-section="${id}"]`)
+    el2.classList.add('active')
 }
 
 
