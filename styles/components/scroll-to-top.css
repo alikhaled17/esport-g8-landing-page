@@ -1,0 +1,22 @@
+.scroll-to-top {
+  position: absolute;
+  bottom: 140px;
+  right: 40px;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+body.ar .scroll-to-top {
+  left: 40px;
+  right: auto;
+}
+
+.scroll-to-top button {
+  outline: none;
+  background: none !important;
+}
+@media screen and (max-width: 1024px) {
+  .scroll-to-top {
+    display: none !important;
+  }
+}

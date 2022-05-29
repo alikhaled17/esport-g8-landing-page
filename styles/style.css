@@ -1,21 +1,3 @@
-.scroll-to-top {
-  position: absolute;
-  bottom: 140px;
-  right: 40px;
-  transition: all 0.2s ease-in-out;
-  outline: none;
-}
-
-body.ar .scroll-to-top {
-  left: 40px;
-  right: auto;
-}
-
-.scroll-to-top button {
-  outline: none;
-  background: none !important;
-}
-
 .show-scrollTop {
   opacity: 1;
   transition: all 0.2s ease-in-out;
@@ -41,7 +23,7 @@ body.ar .scroll-bar-container {
   align-items: flex-start;
   margin: 4px 0;
   transition: all 0.5s ease-in-out;
-  font-family: "Fractul Alt" !important;
+  font-family: "Fractul-Alt" !important;
 }
 
 .square {
@@ -802,7 +784,6 @@ body.ar .side-bar .side-list > .side-list-item.active span {
 
   .scroll-down-note,
   .scroll-bar-container,
-  .scroll-to-top,
   .nav-big-screen {
     display: none !important;
   }
