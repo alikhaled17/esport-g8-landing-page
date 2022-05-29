@@ -306,6 +306,42 @@ body.ar .scroll-bar-container {
 
 
 /* Start INTODUCTION-TEXT */
+.introduction-text {
+    background: linear-gradient(
+        #140739ab, 
+    rgba(255, 255, 255, 0), 
+    rgba(255, 255, 255, 0),
+    #14073980,#140739c2 ,#14073986), 
+    url('./assets/images/00005.png');
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    padding-top: 2%;
+    margin-top: 2%;
+}
+
+
+.introduction-text p {
+    font-size: 30px !important;
+    width: 90% !important;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.introduction-text .gamers-season {
+    width: 70% !important;
+    display: flex;
+    justify-content: center;
+}
+
+.introduction-text .gamers-season img {
+    width: 600px;
+    margin-top: 8%;
+}
+
 /* .introduction-text .content{
     background: linear-gradient(#140739, rgba(255, 255, 255, 0),#140739b7, #140739), url('./assets/images/mask-group-bg.png');
     background-position:bottom;
