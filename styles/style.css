@@ -150,86 +150,6 @@ body.ar .scroll-bar-container {
 
 /* End NAVBAR */
 
-/* Start HEADER */
-.eg8-header {
-  background: linear-gradient(rgba(255, 255, 255, 0.171), #140739b7, #140739),
-    url("./../assets/images/header-bg.png");
-  /* background-position:bottom; */
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  margin-bottom: 2vh;
-}
-
-.eg8-header > div {
-  height: 100%;
-}
-
-.eg8-header .header-title {
-  min-height: 90%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.eg8-header .header-title > img {
-  width: 600px;
-  margin-top: 120px;
-}
-
-.eg8-header .header-title h1 {
-  font-size: 65px;
-  font-weight: bold;
-}
-
-.eg8-header .scroll-down-note {
-  width: 100%;
-  display: flex;
-  padding: 30px 0 50px;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  margin-top: -4%;
-  background: url("./../assets/images/mask-group-bg.png");
-}
-
-.eg8-header .scroll-down-note span {
-  margin-top: 10px;
-  opacity: 0.8;
-  font-size: 11px;
-}
-
-.eg8-header .more-info {
-  width: 50%;
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.eg8-header .more-info > div {
-  margin-top: 15px;
-  width: 178px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.eg8-header .more-info img {
-  height: 85px;
-  margin-bottom: 20px;
-}
-
-.eg8-header .more-info p {
-  margin-top: 5px;
-  width: 158px;
-  font-size: 16px;
-  text-align: center;
-  font-weight: 500;
-}
-/* End HEADER */
-
 /* Start Professional-Esports  */
 .professional-esports {
   background: linear-gradient(#140739, #0606086c, #09070e6c, #140739),
@@ -261,7 +181,6 @@ body.ar .scroll-bar-container {
 }
 
 .professional-esports .content p {
-  font-size: 30px;
   font-weight: 400;
   width: 49%;
 }
@@ -309,7 +228,6 @@ body.ar .festival > div {
 }
 
 .festival p {
-  font-size: 30px;
   font-weight: 400;
   width: 49%;
 }
@@ -332,7 +250,6 @@ body.ar .festival > div {
 }
 
 .saudi-esports p {
-  font-size: 30px;
   font-weight: 400;
   width: 70%;
   text-align: center;
@@ -361,7 +278,6 @@ body.ar .festival > div {
 }
 
 .music-concert .content p {
-  font-size: 30px;
   font-weight: 500;
   width: 70%;
 }
@@ -386,9 +302,7 @@ body.ar .festival > div {
 }
 
 .summit-factsheet .content p {
-  font-size: 36px;
   font-weight: 400;
-  /*width: 90%;*/
 }
 
 .summit-factsheet .info {
@@ -698,79 +612,6 @@ body.ar .side-bar .side-list > .side-list-item.active span {
 
   h1 {
     font-size: 30px !important;
-  }
-
-  .eg8-header {
-    background: linear-gradient(#140739b7, #140739b7, #140739),
-      url("./../assets/images/header-bg.png");
-    background-size: 300%;
-    background-position: 60% 0%;
-    margin: 0;
-    margin-bottom: -70% !important;
-    height: 130vh !important;
-  }
-
-  .eg8-header h1 {
-    font-size: 30px !important;
-  }
-
-  .eg8-header h1 span {
-    display: block;
-  }
-
-  .eg8-header > div {
-    height: 50%;
-    padding-top: 60%;
-  }
-
-  .eg8-header .header-title {
-    margin-top: 0;
-  }
-
-  .eg8-header .header-title > img {
-    width: 60%;
-    margin: 0;
-    margin-bottom: 17px;
-  }
-
-  .eg8-header .more-info {
-    width: 98%;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-top: 0;
-    /*row-gap: 10px;*/
-    column-gap: 10px;
-  }
-
-  .eg8-header .more-info > div {
-    width: 104px;
-    /*margin: 0 8px;*/
-  }
-
-  .eg8-header .more-info img {
-    margin-bottom: 0;
-  }
-
-  .eg8-header .more-info > div:nth-child(1) img {
-    width: 44px;
-  }
-  .eg8-header .more-info > div:nth-child(2) img {
-    width: 36px;
-  }
-  .eg8-header .more-info > div:nth-child(3) img {
-    width: 89px;
-  }
-  .eg8-header .more-info > div:nth-child(4) img {
-    width: 44px;
-  }
-  .eg8-header .more-info > div:nth-child(5) img {
-    width: 38px;
-  }
-
-  .eg8-header .more-info > div p {
-    font-size: 12px;
-    /*margin: 2px 25px;*/
-    width: 100%;
   }
 
   .professional-esports {

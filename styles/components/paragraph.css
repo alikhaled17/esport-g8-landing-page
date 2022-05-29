@@ -1,3 +1,16 @@
 .paragraph {
   font-family: "Fractul-Alt";
+  font-size: 1.55vw;
+}
+
+@media screen and (max-width: 450px) {
+  .paragraph {
+    font-size: 3.9vw !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .paragraph {
+    font-size: 3.4vw !important;
+  }
 }

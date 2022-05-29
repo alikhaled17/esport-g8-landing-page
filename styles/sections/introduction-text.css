@@ -30,10 +30,6 @@
 }
 
 .introduction-text p {
-  /*font-size: 30px !important;*/
-  /*width: 90% !important;*/
-
-  font-size: 1.55vw;
   text-align: center;
   margin-top: -1%;
 }
@@ -46,15 +42,8 @@
 }
 
 .introduction-text .gamers-season img {
-  /*width: 600px;*/
   width: 100%;
   margin-top: 12%;
-}
-
-@media screen and (max-width: 450px) {
-  .introduction-text p {
-    font-size: 3.9vw !important;
-  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -77,7 +66,6 @@
   }
 
   .introduction-text p {
-    font-size: 3.4vw !important;
     width: 100% !important;
     text-align: center;
   }
