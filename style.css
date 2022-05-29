@@ -49,7 +49,7 @@ body.ar {
 }
 
 .eg8-container {
-  width: 1550px !important;
+  /*width: 1550px !important;*/
   margin: 0 auto;
 }
 
@@ -331,20 +331,23 @@ body.ar .scroll-bar-container {
 }
 
 .introduction-text p {
-  font-size: 30px !important;
-  width: 90% !important;
+  /*font-size: 30px !important;*/
+  /*width: 90% !important;*/
+
+  font-size: 1.55vw;
   text-align: center;
   margin-top: 5%;
 }
 
 .introduction-text .gamers-season {
-  width: 70% !important;
+  width: 32.5% !important;
   display: flex;
   justify-content: center;
 }
 
 .introduction-text .gamers-season img {
-  width: 600px;
+  /*width: 600px;*/
+  width: 100%;
   margin-top: 8%;
 }
 
@@ -853,7 +856,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
     width: 100.1%;
   }
   .eg8-container {
-    width: 91% !important;
+    /*width: 91% !important;*/
     margin: 0 auto;
   }
   .scroll-down-note,
@@ -1279,4 +1282,21 @@ body.ar .side-bar .side-list > .side-list-item.active span {
     url("./assets/images/music-concert.png");
 
   background-repeat: no-repeat;
+}
+
+.Container {
+  width: 77%;
+  margin: 0 auto;
+}
+
+.Container * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 450px) {
+  .Container {
+    width: 87%;
+  }
 }
