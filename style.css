@@ -857,7 +857,7 @@ body.ar .side-bar .side-list > .side-list-item.active span { margin-right: 0 ; m
 
 
     .introduction-text .content {
-        height: 60vh !important;
+        height: 120vh !important;
         margin-top: -10%;
         background-size: 5% !important;
         background-position: 30% ;
