@@ -38,18 +38,6 @@ body.ar {
 /* ============================= */
 /* ============================= */
 /* ============================= */
-.eg8-container {
-  /*width: 1550px !important;*/
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 1024px) {
-  .eg8-container {
-    /*width: 91% !important;*/
-    margin: 0 auto;
-  }
-}
-
 .Container {
   width: 77%;
   margin: 0 auto;
