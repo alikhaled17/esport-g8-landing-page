@@ -1,4 +1,6 @@
-document.getElementById("scroll-to-top").addEventListener("click", () => {
+const scrollToTop = document.getElementById("scroll-to-top");
+
+scrollToTop.addEventListener("click", () => {
   window.scroll(0, 0);
 });
 
