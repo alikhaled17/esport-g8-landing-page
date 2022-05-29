@@ -66,7 +66,7 @@ let Data = {
             "اللغة العربية",
         ],
         "header" : [
-            "The Gate To the New World",
+            "The Gate To the Next World",
             "eight-week mega-festival",
             "6 international esports tournaments",
             "$15,000,000 prize pool",

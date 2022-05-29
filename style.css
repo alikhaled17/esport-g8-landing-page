@@ -783,6 +783,7 @@ body.ar .side-bar .side-list > .side-list-item.active span { margin-right: 0 ; m
     body {
         text-align: center;
         margin: 0;
+        width: 100.1%;
     }
     .eg8-container {
         width: 91% !important;
@@ -897,8 +898,8 @@ body.ar .side-bar .side-list > .side-list-item.active span { margin-right: 0 ; m
     }
 
     .festival {
-        height: 50vh;
-        margin-top: -23% !important;
+        height: 45vh;
+        margin-top: -20% !important;
     }
 
     .festival .content {
