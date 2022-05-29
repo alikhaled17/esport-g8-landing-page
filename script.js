@@ -65,7 +65,8 @@ let Data = {
       "اللغة العربية",
     ],
     header: [
-      "The Gate To the Next World",
+      "The Gate ",
+      "To the Next World",
       "eight-week mega-festival",
       "6 international esports tournaments",
       "$15,000,000 prize pool",
@@ -126,7 +127,8 @@ let Data = {
       "English",
     ],
     header: [
-      "موسم الجيمرز بوابتك الى العالم القادم",
+      "موسم الجيمرز ",
+      "بوابتك الى العالم القادم",
       "مهرجان ضخم لمدة ثمانية أسابيع",
       "ستة بطولات دولية للرياضات الإلكترونية",
       "15 مليون دولار مجموع جوائز",
@@ -201,7 +203,10 @@ function showData() {
     PageData.esportnav[4];
   $(".chng-to-arabic").innerHTML = PageData.esportnav[5];
 
-  $(".eg8-header .header-title > h1").innerHTML = PageData.header[0];
+  $(".eg8-header .header-title > h1 .first-title").innerHTML =
+    PageData.header[0];
+  $(".eg8-header .header-title > h1 .second-title").innerHTML =
+    PageData.header[1];
   $(".eg8-header .more-info > div:nth-child(1) p").innerHTML =
     PageData.header[1];
   $(".eg8-header .more-info > div:nth-child(2) p").innerHTML =

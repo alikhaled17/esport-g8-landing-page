@@ -884,6 +884,10 @@ body.ar .side-bar .side-list > .side-list-item.active span {
     font-size: 30px !important;
   }
 
+  .eg8-header h1 span {
+    display: block;
+  }
+
   .eg8-header > div {
     height: 50%;
     padding-top: 60%;
