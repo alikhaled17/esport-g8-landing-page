@@ -1,0 +1,91 @@
+/* Start INTRODUCTION-TEXT */
+.introduction-text {
+  background: linear-gradient(
+      #140739ab,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      #14073980,
+      #140739c2,
+      #14073986
+    ),
+    url("./../../assets/images/00005.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*display: flex;
+  flex-direction: column;*/
+  height: 90vh;
+  padding-top: 16%;
+  margin-top: 2%;
+}
+
+.introduction-text .introduction-text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.introduction-text > div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+}
+
+.introduction-text p {
+  /*font-size: 30px !important;*/
+  /*width: 90% !important;*/
+
+  font-size: 1.55vw;
+  text-align: center;
+  margin-top: -1%;
+}
+
+.introduction-text .gamers-season {
+  width: 32.5% !important;
+  display: flex;
+  justify-content: center;
+}
+
+.introduction-text .gamers-season img {
+  /*width: 600px;*/
+  width: 100%;
+  margin-top: 12%;
+}
+
+/* .introduction-text .content{
+    background: linear-gradient(#140739, rgba(255, 255, 255, 0),#140739b7, #140739), url('./../assets/images/mask-group-bg.png');
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    margin-top: 4%;
+}
+
+
+.introduction-text p {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.introduction-text.two{
+    background: linear-gradient(#140739, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), #140739), url('./../assets/images/02-bg.png');
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.introduction-text .gamers-season {
+    height: 45vh;
+    margin-top: -6%;
+}
+
+.introduction-text > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction-text .gamers-season img {
+    width: 590px;
+} */
+/* End INTRODUCTION-TEXT */
