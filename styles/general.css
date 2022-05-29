@@ -9,7 +9,8 @@
 }
 
 body {
-  font-family: "Fractul Alt" !important;
+  font-family: "Fractul-Alt-bold" !important;
+  font-weight: bolder;
   color: #ffffff !important;
   background-color: var(--violet-dark-color) !important;
   transition: 0.1s all !important;
@@ -20,8 +21,6 @@ body {
 @media screen and (max-width: 1024px) {
   body {
     text-align: center;
-    /*margin: 0;*/
-    /*width: 100.1%;*/
   }
 }
 
