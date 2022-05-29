@@ -193,11 +193,16 @@ function showData() {
     PageData = Data.ar;
   }
 
-  $(".navbar .nav-item:nth-child(2) small").innerHTML = PageData.esportnav[0];
-  $(".navbar .nav-item:nth-child(3) small").innerHTML = PageData.esportnav[1];
-  $(".navbar .nav-item:nth-child(4) small").innerHTML = PageData.esportnav[2];
-  $(".navbar .nav-item:nth-child(5) small").innerHTML = PageData.esportnav[3];
-  $(".navbar .nav-item:nth-child(6) small").innerHTML = PageData.esportnav[4];
+  $(".eg8-navbar .nav-item:nth-child(2) small").innerHTML =
+    PageData.esportnav[0];
+  $(".eg8-navbar .nav-item:nth-child(3) small").innerHTML =
+    PageData.esportnav[1];
+  $(".eg8-navbar .nav-item:nth-child(4) small").innerHTML =
+    PageData.esportnav[2];
+  $(".eg8-navbar .nav-item:nth-child(5) small").innerHTML =
+    PageData.esportnav[3];
+  $(".eg8-navbar .nav-item:nth-child(6) small").innerHTML =
+    PageData.esportnav[4];
   $(".chng-to-arabic").innerHTML = PageData.esportnav[5];
 
   $(".eg8-header .header-title > h1 .first-title").innerHTML =

@@ -1,5 +1,5 @@
 /* Start NAVBAR */
-.navbar {
+.eg8-navbar {
   z-index: 21;
   width: 100%;
   position: fixed;
@@ -8,7 +8,7 @@
   background: rgba(0, 0, 0, 0.3);
 }
 
-.eg8-navbar {
+.eg8-navbar-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,15 +16,15 @@
   font-size: 1.2vw;
 }
 
-.eg8-navbar .esport-logo {
+.eg8-navbar-content .esport-logo {
   width: 6.1vw;
 }
 
-.eg8-navbar .esport-logo img {
+.eg8-navbar-content .esport-logo img {
   width: 100%;
 }
 
-.eg8-navbar .esport-nav-menu {
+.eg8-navbar-content .esport-nav-menu {
   width: 48%;
   display: flex;
   justify-content: space-around;
@@ -32,7 +32,7 @@
   height: 100%;
 }
 
-.eg8-navbar .esport-nav-menu .nav-item {
+.eg8-navbar-content .esport-nav-menu .nav-item {
   cursor: pointer;
   height: 100%;
   display: flex;
@@ -43,7 +43,7 @@
   min-width: 125px;
 }
 
-.eg8-navbar .esport-nav-menu .nav-item img {
+.eg8-navbar-content .esport-nav-menu .nav-item img {
   position: absolute;
   bottom: 200px;
   left: 0;
@@ -51,7 +51,7 @@
   opacity: 0;
 }
 
-.eg8-navbar .esport-nav-menu .nav-item.active img {
+.eg8-navbar-content .esport-nav-menu .nav-item.active img {
   opacity: 1;
   position: absolute;
   bottom: 0;
@@ -60,7 +60,7 @@
   z-index: 1;
 }
 
-.eg8-navbar .esport-nav-menu .nav-item:hover img {
+.eg8-navbar-content .esport-nav-menu .nav-item:hover img {
   opacity: 1;
   position: absolute;
   bottom: 0;
@@ -69,11 +69,11 @@
   z-index: 1;
 }
 
-.eg8-navbar .esport-nav-menu .nav-item small {
+.eg8-navbar-content .esport-nav-menu .nav-item small {
   z-index: 2;
 }
 
-.eg8-navbar .chng-to-arabic {
+.eg8-navbar-content .chng-to-arabic {
   font-weight: bold;
   font-family: "Noto Kufi Arabic", sans-serif;
   cursor: pointer;
