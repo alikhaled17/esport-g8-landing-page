@@ -827,14 +827,14 @@ body.ar .side-bar .side-list > .side-list-item.active span { margin-right: 0 ; m
     }
 
     .eg8-header .more-info {
-        width: 90%;
+        width: 95%;
         flex-wrap: wrap;
         justify-content: flex-start;
         margin-top: 0;
     }
 
     .eg8-header .more-info > div {
-        width: 80px;
+        width: 70px;
         margin: 0 10px;
     }
 
