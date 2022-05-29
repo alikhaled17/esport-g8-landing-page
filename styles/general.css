@@ -48,3 +48,8 @@ body.ar {
     width: 87%;
   }
 }
+
+.navContainer {
+  width: 94%;
+  margin: 0 auto;
+}

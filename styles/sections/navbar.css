@@ -1,25 +1,23 @@
 /* Start NAVBAR */
-.nav-container {
+.navbar {
   z-index: 21;
   width: 100%;
   position: fixed;
   left: 0;
   top: 0;
-  /*margin: 0;*/
   background: rgba(0, 0, 0, 0.3);
-  background-color: red;
 }
 
 .eg8-navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /*padding: 0 40px;*/
   height: 142px;
+  font-size: 1.2vw;
 }
 
 .eg8-navbar .esport-logo {
-  width: 110px;
+  width: 6.1vw;
 }
 
 .eg8-navbar .esport-logo img {
@@ -30,7 +28,6 @@
   width: 48%;
   display: flex;
   justify-content: space-around;
-  font-size: 22px;
   font-weight: 500;
   height: 100%;
 }
@@ -43,7 +40,6 @@
   justify-content: center;
   padding: 40px 10px !important;
   position: relative;
-  font-size: 22px;
   min-width: 125px;
 }
 
