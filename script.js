@@ -54,7 +54,7 @@ let Data = {
             "Summit",
             "Game & Learn",
             "اللغة العربية",
-            "change language",
+            "",
             "© 2022 Gamers8. All rights reserved"
         ],
         "esportnav" : [
@@ -122,7 +122,7 @@ let Data = {
             "المؤتمر",
             "العب وتعلم",
             "English",
-            "تغيير اللغة",
+            "",
             "© مهرجان Gamers8 - كل الحقوق محفوظة"
         ],
         "esportnav" : [
