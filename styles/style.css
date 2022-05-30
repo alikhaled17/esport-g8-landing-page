@@ -523,7 +523,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
 .side-bar .side-copyrights {
   padding: 20px;
   text-align: center;
-  font-family: "Fractul-Alt";
+  /*font-family: "Fractul-Alt";*/
 }
 /* End SMALL NAVBAR */
 
