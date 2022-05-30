@@ -71,8 +71,8 @@ body.ar .scroll-bar-container {
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 540px;
-  /*height: 100vh;*/
+  /*margin-bottom: 540px;*/
+  padding: 203px 0;
 }
 
 .professional-esports .content {
@@ -114,7 +114,7 @@ body.ar .scroll-bar-container {
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 350px;
-  /*height: 110vh;*/
+  padding: 350px 0;
 }
 
 body.ar .festival {
@@ -565,7 +565,8 @@ body.ar .side-bar .side-list > .side-list-item.active span {
     /*height: 80vh;*/
   }
   .professional-esports {
-    margin-bottom: 117px;
+    /*margin-bottom: 117px;*/
+    padding: 203px 0 0 0;
   }
   .professional-esports .content > div {
     /*margin-top: 30%;*/
@@ -587,7 +588,8 @@ body.ar .side-bar .side-list > .side-list-item.active span {
     /*padding-top: 39%;*/
   }
   .festival {
-    margin-bottom: 210px;
+    /*padding: ;*/
+    margin-bottom: 0;
   }
 
   .festival .content {

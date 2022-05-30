@@ -13,10 +13,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-  /*height: 90vh;*/
-  /*padding-top: 16%;*/
-  /*margin-top: 2%;*/
-  margin-bottom: 291px;
+  /*margin-bottom: 291px;*/
 }
 
 .introduction-text .introduction-text-content {
@@ -63,9 +60,7 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    /*height: 70vh;*/
-    /*padding-top: 20%;*/
-    margin-bottom: 225px;
+    /*margin-bottom: 225px;*/
   }
 
   .introduction-text p {
