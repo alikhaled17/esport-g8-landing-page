@@ -152,7 +152,10 @@ body.ar .festival > div {
 
 .saudi-esports-img {
   width: 32vw;
-  aspect-ratio: 16 / 9;
+}
+
+.ar .saudi-esports-img {
+  margin-bottom: 50px;
 }
 
 .saudi-esports-img img {
@@ -489,6 +492,20 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   height: 150px;
 }
 
+.side-bar .side-footer .change-to-arabic {
+  font-family: "Noto Kufi Arabic", sans-serif;
+}
+
+.side-bar .side-footer .change-to-arabic {
+  font-weight: bold;
+  font-family: "Noto Kufi Arabic", sans-serif;
+  cursor: pointer;
+}
+
+.ar .side-bar .side-footer .change-to-arabic {
+  font-family: "Fractul-Alt";
+}
+
 .side-bar .side-footer .side-footer-head {
   display: flex;
   justify-content: space-between;
@@ -592,7 +609,6 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   }
   .saudi-esports-img {
     width: 55vw;
-    aspect-ratio: 16 / 9;
   }
 
   .music-concert {
