@@ -71,7 +71,6 @@ body.ar .scroll-bar-container {
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  /*margin-bottom: 540px;*/
   padding: 203px 0;
 }
 
@@ -80,14 +79,8 @@ body.ar .scroll-bar-container {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /*margin-top: -4%;*/
 }
-.professional-esports .content > div {
-  /*margin-top: 18%;*/
-}
-
 .professional-esports .content h1 {
-  /*font-size: 60px;*/
   font-weight: bold;
 }
 
@@ -134,12 +127,7 @@ body.ar .festival > div {
   flex-direction: column;
 }
 
-.festival .content > div {
-  /*margin-top: 35%;*/
-}
-
 .festival h1 {
-  /*font-size: 60px;*/
   font-weight: bold;
 }
 
@@ -156,14 +144,20 @@ body.ar .festival > div {
 }
 
 .saudi-esports .content {
-  /*padding-top: 10%;*/
-}
-
-.saudi-esports .content > div {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.saudi-esports-img {
+  width: 32vw;
+  aspect-ratio: 16 / 9;
+}
+
+.saudi-esports-img img {
+  width: 100%;
+  height: 100%;
 }
 
 .saudi-esports p {
@@ -179,7 +173,6 @@ body.ar .festival > div {
   background-position: bottom;
   background-size: contain;
   background-repeat: repeat;
-  /*height: 100vh;*/
   padding: 5% 0;
   margin-bottom: 100px;
 }
@@ -191,7 +184,6 @@ body.ar .festival > div {
 }
 
 .music-concert .content h1 {
-  /*font-size: 60px;*/
   font-weight: bold;
 }
 
@@ -204,8 +196,6 @@ body.ar .festival > div {
 /* Start SUMMIT FACTSHEET */
 
 .summit-factsheet {
-  /*height: 86vh;*/
-  /*padding: 5% 0 0;*/
   margin-bottom: 260px;
 }
 
@@ -216,16 +206,11 @@ body.ar .festival > div {
 }
 
 .summit-factsheet .content h1 {
-  /*font-size: 60px;*/
   font-weight: bold;
 }
 
 .summit-factsheet .content p {
   font-weight: 400;
-}
-
-.summit-factsheet .info {
-  /*padding: 5%;*/
 }
 
 .summit-factsheet .summit-date {
@@ -263,7 +248,6 @@ body.ar .festival > div {
 
 .summit-factsheet .more-info p {
   margin-top: 15px;
-  /*font-size: 16px;*/
   text-align: center;
   font-weight: 400;
 }
@@ -349,9 +333,7 @@ body.ar .summit-factsheet #calender-icon {
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  /*height: 93vh;*/
   padding: 20px 0;
-  /*margin-top: 18%;*/
 }
 .game-learn .empty-content {
   height: 73vh;
@@ -368,7 +350,6 @@ body.ar .game-learn > div {
 }
 
 .game-learn h1 {
-  /*font-size: 60px;*/
   font-weight: bold;
 }
 /* End GAME AND LEARN */
@@ -556,20 +537,8 @@ body.ar .side-bar .side-list > .side-list-item.active span {
     display: none !important;
   }
 
-  h1 {
-    /*font-size: 30px !important;*/
-  }
-
   .professional-esports {
-    /*margin-top: -22%;*/
-    /*height: 80vh;*/
-  }
-  .professional-esports {
-    /*margin-bottom: 117px;*/
     padding: 203px 0 0 0;
-  }
-  .professional-esports .content > div {
-    /*margin-top: 30%;*/
   }
 
   .professional-esports img {
@@ -578,17 +547,10 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   }
 
   .professional-esports p {
-    /*font-size: 16px !important;*/
     width: 90% !important;
   }
 
   .festival {
-    /*height: 45vh;*/
-    /*margin-top: 35% !important;*/
-    /*padding-top: 39%;*/
-  }
-  .festival {
-    /*padding: ;*/
     margin-bottom: 0;
   }
 
@@ -602,7 +564,6 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   }
 
   .festival p {
-    /*font-size: 16px !important;*/
     width: 90% !important;
   }
 
@@ -617,28 +578,26 @@ body.ar .side-bar .side-list > .side-list-item.active span {
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    /*height: 70vh;*/
-    /*padding: 17% 0 1%;*/
-    /*margin-bottom: -45%;*/
   }
+
   .saudi-esports {
-    /* height: 75vh; */
     margin-bottom: 118px;
   }
 
   .saudi-esports p {
-    /*font-size: 16px !important;*/
     width: 82% !important;
   }
   .saudi-esports img {
-    width: 223px;
     margin-bottom: 20px;
+  }
+  .saudi-esports-img {
+    width: 55vw;
+    aspect-ratio: 16 / 9;
   }
 
   .music-concert {
     margin: 0;
     height: auto;
-    /*padding-top: 24%;*/
     padding-bottom: 0;
   }
 
@@ -651,14 +610,12 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   }
 
   .music-concert .content p {
-    /*font-size: 16px !important;*/
     width: 95% !important;
   }
 
   .img-container2 {
     width: 300px !important;
     height: 491px !important;
-    /* margin-bottom: 40px; */
   }
 
   .svg-clipped2 {
@@ -667,8 +624,6 @@ body.ar .side-bar .side-list > .side-list-item.active span {
 
   .summit-factsheet {
     margin: 0;
-    /*height: 998px;*/
-    /*padding-top: 19%;*/
     margin-bottom: 50px;
   }
 
@@ -693,7 +648,6 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   }
 
   .summit-factsheet .info p {
-    /*font-size: 16px;*/
     width: 90% !important;
   }
 

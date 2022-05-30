@@ -88,6 +88,7 @@ let Data = {
       "The Gamers8 festival will be home to countless events, shows, and experiences that bring the virtual world of gaming out into the physical realm.",
     ],
     saudi: [
+      "./assets/images/saudi-esports-logo-en.png",
       "The elite competitions will host the biggest esports teams in the world across six different titles with a total prize pool of a staggering $15 million. All hosted in a state-of-the-art costume-prepared venue.",
     ],
     music: [
@@ -150,6 +151,7 @@ let Data = {
       "سيكون موسم الجيمرز موطنًا لعدد لا يحصى من الأحداث والعروض والتجارب التي تنقل عالم الألعاب الافتراضي إلى العالم المادي.",
     ],
     saudi: [
+      "./assets/images/saudi-esports-logo-ar.png",
       "ستستضيف مسابقات النخبة أكبر فرق الرياضات الإلكترونية في العالم عبر ستة ألقاب مختلفة بجوائز إجمالية تبلغ 15 مليون دولار. استضافت جميعها في مكان مجهز على أحدث طراز.",
     ],
     music: [
@@ -229,7 +231,8 @@ function showData() {
   $(".festival .content h2").innerHTML = PageData.festival[0];
   $(".festival .content p").innerHTML = PageData.festival[1];
 
-  $(".saudi-esports .content p").innerHTML = PageData.saudi[0];
+  $(".saudi-esports .content .saudi-esports-img img").src = PageData.saudi[0];
+  $(".saudi-esports .content p").innerHTML = PageData.saudi[1];
 
   $(".music-concert .content h2").innerHTML = PageData.music[0];
   $(".music-concert .content p").innerHTML = PageData.music[1];
