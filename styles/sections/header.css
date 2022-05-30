@@ -22,6 +22,10 @@
   font-family: "Fractul-Alt";
 }
 
+.eg8-header .header-title .more-info p {
+  line-height: 22px;
+}
+
 .ar .eg8-header .header-title .more-info {
   font-family: "Swissra";
 }
@@ -109,6 +113,10 @@
     justify-content: flex-start;
     margin-top: 0;
     column-gap: 10px;
+  }
+
+  .eg8-header .header-title .more-info p {
+    line-height: 14px;
   }
 
   .eg8-header .more-info > div {

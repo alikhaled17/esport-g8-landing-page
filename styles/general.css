@@ -20,7 +20,7 @@ body {
 
 @media screen and (max-width: 1024px) {
   body {
-    text-align: center;
+    /*text-align: center;*/
   }
 }
 
@@ -33,11 +33,17 @@ body.ar {
   -webkit-text-stroke-width: 0.1px;
   -moz-osx-font-smoothing: grayscale;
 }
-/* ============================= */
-/* ============================= */
-/* ============================= */
-/* ============================= */
-/* ============================= */
+
+p {
+  line-height: 48px;
+}
+
+@media (max-width: 1024px) {
+  p {
+    line-height: 24px;
+  }
+}
+
 .Container {
   width: 77%;
   margin: 0 auto;

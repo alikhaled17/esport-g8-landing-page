@@ -20,7 +20,9 @@
 
 .scroll-to-top button {
   outline: none;
-  background: none !important;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1024px) {
