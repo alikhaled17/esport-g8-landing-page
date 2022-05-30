@@ -253,6 +253,11 @@ body.ar .festival > div {
   margin-top: 15px;
   text-align: center;
   font-weight: 400;
+  font-family: "Fractul-Alt";
+}
+
+.ar .summit-factsheet .more-info p {
+  font-family: "Swissra";
 }
 
 .summit-factsheet #calender-icon {
@@ -518,6 +523,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
 .side-bar .side-copyrights {
   padding: 20px;
   text-align: center;
+  font-family: "Fractul-Alt";
 }
 /* End SMALL NAVBAR */
 
