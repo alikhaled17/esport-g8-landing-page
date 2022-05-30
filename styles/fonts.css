@@ -5,6 +5,7 @@
   src: url("./../assets/fonts/Fractul-Alt/FractulAlt-Regular.woff2");
   font-weight: 900;
 }
+
 @font-face {
   font-family: "Fractul-Alt-bold";
   src: url("./../assets/fonts/Fractul-Alt/FractulAlt-Bold.woff2");
@@ -12,17 +13,13 @@
 }
 
 @font-face {
-  font-family: "Swissra Regular";
-  src: url("./../assets/fonts/Swissra/Swissra/Swissra.eot"); /* IE9*/
-  src: url("./../assets/fonts/Swissra/Swissra/Swissra.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("./../assets/fonts/Swissra/Swissra/Swissra.woff2")
-      format("woff2"),
-    /* chrome、firefox */ url("./../assets/fonts/Swissra/Swissra/Swissra.woff")
-      format("woff"),
-    /* chrome、firefox */ url("./../assets/fonts/Swissra/Swissra/Swissra.ttf")
-      format("truetype"),
-    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-      url("./../assets/fonts/Swissra/Swissra/Swissra.svg#Swissra Regular")
-      format("svg"); /* iOS 4.1- */
+  font-family: "Swissra";
+  src: url("./../assets/fonts/Swissra/Swissra.woff2");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Swissra-bold";
+  src: url("./../assets/fonts/Swissra/Swissra-bold.otf");
+  font-weight: 900;
 }

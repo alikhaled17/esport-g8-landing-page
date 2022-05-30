@@ -26,7 +26,7 @@ body {
 
 body.ar {
   direction: rtl;
-  font-family: "Swissra Regular" !important;
+  font-family: "Swissra-bold" !important;
   font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
