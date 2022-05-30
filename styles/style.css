@@ -221,6 +221,10 @@ body.ar .festival > div {
   font-family: "Fractul-Alt";
 }
 
+.ar .summit-factsheet .summit-date {
+  font-family: "Swissra";
+}
+
 .summit-factsheet .summit-date > span {
   display: block;
   font-size: 30px;
@@ -381,7 +385,7 @@ body.ar .game-learn > div {
 
 .eg8-footer .copyrights {
   font-size: 22px;
-  font-family: "Fractul-Alt";
+  /*font-family: "Fractul-Alt";*/
 }
 
 .eg8-footer .content div:nth-child(3) img {
