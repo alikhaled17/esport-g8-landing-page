@@ -98,8 +98,8 @@ let Data = {
     summit: [
       "SUMMIT FACTSHEET",
       "The Summit will provide highly engaging and innovative formats to provide a platform for every stakeholder of the gaming & sports ecosystem. Furthermore, the youth will be at the center of the event, thanks to the participation of leading academic institutions and organizations.",
-      "<i class='fa-solid fa-location-dot'></i> Gamers8 Festival - Boulevard",
-      "<img src='./assets/images/calender.svg' id='calender-icon' alt=''>To be confirmed",
+      "<img src='./assets/images/pin.svg' alt=''>Gamers8 Festival - Boulevard",
+      "<img src='./assets/images/calender.svg' class='calender-icon' id='calender-icon' alt=''>To be confirmed",
       "2 days full of Events, shows & activities",
       "Riyadh Kingdom of Saudi Arabia",
       "Leading Speakers in E-Sports World",
@@ -161,8 +161,8 @@ let Data = {
     summit: [
       "معلومات عن المؤتمر",
       "ستوفر القمة تنسيقات جذابة ومبتكرة للغاية لتوفير منصة لكل أصحاب المصلحة في النظام البيئي للألعاب والرياضة. علاوة على ذلك ، سيكون الشباب في قلب الحدث ، وذلك بفضل مشاركة المؤسسات والمنظمات الأكاديمية الرائدة.",
-      "<i class='fa-solid fa-location-dot'></i> مهرجان Gamers8 - البوليفارد",
-      "<img src='./assets/images/calender.svg' id='calender-icon' class='ar' alt=''> سيتم التحديد لاحقاَ",
+      "<img src='./assets/images/pin.svg' alt=''>مهرجان Gamers8 - البوليفارد",
+      "<img src='./assets/images/calender.svg' class='calender-icon' id='calender-icon' class='ar' alt=''>سيتم التحديد لاحقاَ",
       "يومان مليئان بالفعاليات والعروض والأنشطة",
       "الرياض - المملكة العربية السعودية",
       "المتحدثون الرائدون في عالم الرياضة الإلكترونية",

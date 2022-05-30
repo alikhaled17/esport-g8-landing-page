@@ -1,7 +1,7 @@
-.show-scrollTop {
+/*.show-scrollTop {
   opacity: 1;
   transition: all 0.2s ease-in-out;
-}
+}*/
 
 /* Start SCROLL BAR */
 .scroll-bar-container {
@@ -230,8 +230,12 @@ body.ar .festival > div {
   font-size: 30px;
   margin-top: 15px;
 }
-.summit-factsheet .summit-date i {
-  margin-right: 10px;
+.summit-factsheet .summit-date img {
+  margin-inline-end: 20px;
+}
+
+.summit-factsheet .summit-date .calender-icon {
+  width: 31px;
 }
 
 .summit-factsheet .more-info {
@@ -265,11 +269,11 @@ body.ar .festival > div {
 }
 
 .summit-factsheet #calender-icon {
-  margin: 0 10px 0 -10px;
+  /*margin: 0 10px 0 -10px;*/
 }
 
 body.ar .summit-factsheet #calender-icon {
-  margin: 0 -3px 0 4px;
+  /*margin: 0 -3px 0 4px;*/
 }
 
 .summit-factsheet-card {
@@ -681,6 +685,14 @@ body.ar .side-bar .side-list > .side-list-item.active span {
     font-size: 14px !important;
   }
 
+  .summit-factsheet .summit-date img {
+    width: 22px;
+  }
+
+  .summit-factsheet .summit-date .calender-icon {
+    width: 22px;
+  }
+
   .summit-factsheet .more-info {
     margin-top: 10px !important;
   }
@@ -702,14 +714,14 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   }
 
   .summit-factsheet #calender-icon {
-    width: 20px;
-    margin-left: -5px !important;
+    /*width: 20px;*/
+    /*margin-left: -5px !important;*/
   }
 
   body.ar .summit-factsheet #calender-icon {
-    width: 20px;
-    margin-left: 1px !important;
-    margin-right: 5px !important;
+    /*width: 20px;*/
+    /*margin-left: 1px !important;*/
+    /*margin-right: 5px !important;*/
   }
 
   .game-learn {
