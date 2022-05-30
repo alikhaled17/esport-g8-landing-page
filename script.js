@@ -210,15 +210,15 @@ function showData() {
   $(".eg8-header .header-title > h1 .second-title").innerHTML =
     PageData.header[1];
   $(".eg8-header .more-info > div:nth-child(1) p").innerHTML =
-    PageData.header[1];
-  $(".eg8-header .more-info > div:nth-child(2) p").innerHTML =
     PageData.header[2];
-  $(".eg8-header .more-info > div:nth-child(3) p").innerHTML =
+  $(".eg8-header .more-info > div:nth-child(2) p").innerHTML =
     PageData.header[3];
-  $(".eg8-header .more-info > div:nth-child(4) p").innerHTML =
+  $(".eg8-header .more-info > div:nth-child(3) p").innerHTML =
     PageData.header[4];
-  $(".eg8-header .more-info > div:nth-child(5) p").innerHTML =
+  $(".eg8-header .more-info > div:nth-child(4) p").innerHTML =
     PageData.header[5];
+  $(".eg8-header .more-info > div:nth-child(5) p").innerHTML =
+    PageData.header[6];
   $(".eg8-header .scroll-down-note p").innerHTML = PageData.header[6];
 
   $(".introduction-text p").innerHTML = PageData.introduction[0];
