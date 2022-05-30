@@ -21,7 +21,7 @@ document.querySelectorAll(".side-list-item").forEach((el, i) => {
     document.querySelector(".side-bar").classList.remove("active");
     let id = el.getAttribute("data-section");
     let sec = document.getElementById(id);
-    window.scroll(sec.x, sec.offsetTop + 70);
+    window.scroll(sec.x, sec.offsetTop);
   });
 });
 

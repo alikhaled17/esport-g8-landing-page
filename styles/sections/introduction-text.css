@@ -13,10 +13,10 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-  height: 90vh;
-  padding-top: 16%;
-  margin-top: 2%;
-  /*margin-bottom: 291px;*/
+  /*height: 90vh;*/
+  /*padding-top: 16%;*/
+  /*margin-top: 2%;*/
+  margin-bottom: 291px;
 }
 
 .introduction-text .introduction-text-content {
@@ -32,7 +32,7 @@
 
 .introduction-text p {
   text-align: center;
-  margin-top: -1%;
+  /*margin-top: -1%;*/
 }
 
 .introduction-text .gamers-season {
@@ -40,11 +40,12 @@
   display: flex;
   justify-content: center;
   margin: auto;
+  margin-top: 100px;
 }
 
 .introduction-text .gamers-season img {
   width: 100%;
-  margin-top: 12%;
+  /*margin-top: 12%;*/
 }
 
 @media screen and (max-width: 1024px) {
@@ -62,8 +63,9 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    height: 70vh;
-    padding-top: 20%;
+    /*height: 70vh;*/
+    /*padding-top: 20%;*/
+    margin-bottom: 225px;
   }
 
   .introduction-text p {
@@ -73,11 +75,12 @@
 
   .introduction-text .gamers-season {
     width: 70% !important;
+    margin-top: 72px;
   }
 
   .introduction-text .gamers-season img {
     width: 295px;
-    margin-top: 16%;
+    /*margin-top: 16%;*/
   }
 }
 
