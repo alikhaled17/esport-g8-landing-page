@@ -194,6 +194,26 @@
     </div>
     <!-- End HEADER -->
 
+    <!-- Start SCROLL TO TOP -->
+    <div class="scroll-to-top" id="scroll-to-top">
+      <div class="navContainer">
+        <div class="scroll-to-top-content">
+          <button
+            type="button"
+            class="p-0 m-0 bg-none border-0 active"
+            data-toggle="button"
+            aria-pressed="true"
+            (click)="scrollToTop()"
+          >
+            <img src="./assets/images/scrollTop.svg" alt="icon" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- End SCROLL TO TOP -->
+
+    <div id="locator"></div>
+
     <!-- Start INTRODUCTION-TEXT -->
     <div class="introduction-text">
       <div class="Container">
@@ -345,20 +365,6 @@
       </div>
     </div>
     <!-- End FOOTER -->
-
-    <!-- Start SCROLL TO TOP -->
-    <div class="scroll-to-top" id="scroll-to-top">
-      <button
-        type="button"
-        class="p-0 m-0 bg-none border-0 active"
-        data-toggle="button"
-        aria-pressed="true"
-        (click)="scrollToTop()"
-      >
-        <img src="./assets/images/scrollTop.svg" alt="icon" />
-      </button>
-    </div>
-    <!-- End SCROLL TO TOP -->
 
     <!-- Start SCROLL BAR -->
     <div class="scroll-bar-container">

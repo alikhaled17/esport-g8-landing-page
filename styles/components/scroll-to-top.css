@@ -1,20 +1,28 @@
 .scroll-to-top {
-  position: absolute;
+  display: none;
   bottom: 140px;
-  right: 40px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80%;
+  z-index: 21;
   transition: all 0.2s ease-in-out;
   outline: none;
 }
 
-body.ar .scroll-to-top {
-  left: 40px;
-  right: auto;
+.scroll-to-top.shown {
+  display: block;
+}
+
+.scroll-to-top-content {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .scroll-to-top button {
   outline: none;
   background: none !important;
 }
+
 @media screen and (max-width: 1024px) {
   .scroll-to-top {
     display: none !important;

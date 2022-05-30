@@ -73,7 +73,7 @@ let Data = {
       "6 international esports tournaments",
       "$15,000,000 prize pool",
       "World's top artists",
-      "SCROLL DOWN & DISCOVER",
+      "Countless events, shows, and experiences",
       "SCROLL DOWN <br> & DISCOVER",
     ],
     introduction: [
@@ -219,7 +219,7 @@ function showData() {
     PageData.header[5];
   $(".eg8-header .more-info > div:nth-child(5) p").innerHTML =
     PageData.header[6];
-  $(".eg8-header .scroll-down-note p").innerHTML = PageData.header[6];
+  $(".eg8-header .scroll-down-note p").innerHTML = PageData.header[7];
 
   $(".introduction-text p").innerHTML = PageData.introduction[0];
 
@@ -323,3 +323,14 @@ document.getElementById("close-side").addEventListener("click", () => {
 document
   .querySelector(".side-bar .change-to-arabic")
   .addEventListener("click", changeLang);
+
+const locator = $("#locator");
+
+window.addEventListener("scroll", () => {
+  const locatorPosition = locator.getBoundingClientRect().top;
+  if (locatorPosition < 0) {
+    scrollToTop.classList.add("shown");
+  } else {
+    scrollToTop.classList.remove("shown");
+  }
+});
