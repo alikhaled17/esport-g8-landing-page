@@ -34,16 +34,6 @@ body.ar {
   -moz-osx-font-smoothing: grayscale;
 }
 
-p {
-  line-height: 48px;
-}
-
-@media (max-width: 1024px) {
-  p {
-    line-height: 24px;
-  }
-}
-
 .Container {
   width: 77%;
   margin: 0 auto;

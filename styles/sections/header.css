@@ -23,7 +23,7 @@
 }
 
 .eg8-header .header-title .more-info p {
-  line-height: 22px;
+  line-height: 1.15vw;
 }
 
 .ar .eg8-header .header-title .more-info {
@@ -116,7 +116,7 @@
   }
 
   .eg8-header .header-title .more-info p {
-    line-height: 14px;
+    line-height: 3.3vw;
   }
 
   .eg8-header .more-info > div {
