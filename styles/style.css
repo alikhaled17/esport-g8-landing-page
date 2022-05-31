@@ -207,10 +207,6 @@ body.ar .festival > div {
   font-weight: bold;
 }
 
-.summit-factsheet .content p {
-  font-weight: 400;
-}
-
 .summit-factsheet .summit-date {
   margin-top: 20px;
   font-family: "Fractul-Alt";
@@ -218,6 +214,11 @@ body.ar .festival > div {
 
 .ar .summit-factsheet .summit-date {
   font-family: "Swissra";
+}
+
+.summit-factsheet .summit-date .location,
+.summit-factsheet .summit-date .date {
+  display: flex;
 }
 
 .summit-factsheet .summit-date > span {
@@ -235,33 +236,14 @@ body.ar .festival > div {
 
 .summit-factsheet .more-info {
   margin-top: 30px;
+  padding-top: 30px;
   display: flex;
   justify-content: space-between;
   width: 95%;
 }
 
-.summit-factsheet .more-info > div {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.summit-factsheet .more-info img {
-  height: 85px;
-  margin-bottom: 20px;
-}
-
 .summit-factsheet .more-info p {
-  line-height: 1.15vw;
-  margin-top: 15px;
-  text-align: center;
-  font-weight: 400;
-  font-family: "Fractul-Alt";
-}
-
-.ar .summit-factsheet .more-info p {
-  font-family: "Swissra";
+  width: 143px;
 }
 
 .summit-factsheet-card {
@@ -682,25 +664,11 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   }
 
   .summit-factsheet .more-info {
-    margin-top: 10px !important;
+    margin-top: 10px;
   }
 
-  .summit-factsheet .more-info > div {
-    margin-top: 0 !important;
-  }
-
-  .summit-factsheet .more-info img {
-    max-width: 42px;
-    margin-bottom: 0px !important;
-  }
-  .summit-factsheet .more-info div:nth-child(3) img {
-    width: 28px;
-  }
-
-  .summit-factsheet .more-info p {
-    font-size: 12px;
-    line-height: 14px;
-    line-height: 3.3vw;
+  .summit-factsheet .more-info .more-info-card {
+    margin-top: 0;
   }
 
   .game-learn {

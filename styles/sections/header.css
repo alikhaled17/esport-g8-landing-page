@@ -10,7 +10,6 @@
 }
 
 .eg8-header .header-title {
-  /*min-height: 90%;*/
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -19,15 +18,16 @@
 }
 
 .eg8-header .header-title .more-info {
-  font-family: "Fractul-Alt";
+  padding-top: 15px;
+  width: 50%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
 }
 
 .eg8-header .header-title .more-info p {
-  line-height: 1.15vw;
-}
-
-.ar .eg8-header .header-title .more-info {
-  font-family: "Swissra";
+  width: 133px;
 }
 
 .eg8-header .header-title > img {
@@ -56,34 +56,6 @@
   width: 125px;
 }
 
-.eg8-header .more-info {
-  width: 50%;
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.eg8-header .more-info > div {
-  margin-top: 15px;
-  width: 178px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.eg8-header .more-info img {
-  height: 85px;
-  margin-bottom: 20px;
-}
-
-.eg8-header .more-info p {
-  margin-top: 5px;
-  width: 158px;
-  font-size: 16px;
-  text-align: center;
-  font-weight: 500;
-}
-
 @media screen and (max-width: 1024px) {
   .eg8-header {
     background: linear-gradient(#140739b7, #140739b7, #140739),
@@ -107,46 +79,20 @@
     margin-bottom: 17px;
   }
 
-  .eg8-header .more-info {
-    width: 98%;
+  .eg8-header .header-title .more-info {
+    width: 100%;
     flex-wrap: wrap;
     justify-content: flex-start;
     margin-top: 0;
-    column-gap: 10px;
+    gap: 10px;
   }
 
-  .eg8-header .header-title .more-info p {
-    line-height: 3.3vw;
-  }
-
-  .eg8-header .more-info > div {
+  .eg8-header .more-info .more-info-card {
     width: 104px;
   }
 
-  .eg8-header .more-info img {
-    margin-bottom: 0;
-  }
-
-  .eg8-header .more-info > div:nth-child(1) img {
-    width: 44px;
-  }
-  .eg8-header .more-info > div:nth-child(2) img {
-    width: 36px;
-  }
-  .eg8-header .more-info > div:nth-child(3) img {
-    width: 89px;
-  }
-  .eg8-header .more-info > div:nth-child(4) img {
-    width: 44px;
-  }
-  .eg8-header .more-info > div:nth-child(5) img {
-    width: 38px;
-  }
-
-  .eg8-header .more-info > div p {
-    font-size: 12px;
-    width: 100%;
+  .eg8-header .more-info .more-info-card p {
+    width: auto;
   }
 }
-
 /* End HEADER */

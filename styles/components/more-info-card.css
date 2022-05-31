@@ -1,0 +1,31 @@
+.more-info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-info-card-p {
+  line-height: 1.15vw;
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Fractul-Alt";
+}
+
+.ar .more-info-card-p {
+  font-family: "Swissra";
+}
+
+.more-info-card-img {
+  height: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+  .more-info-card-img {
+    max-width: 42px;
+  }
+  .more-info-card-p {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 3.3vw;
+  }
+}
