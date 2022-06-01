@@ -70,17 +70,12 @@ body.ar .scroll-bar-container {
 }
 
 .professional-esports .content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.professional-esports .content h1 {
-  font-weight: bold;
+  display: grid;
 }
 
-.professional-esports .content img {
-  margin: 30px 0 30px -10px;
+.professional-esports .professional-esports-img {
+  width: 72%;
+  margin: 4% 0;
 }
 
 .professional-esports .content p {
@@ -397,58 +392,37 @@ body.ar .festival > div {
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 20px 0;
+  padding: 20px 0 0 0;
 }
+
 .game-learn .empty-content {
   height: 73vh;
 }
 
-body.ar .game-learn {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-
-body.ar .game-learn > div {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-
-.game-learn h1 {
-  font-weight: bold;
-}
 /* End GAME AND LEARN */
 
 /* Start FOOTER */
 .eg8-footer {
-  height: 83px;
   background-color: black;
-  padding-bottom: 10px;
+  padding: 20px 0;
 }
 
 .eg8-footer .content {
-  padding: 15px 0 0;
-}
-
-.eg8-footer .content div {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.eg8-footer .copyrights {
-  font-size: 22px;
-  /*font-family: "Fractul-Alt";*/
-}
-.footer-logos .footer-logo3 {
-  width: 155px;
-}
-
-.eg8-footer .content div:nth-child(3) img {
-  margin: 0 10px;
-}
-
-.eg8-footer #footer-img {
+.eg8-footer .footer-img {
   width: 225px;
+}
+
+.eg8-footer .copyrights {
+  text-align: center;
+}
+
+.eg8-footer .footer-logos .footer-logo3 {
+  width: 155px;
 }
 /* End FOOTER */
 
@@ -584,6 +558,27 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   text-align: center;
 }
 /* End SMALL NAVBAR */
+
+@media (max-width: 1300px) {
+  .game-learn .empty-content {
+    height: 63vh;
+  }
+
+  .eg8-footer .content {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+  }
+
+  .eg8-footer .footer-img {
+    width: 100%;
+
+    max-width: 225px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .nav-small-screen {
     display: block;
@@ -597,11 +592,6 @@ body.ar .side-bar .side-list > .side-list-item.active span {
 
   .professional-esports {
     padding: 203px 0 0 0;
-  }
-
-  .professional-esports img {
-    width: 300px;
-    margin: 12px 0 15px -10px !important;
   }
 
   .professional-esports p {
@@ -715,59 +705,10 @@ body.ar .side-bar .side-list > .side-list-item.active span {
     font-size: 2.5vw;
   }
 
-  .summit-factsheet .summit-date img {
-    width: 22px;
-  }
-
   .summit-factsheet .more-info {
     margin-top: 10px;
     justify-content: center;
     margin-bottom: 20px;
-  }
-
-  .game-learn {
-    margin: 0;
-    height: 500px !important;
-    padding-top: 0;
-  }
-
-  .eg8-footer {
-    height: auto;
-  }
-
-  .eg8-footer .content > div {
-    flex-direction: column;
-  }
-
-  .eg8-footer #footer-img img {
-    width: 225px;
-  }
-
-  .eg8-footer .copyrights {
-    font-size: 14px !important;
-  }
-
-  .eg8-footer .content > div > div:nth-child(3) img:nth-child(1),
-  .eg8-footer .content > div > div:nth-child(3) img:nth-child(3) {
-    width: 136px;
-  }
-  .eg8-footer .content > div > div:nth-child(3) img:nth-child(2) {
-    width: 47px;
-  }
-
-  .eg8-footer .content > div > div {
-    margin-bottom: 8%;
-  }
-
-  .eg8-footer .content > div > div:nth-child(1) {
-    order: 1;
-    margin-top: 8%;
-  }
-  .eg8-footer .content > div > div:nth-child(2) {
-    order: 3;
-  }
-  .eg8-footer .content > div > div:nth-child(3) {
-    order: 2;
   }
 }
 
@@ -775,5 +716,20 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   .summit-factsheet .more-info {
     grid-template-columns: repeat(2, 40%);
     justify-content: space-between;
+  }
+
+  .game-learn .empty-content {
+    height: 43vh;
+  }
+
+  .eg8-footer .content .copyrights {
+    font-size: 12px;
+  }
+  .eg8-footer .content .footer-logos {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
   }
 }
