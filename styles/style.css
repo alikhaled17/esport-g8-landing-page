@@ -361,6 +361,9 @@ body.ar .game-learn > div {
   font-size: 22px;
   /*font-family: "Fractul-Alt";*/
 }
+.footer-logos .footer-logo3{
+  width: 155px;
+}
 
 .eg8-footer .content div:nth-child(3) img {
   margin: 0 10px;
