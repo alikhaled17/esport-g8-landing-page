@@ -1,6 +1,7 @@
 const scrollToTop = document.getElementById("scroll-to-top");
 
 scrollToTop.addEventListener("click", () => {
+  debugg
   window.scroll(0, 0);
 });
 
@@ -71,7 +72,7 @@ let Data = {
       "To the Next World",
       "eight-week mega-festival",
       "6 international esports tournaments",
-      "$15,000,000 prize pool",
+      "prize pool",
       "World's top artists",
       "Countless events, shows, and experiences",
       "SCROLL DOWN <br> & DISCOVER",
@@ -134,7 +135,7 @@ let Data = {
       "بوابتك الى العالم القادم",
       "مهرجان ضخم لمدة ثمانية أسابيع",
       "ستة بطولات دولية للرياضات الإلكترونية",
-      "15 مليون دولار مجموع جوائز",
+      " مجموع جوائز",
       "أفضل الفنانين فى العالم",
       "أحداث وعروض وتجارب لا تعد ولا تحصى",
       "مرر للاسفل  <br> واكتشف المزيد",
@@ -169,7 +170,7 @@ let Data = {
       "الانخراط مع المنظمات الرائدة في النظام البيئي",
     ],
     game: ["العب وتعلم"],
-    footer: ["© مهرجان جيمرز8 - كل الحقوق محفوظة"],
+    footer: ["© موسم الجيمرز - كل الحقوق محفوظة"],
     scroll: [
       "الرئيسية",
       "رياضات الكترونية",
