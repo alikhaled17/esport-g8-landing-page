@@ -1,7 +1,7 @@
 const scrollToTop = document.getElementById("scroll-to-top");
 
 scrollToTop.addEventListener("click", () => {
-  debugg
+  
   window.scroll(0, 0);
 });
 
