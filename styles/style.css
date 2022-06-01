@@ -187,7 +187,7 @@ body.ar .festival > div {
 
 .music-concert .content p {
   font-weight: 500;
-  width: 70%;
+  width: 90%;
 }
 /* End MUSIC CONCERTS */
 
@@ -361,7 +361,7 @@ body.ar .game-learn > div {
   font-size: 22px;
   /*font-family: "Fractul-Alt";*/
 }
-.footer-logos .footer-logo3{
+.footer-logos .footer-logo3 {
   width: 155px;
 }
 

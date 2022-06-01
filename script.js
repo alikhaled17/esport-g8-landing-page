@@ -1,7 +1,6 @@
 const scrollToTop = document.getElementById("scroll-to-top");
 
 scrollToTop.addEventListener("click", () => {
-  
   window.scroll(0, 0);
 });
 
@@ -107,7 +106,10 @@ let Data = {
       "Engage with leading organizations in the ecosystem",
     ],
     game: ["Game & Learn"],
-    footer: ["© 2022 Gamers8. All rights reserved"],
+    footer: [
+      "© 2022 Gamers8. All rights reserved",
+      "./assets/images/saudi-esports-logo-en.png",
+    ],
     scroll: ["Main", "E-Sports", "Festival", "Music", "Summit", "Game & Learn"],
   },
   ar: {
@@ -155,10 +157,7 @@ let Data = {
       "./assets/images/saudi-esports-logo-ar.png",
       "ستستضيف مسابقات النخبة أكبر فرق الرياضات الإلكترونية في العالم عبر ستة ألقاب مختلفة بجوائز إجمالية تبلغ 15 مليون دولار.",
     ],
-    music: [
-      "حفلات موسيقية",
-      "أفضل التجارب الموسيقية التي لن تنسي",
-    ],
+    music: ["حفلات موسيقية", "أفضل التجارب الموسيقية التي لن تنسي"],
     summit: [
       "معلومات عن المؤتمر",
       "سيوفر المؤتمر منصة لكل الشغوفين في مجال الرياضات والألعاب الإلكترونية, بسبب تواجد كبار المؤثرين والصناع والمبدعين والقادة في قطاع الرياضات الإلكترونية .",
@@ -170,7 +169,10 @@ let Data = {
       "المشاركة مع كبري المنظمات الرائدة في القطاع ",
     ],
     game: ["العب وتعلم"],
-    footer: ["© موسم الجيمرز - كل الحقوق محفوظة"],
+    footer: [
+      "© موسم الجيمرز - كل الحقوق محفوظة",
+      "./assets/images/saudi-esports-logo-ar.png",
+    ],
     scroll: [
       "الرئيسية",
       "رياضات الكترونية",
@@ -256,6 +258,7 @@ function showData() {
   $(".game-learn h2").innerHTML = PageData.game[0];
 
   $(".eg8-footer .copyrights").innerHTML = PageData.footer[0];
+  $(".eg8-footer .footer-logos .footer-logo3").src = PageData.footer[1];
 
   $(
     ".scroll-bar-container .scroll-bar-section:nth-child(1) small:nth-child(2)"
