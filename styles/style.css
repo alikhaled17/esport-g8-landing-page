@@ -198,18 +198,22 @@ body.ar .festival > div {
 }
 
 .summit-factsheet .content {
-  display: flex;
+  display: grid;
+  grid-template-columns: 40% 55%;
+  column-gap: 2%;
   justify-content: space-between;
-  align-items: center;
 }
 
-.summit-factsheet .content h1 {
-  font-weight: bold;
+.summit-factsheet .content .info {
+  display: grid;
 }
 
 .summit-factsheet .summit-date {
   margin-top: 20px;
+  margin-bottom: 20px;
   font-family: "Fractul-Alt";
+  display: grid;
+  gap: 15px;
 }
 
 .ar .summit-factsheet .summit-date {
@@ -219,31 +223,21 @@ body.ar .festival > div {
 .summit-factsheet .summit-date .location,
 .summit-factsheet .summit-date .date {
   display: flex;
+  font-size: 1.55vw;
 }
 
-.summit-factsheet .summit-date > span {
-  display: block;
-  font-size: 30px;
-  margin-top: 15px;
-}
 .summit-factsheet .summit-date img {
   margin-inline-end: 20px;
-}
-
-.summit-factsheet .summit-date .calender-icon {
-  width: 31px;
+  width: 1.6vw;
 }
 
 .summit-factsheet .more-info {
   margin-top: 30px;
-  padding-top: 30px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  width: 95%;
-}
-
-.summit-factsheet .more-info p {
-  width: 143px;
+  display: grid;
+  grid-template-columns: repeat(4, 23%);
 }
 
 .summit-factsheet-card {
@@ -251,12 +245,11 @@ body.ar .festival > div {
   filter: drop-shadow(-1px 2px 4px rgba(0, 0, 0, 0.301));
   transition: all 0.1s ease-in-out;
   cursor: pointer;
-  float: left;
   margin: 10px 30px;
   font: normal normal normal 24px/30px "Inter", sans-serif;
   transition: all 0.4s ease-in-out;
-  width: 716px;
-  height: 819px;
+  width: 100%;
+  aspect-ratio: 8/9;
 }
 
 .summit-factsheet-card .svg-clipped {
@@ -516,18 +509,6 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   .music-concert .content > div {
     margin-bottom: 10%;
   }
-
-  .summit-factsheet .content {
-    flex-direction: column;
-  }
-
-  .summit-factsheet .content > div:nth-child(1) {
-    order: 2;
-  }
-
-  .summit-factsheet .content > div:nth-child(2) {
-    order: 1;
-  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -638,12 +619,13 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   }
 
   .summit-factsheet .content {
-    flex-direction: column;
+    grid-template-columns: 100%;
+    justify-items: center;
+    justify-content: space-evenly;
   }
 
   .summit-factsheet .summit-factsheet-card {
-    width: 310px !important;
-    height: 360px !important;
+    width: 80%;
   }
 
   .summit-factsheet .summit-factsheet-card .svg-clipped {
@@ -654,24 +636,25 @@ body.ar .side-bar .side-list > .side-list-item.active span {
     width: 90% !important;
   }
 
-  .summit-factsheet .summit-date span {
-    font-size: 14px !important;
+  .summit-factsheet .summit-date {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .summit-factsheet .summit-date .location,
+  .summit-factsheet .summit-date .date {
+    font-size: 2.5vw;
   }
 
   .summit-factsheet .summit-date img {
     width: 22px;
   }
 
-  .summit-factsheet .summit-date .calender-icon {
-    width: 22px;
-  }
-
   .summit-factsheet .more-info {
     margin-top: 10px;
-  }
-
-  .summit-factsheet .more-info .more-info-card {
-    margin-top: 0;
+    grid-template-columns: repeat(2, 25%);
+    row-gap: 20px;
+    column-gap: 60px;
+    justify-content: center;
   }
 
   .game-learn {
