@@ -172,7 +172,7 @@ body.ar .festival > div {
 
 .music-concert .content {
   display: grid;
-  grid-template-columns: 50% 40%;
+  grid-template-columns: 50% 34%;
   column-gap: 2%;
   justify-content: space-between;
   align-items: center;
