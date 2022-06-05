@@ -166,7 +166,7 @@ body.ar .festival > div {
   background-position: bottom;
   background-size: contain;
   background-repeat: repeat;
-  padding: 5% 0;
+  padding: 10% 0 5%;
   margin-bottom: 100px;
 }
 
@@ -273,6 +273,7 @@ body.ar .festival > div {
 /* Start SUMMIT FACTSHEET */
 
 .summit-factsheet {
+  padding-top: 13%;
   margin-bottom: 260px;
 }
 
