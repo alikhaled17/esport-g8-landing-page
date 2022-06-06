@@ -18,7 +18,7 @@ body.ar .scroll-bar-container {
   align-items: flex-start;
   margin: 4px 0;
   transition: all 0.5s ease-in-out;
-  font-family: "Fractul-Alt" !important;
+  font-family: "AcuminVariableConcept" !important;
 }
 
 .square {
@@ -179,7 +179,7 @@ body.ar .festival > div {
 }
 
 .music-concert .content .img-container2 {
-  width: 100%;
+  width: 70%;
   aspect-ratio: 10/16;
 }
 
@@ -218,8 +218,8 @@ body.ar .festival > div {
   justify-content: center;
   align-items: center;
   stroke-width: 3px;
-  background-size: cover;
-  background-position: top;
+  background-size:120%  !important;
+  background-position: bottom;
   background: linear-gradient(
       #140739,
       rgba(255, 255, 255, 0),
@@ -227,7 +227,7 @@ body.ar .festival > div {
       #140739
     ),
     url("./../assets/images/music-concert.png");
-
+  transition: all .2s ease-in-out;
   background-repeat: no-repeat;
 }
 
@@ -260,12 +260,18 @@ body.ar .festival > div {
 
 .img-container2:hover .svg-clipped2 {
   background-size: cover;
-  background-position: top;
-  background: url("./../assets/images/card-logo-effect.svg") 0 100%,
-    linear-gradient(#140739, rgba(255, 255, 255, 0), #1407393d, #140739),
-    url("./../assets/images/music-concert.png");
+  background-position: center;
+  background:  url("./../assets/images/card-logo-effect.svg")  bottom ,
+  linear-gradient(
+      #e0d1d837,
+      rgba(255, 255, 255, 0),
+      #1407393d,
+      #140739
+    ),
+    url("./../assets/images/music-concert.png")  top no-repeat;
+    background-size:120%  !important;
+    background-repeat: no-repeat;
 
-  background-repeat: no-repeat;
 }
 
 /* End MUSIC CONCERTS */
@@ -291,7 +297,7 @@ body.ar .festival > div {
 .summit-factsheet .summit-date {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: "Fractul-Alt";
+  font-family: "AcuminVariableConcept";
   display: grid;
   gap: 15px;
 }
@@ -542,7 +548,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
 }
 
 .ar .side-bar .side-footer .change-to-arabic {
-  font-family: "Fractul-Alt";
+  font-family: "AcuminVariableConcept";
 }
 
 .side-bar .side-footer .side-footer-head {
@@ -657,7 +663,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
   }
 
   .music-concert .content .img-container2 {
-    width: 80%;
+    width: 70%;
     margin-bottom: 30%;
     max-width: 441px;
   }

@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Noto+Kufi+Arabic:wght@600&display=swap");
 
 @font-face {
-  font-family: "Fractul-Alt";
-  src: url("./../assets/fonts/Fractul-Alt/FractulAlt-Regular.woff2");
-  font-weight: 900;
+  font-family: "AcuminVariableConcept";
+  src: url("./../assets/fonts/Fractul-Alt/AcuminVariableConcept.woff2");
+  font-weight: 500;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Fractul-Alt-bold";
-  src: url("./../assets/fonts/Fractul-Alt/FractulAlt-Bold.woff2");
+  font-family: "AcuminVariableConcept-bold";
+  src: url("./../assets/fonts/Fractul-Alt/AcuminVariableConcept.woff2");
   font-weight: 900;
   font-display: swap;
 }

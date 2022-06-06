@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Fractul-Alt-bold" !important;
+  font-family: "AcuminVariableConcept-bold" !important;
   font-weight: bolder;
   color: #ffffff !important;
   background-color: var(--violet-dark-color) !important;
@@ -32,6 +32,10 @@ body.ar {
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.1px;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.en_num{
+  font-family: "AcuminVariableConcept" !important ;
 }
 
 .Container {
