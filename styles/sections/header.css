@@ -1,13 +1,59 @@
 /* Start HEADER */
 .eg8-header {
   background: linear-gradient(rgba(255, 255, 255, 0.171), #140739b7, #140739),
-    url("./../../assets/images/header-bg.png");
+    url("./../../assets/images/header/header-bg-1920.png");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
   padding-top: 248px;
   margin-bottom: 213px;
 }
+@media (max-width: 1900px) {
+  .eg8-header {
+    background: linear-gradient(rgba(255, 255, 255, 0.171), #140739b7, #140739),
+      url("./../../assets/images/header/header-bg-1500.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 1500px) {
+  .eg8-header {
+    background: linear-gradient(rgba(255, 255, 255, 0.171), #140739b7, #140739),
+      url("./../../assets/images/header/header-bg-1200.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 1200px) {
+  .eg8-header {
+    background: linear-gradient(rgba(255, 255, 255, 0.171), #140739b7, #140739),
+      url("./../../assets/images/header/header-bg-900.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 900px) {
+  .eg8-header {
+    background: linear-gradient(rgba(255, 255, 255, 0.171), #140739b7, #140739),
+      url("./../../assets/images/header/header-bg-600.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 600px) {
+  .eg8-header {
+    background: linear-gradient(rgba(255, 255, 255, 0.171), #140739b7, #140739),
+      url("./../../assets/images/header/header-bg-300.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+/*@media (max-width: 300px) {
+  .eg8-header {
+    background: linear-gradient(rgba(255, 255, 255, 0.171), #140739b7, #140739),
+      url("./../../assets/images/header-bg-300.png");
+  }
+}*/
 
 .eg8-header .header-title {
   display: flex;
@@ -59,10 +105,10 @@
 
 @media screen and (max-width: 1024px) {
   .eg8-header {
-    background: linear-gradient(#140739b7, #140739b7, #140739),
-      url("./../../assets/images/header-bg.png");
-    background-size: 300%;
-    background-position: 60% 0%;
+    /*background: linear-gradient(#140739b7, #140739b7, #140739),
+      url("./../../assets/images/header-bg.png");*/
+    /*background-size: 300%;
+    background-position: 60% 0%;*/
     margin-bottom: 44px;
   }
 
@@ -86,7 +132,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     margin-top: 0;
-    gap: 10px;
+    gap: 20px;
   }
 
   .eg8-header .more-info .more-info-card {
