@@ -168,6 +168,7 @@ body.ar .festival > div {
   background-repeat: repeat;
   padding: 10% 0 5%;
   margin-bottom: 100px;
+  font-weight: 400;
 }
 
 .music-concert .content {
@@ -292,6 +293,7 @@ body.ar .festival > div {
 
 .summit-factsheet .content .info {
   display: grid;
+  font-weight: 400;
 }
 
 .summit-factsheet .summit-date {
