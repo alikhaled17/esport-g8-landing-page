@@ -93,8 +93,8 @@ let Data = {
       "The best teams in the world will converge at the state of the art, purpose-built venue at Riyadh Boulevard City to compete across six different titles – with a staggering $15 million prize pool.",
     ],
     music: [
-      "MUSIC CONCERTS",
-      "No Festival is complete without the world’s best artists giving fans a musical experience to remember.",
+      "Concerts",
+      "Eight international artists, each of whom is guaranteed to whet the appetite of music lovers, will be appearing across the eight weeks of Gamers8, alongside numerous other local and regional talents."
     ],
     summit: [
       "Summit Factsheet",
@@ -158,7 +158,7 @@ let Data = {
       "./assets/images/saudi-esports-logo-ar.png",
       "تتنافس نخبة الفرق العالمية من خلال 6 بطولات لأشهر الألعاب وبمجموع جوائز مالية يبلغ 15 مليون دولار أمريكي، تقام في موقع ضخم صُمم خصيصاً للمنافسات في بوليفارد رياض سيتي",
     ],
-    music: ["حفلات موسيقية", "أفضل التجارب الموسيقية التي لن تنسى"],
+    music: ["الحفلات الموسيقية","تقام سلسلة من الحفلات على مدى ثمانية أسابيع بمشاركة ثمانية نجوم عالميين إلى جانب عدد من نجوم الموسيقى المحليين."],
     summit: [
       "قمة العالم القادم",
       'تقدم "قمة العالم القادم" تجربة إبداعية وتفاعلية لجميع أصحاب المصلحة في قطاع الرياضات والألعاب الإلكترونية وسيكون جيل الشباب محط اهتمام القمة بمشاركة أبرز المعاهد والمنظمات الأكاديمية',
