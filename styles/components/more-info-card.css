@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 1024px) {
   .more-info-card-img {
-    max-width: 42px;
+    /*max-width: 42px;*/
   }
   .more-info-card-p {
     margin-top: 10px;
