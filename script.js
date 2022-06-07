@@ -110,7 +110,7 @@ let Data = {
     footer: [
       "© 2022 Gamers8. All rights reserved",
       "./assets/images/SAOC-LOGO-EN.png",
-      "./assets/images/co03.webp",
+      "./assets/images/saudi-esports-logo-en.webp",
     ],
     scroll: [
       "Main",
