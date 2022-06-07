@@ -424,9 +424,16 @@ body.ar .festival > div {
   text-align: center;
 }
 
-.eg8-footer .footer-logos .footer-logo3 {
-  width: 155px;
+.eg8-footer .footer-logos {
+  width: 20%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 35% 25% 35%;
 }
+.eg8-footer .footer-logos img {
+  width: 100%;
+}
+
 /* End FOOTER */
 
 /* Start SMALL NAVBAR */
@@ -442,7 +449,7 @@ body.ar .festival > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 45px 20px;
+  padding: 30px 20px;
 }
 
 body.ar .nav-small-screen img:nth-child(2) {
@@ -729,7 +736,6 @@ body.ar .side-bar .side-list > .side-list-item.active span {
     font-size: 12px;
   }
   .eg8-footer .content .footer-logos {
-    display: grid;
     grid-template-columns: 100%;
     justify-items: center;
     justify-content: space-evenly;

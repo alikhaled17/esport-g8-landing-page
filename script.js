@@ -109,6 +109,7 @@ let Data = {
     game: ["Game & Learn"],
     footer: [
       "© 2022 Gamers8. All rights reserved",
+      "./assets/images/SAOC-LOGO-EN.png",
       "./assets/images/co03.webp",
     ],
     scroll: [
@@ -182,6 +183,7 @@ let Data = {
     game: ["إلعب وتعلَّم"],
     footer: [
       "© موسم الجيمرز - كل الحقوق محفوظة",
+      "./assets/images/SAOC-LOGO-AR.png",
       "./assets/images/saudi-esports-logo-ar.webp",
     ],
     scroll: [
@@ -269,7 +271,8 @@ function showData() {
   $(".game-learn h2").innerHTML = PageData.game[0];
 
   $(".eg8-footer .copyrights").innerHTML = PageData.footer[0];
-  $(".eg8-footer .footer-logos .footer-logo3").src = PageData.footer[1];
+  $(".eg8-footer .footer-logos .footer-logo2").src = PageData.footer[1];
+  $(".eg8-footer .footer-logos .footer-logo3").src = PageData.footer[2];
 
   $(
     ".scroll-bar-container .scroll-bar-section:nth-child(1) small:nth-child(2)"

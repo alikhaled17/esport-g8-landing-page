@@ -1,5 +1,6 @@
 /* Start NAVBAR */
 .eg8-navbar {
+  padding: 10px 0;
   z-index: 21;
   width: 100%;
   position: fixed;
@@ -38,9 +39,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px 20px !important;
+  padding: 40px 25px !important;
   position: relative;
-  /*min-width: 125px;*/
 }
 
 .eg8-navbar-content .esport-nav-menu .nav-item img {
