@@ -25,7 +25,7 @@
 }
 
 .eg8-navbar-content .esport-nav-menu {
-  width: 48%;
+  /*width: 48%;*/
   display: flex;
   justify-content: space-around;
   font-weight: 500;
@@ -40,7 +40,7 @@
   justify-content: center;
   padding: 40px 10px !important;
   position: relative;
-  min-width: 125px;
+  /*min-width: 125px;*/
 }
 
 .eg8-navbar-content .esport-nav-menu .nav-item img {
