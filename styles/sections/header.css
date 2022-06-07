@@ -121,6 +121,7 @@
   }
 
   .eg8-header .header-title > img {
+    min-height: 33px;
     width: 60%;
     height: auto;
     margin: 0;
