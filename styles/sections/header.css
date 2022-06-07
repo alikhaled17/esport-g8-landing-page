@@ -93,7 +93,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background: url("./../../assets/images/mask-group-bg.webp");
+  background: url("./../../assets/images/mask-group-bg.png");
 }
 
 .eg8-header .scroll-down-note p {

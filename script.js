@@ -89,7 +89,7 @@ let Data = {
       "The Gamers8 festival will be home to countless, fun-packed events, shows and futuristic experiences that bring the virtual world of gaming out into the physical realm. With more than 1,000 activities and attractions, there truly is something for everyone.",
     ],
     saudi: [
-      "./assets/images/saudi-esports-logo-en.webp",
+      "./assets/images/saudi-esports-logo-en.png",
       "The best teams in the world will converge at the state of the art, purpose-built venue at Riyadh Boulevard City to compete across six different titles – with a staggering $15 million prize pool.",
     ],
     music: [
@@ -110,7 +110,7 @@ let Data = {
     footer: [
       "© 2022 Gamers8. All rights reserved",
       "./assets/images/SAOC-LOGO-EN.png",
-      "./assets/images/co03.webp",
+      "./assets/images/saudi-esports-logo-en.png",
     ],
     scroll: [
       "Main",
@@ -163,7 +163,7 @@ let Data = {
       "سيكون موسم الجيمرز موطناً لأكثر من <span class='en_num'>1000</span> نشاط ترفيهي والتي تنقل عالم الألعاب الافتراضي إلى الواقع",
     ],
     saudi: [
-      "./assets/images/saudi-esports-logo-ar.webp",
+      "./assets/images/saudi-esports-logo-ar.png",
       "تتنافس نخبة الفرق العالمية من خلال <span class='en_num'>6</span> بطولات لأشهر الألعاب وبمجموع جوائز مالية يبلغ <span class='en_num'>15</span> مليون دولار أمريكي، تقام في موقع ضخم صُمم خصيصاً للمنافسات في بوليفارد رياض سيتي",
     ],
     music: [
@@ -184,7 +184,7 @@ let Data = {
     footer: [
       "© موسم الجيمرز - كل الحقوق محفوظة",
       "./assets/images/SAOC-LOGO-AR.png",
-      "./assets/images/saudi-esports-logo-ar.webp",
+      "./assets/images/saudi-esports-logo-ar.png",
     ],
     scroll: [
       "الرئيسية",
@@ -319,14 +319,14 @@ function changeLang() {
     document.body.classList.add("ar");
     document
       .getElementById("prize-pool")
-      .setAttribute("src", "./assets/images/prize-pool-ar.webp");
+      .setAttribute("src", "./assets/images/prize-pool-ar.png");
   } else {
     lang = "en";
     showData();
     document.body.classList.remove("ar");
     document
       .getElementById("prize-pool")
-      .setAttribute("src", "./assets/images/prize-pool.webp");
+      .setAttribute("src", "./assets/images/prize-pool.png");
   }
 }
 

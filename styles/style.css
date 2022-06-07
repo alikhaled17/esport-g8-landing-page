@@ -62,7 +62,7 @@ body.ar .scroll-bar-container {
 /* Start Professional-Esports  */
 .professional-esports {
   background: linear-gradient(#140739, #0606086c, #09070e6c, #140739),
-    url("./../assets/images/professional-esport-bg.webp");
+    url("./../assets/images/professional-esport-bg.png");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,7 +93,7 @@ body.ar .scroll-bar-container {
       #1407393d,
       #140739
     ),
-    url("./../assets/images/03-bg.webp");
+    url("./../assets/images/03-bg.png");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -163,7 +163,7 @@ body.ar .festival > div {
 
 /* Start MUSIC CONCERTS */
 .music-concert {
-  background: url("./../assets/images/mask-group-bg.webp");
+  background: url("./../assets/images/mask-group-bg.png");
   background-position: bottom;
   background-size: contain;
   background-repeat: repeat;
@@ -379,7 +379,7 @@ body.ar .festival > div {
       #1407393d,
       #140739
     ),
-    url("./../assets/images/people.webp");
+    url("./../assets/images/people.png");
   background-repeat: no-repeat;
 }
 /* End SUMMIT FACTSHEET */
@@ -392,7 +392,7 @@ body.ar .festival > div {
       #140739b7,
       #140739
     ),
-    url("./../assets/images/play-arms.webp");
+    url("./../assets/images/play-arms.png");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -630,7 +630,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
         #140739b7,
         #140739
       ),
-      url("./../assets/images/mask-group-bg.webp");
+      url("./../assets/images/mask-group-bg.png");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
