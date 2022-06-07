@@ -75,6 +75,7 @@ body.ar .scroll-bar-container {
 
 .professional-esports .professional-esports-img {
   width: 72%;
+  min-height: 50px;
   margin: 4% 0;
 }
 
@@ -418,6 +419,7 @@ body.ar .festival > div {
 
 .eg8-footer .footer-img {
   width: 225px;
+  min-height: 53px;
 }
 
 .eg8-footer .copyrights {
@@ -432,6 +434,7 @@ body.ar .festival > div {
 }
 .eg8-footer .footer-logos img {
   width: 100%;
+  min-height: 20px;
 }
 
 /* End FOOTER */
@@ -580,7 +583,6 @@ body.ar .side-bar .side-list > .side-list-item.active span {
 
   .eg8-footer .footer-img {
     width: 100%;
-
     max-width: 225px;
   }
 }

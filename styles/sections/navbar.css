@@ -13,7 +13,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /*height: 142px;*/
   font-size: 1.2vw;
 }
 
@@ -23,10 +22,10 @@
 
 .eg8-navbar-content .esport-logo img {
   width: 100%;
+  min-height: 50px;
 }
 
 .eg8-navbar-content .esport-nav-menu {
-  /*width: 48%;*/
   display: flex;
   justify-content: space-around;
   font-weight: 500;
