@@ -62,7 +62,7 @@ body.ar .scroll-bar-container {
 /* Start Professional-Esports  */
 .professional-esports {
   background: linear-gradient(#140739, #0606086c, #09070e6c, #140739),
-    url("./../assets/images/professional-esport-bg.png");
+    url("./../assets/images/professional-esport-bg.webp");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -92,7 +92,7 @@ body.ar .scroll-bar-container {
       #1407393d,
       #140739
     ),
-    url("./../assets/images/03-bg.png");
+    url("./../assets/images/03-bg.webp");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -162,7 +162,7 @@ body.ar .festival > div {
 
 /* Start MUSIC CONCERTS */
 .music-concert {
-  background: url("./../assets/images/mask-group-bg.png");
+  background: url("./../assets/images/mask-group-bg.webp");
   background-position: bottom;
   background-size: contain;
   background-repeat: repeat;
@@ -219,7 +219,7 @@ body.ar .festival > div {
   justify-content: center;
   align-items: center;
   stroke-width: 3px;
-  background-size:120%  !important;
+  background-size: 120% !important;
   background-position: bottom;
   background: linear-gradient(
       #140739,
@@ -228,7 +228,7 @@ body.ar .festival > div {
       #140739
     ),
     url("./../assets/images/music-concert.png");
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   background-repeat: no-repeat;
 }
 
@@ -262,17 +262,11 @@ body.ar .festival > div {
 .img-container2:hover .svg-clipped2 {
   background-size: cover;
   background-position: center;
-  background:  url("./../assets/images/card-logo-effect.svg")  bottom ,
-  linear-gradient(
-      #e0d1d837,
-      rgba(255, 255, 255, 0),
-      #1407393d,
-      #140739
-    ),
-    url("./../assets/images/music-concert.png")  top no-repeat;
-    background-size:120%  !important;
-    background-repeat: no-repeat;
-
+  background: url("./../assets/images/card-logo-effect.svg") bottom,
+    linear-gradient(#e0d1d837, rgba(255, 255, 255, 0), #1407393d, #140739),
+    url("./../assets/images/music-concert.png") top no-repeat;
+  background-size: 120% !important;
+  background-repeat: no-repeat;
 }
 
 /* End MUSIC CONCERTS */
@@ -384,7 +378,7 @@ body.ar .festival > div {
       #1407393d,
       #140739
     ),
-    url("./../assets/images/people.png");
+    url("./../assets/images/people.webp");
   background-repeat: no-repeat;
 }
 /* End SUMMIT FACTSHEET */
@@ -397,7 +391,7 @@ body.ar .festival > div {
       #140739b7,
       #140739
     ),
-    url("./../assets/images/play-arms.png");
+    url("./../assets/images/play-arms.webp");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -631,7 +625,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
         #140739b7,
         #140739
       ),
-      url("./../assets/images/mask-group-bg.png");
+      url("./../assets/images/mask-group-bg.webp");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;

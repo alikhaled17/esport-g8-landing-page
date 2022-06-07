@@ -89,12 +89,12 @@ let Data = {
       "The Gamers8 festival will be home to countless, fun-packed events, shows and futuristic experiences that bring the virtual world of gaming out into the physical realm. With more than 1,000 activities and attractions, there truly is something for everyone.",
     ],
     saudi: [
-      "./assets/images/saudi-esports-logo-en.png",
+      "./assets/images/saudi-esports-logo-en.webp",
       "The best teams in the world will converge at the state of the art, purpose-built venue at Riyadh Boulevard City to compete across six different titles – with a staggering $15 million prize pool.",
     ],
     music: [
       "Concerts",
-      "Eight international artists, each of whom is guaranteed to whet the appetite of music lovers, will be appearing across the eight weeks of Gamers8, alongside numerous other local and regional talents."
+      "Eight international artists, each of whom is guaranteed to whet the appetite of music lovers, will be appearing across the eight weeks of Gamers8, alongside numerous other local and regional talents.",
     ],
     summit: [
       "Summit Factsheet",
@@ -109,9 +109,16 @@ let Data = {
     game: ["Game & Learn"],
     footer: [
       "© 2022 Gamers8. All rights reserved",
-      "./assets/images/saudi-esports-logo-en.png",
+      "./assets/images/co03.webp",
     ],
-    scroll: ["Main", "E-Sports", "Festival", "Concerts", "Summit", "Game & Learn"],
+    scroll: [
+      "Main",
+      "E-Sports",
+      "Festival",
+      "Concerts",
+      "Summit",
+      "Game & Learn",
+    ],
   },
   ar: {
     esportsmallnav: [
@@ -155,10 +162,13 @@ let Data = {
       "سيكون موسم الجيمرز موطناً لأكثر من <span class='en_num'>1000</span> نشاط ترفيهي والتي تنقل عالم الألعاب الافتراضي إلى الواقع",
     ],
     saudi: [
-      "./assets/images/saudi-esports-logo-ar.png",
+      "./assets/images/saudi-esports-logo-ar.webp",
       "تتنافس نخبة الفرق العالمية من خلال <span class='en_num'>6</span> بطولات لأشهر الألعاب وبمجموع جوائز مالية يبلغ <span class='en_num'>15</span> مليون دولار أمريكي، تقام في موقع ضخم صُمم خصيصاً للمنافسات في بوليفارد رياض سيتي",
     ],
-    music: ["الحفلات الموسيقية","تقام سلسلة من الحفلات على مدى ثمانية أسابيع بمشاركة ثمانية نجوم عالميين إلى جانب عدد من نجوم الموسيقى المحليين."],
+    music: [
+      "الحفلات الموسيقية",
+      "تقام سلسلة من الحفلات على مدى ثمانية أسابيع بمشاركة ثمانية نجوم عالميين إلى جانب عدد من نجوم الموسيقى المحليين.",
+    ],
     summit: [
       "قمة العالم القادم",
       'تقدم "قمة العالم القادم" تجربة إبداعية وتفاعلية لجميع أصحاب المصلحة في قطاع الرياضات والألعاب الإلكترونية وسيكون جيل الشباب محط اهتمام القمة بمشاركة أبرز المعاهد والمنظمات الأكاديمية',
@@ -172,7 +182,7 @@ let Data = {
     game: ["إلعب وتعلَّم"],
     footer: [
       "© موسم الجيمرز - كل الحقوق محفوظة",
-      "./assets/images/saudi-esports-logo-ar.png",
+      "./assets/images/saudi-esports-logo-ar.webp",
     ],
     scroll: [
       "الرئيسية",
@@ -181,7 +191,6 @@ let Data = {
       "الحفلات الموسيقية",
       "القمة",
       "إلعب  وتعلَّم",
-      
     ],
   },
 };
@@ -307,14 +316,14 @@ function changeLang() {
     document.body.classList.add("ar");
     document
       .getElementById("prize-pool")
-      .setAttribute("src", "./assets/images/prize-pool-ar.png");
+      .setAttribute("src", "./assets/images/prize-pool-ar.webp");
   } else {
     lang = "en";
     showData();
     document.body.classList.remove("ar");
     document
       .getElementById("prize-pool")
-      .setAttribute("src", "./assets/images/prize-pool.png");
+      .setAttribute("src", "./assets/images/prize-pool.webp");
   }
 }
 
