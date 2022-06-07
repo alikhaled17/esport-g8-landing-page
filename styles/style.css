@@ -541,10 +541,6 @@ body.ar .side-bar .side-list > .side-list-item.active span {
 }
 
 .side-bar .side-footer .change-to-arabic {
-  font-family: "Noto Kufi Arabic", sans-serif;
-}
-
-.side-bar .side-footer .change-to-arabic {
   font-weight: bold;
   font-family: "Noto Kufi Arabic", sans-serif;
   cursor: pointer;
