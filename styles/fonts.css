@@ -1,13 +1,13 @@
 @font-face {
   font-family: "AcuminVariableConcept";
-  src: url("./../assets/fonts/Fractul-Alt/AcuminVariableConcept.woff2");
+  src: url("./../assets/fonts/AcuminVariableConcept/AcuminVariableConcept.woff2");
   font-weight: 500;
   font-display: swap;
 }
 
 @font-face {
   font-family: "AcuminVariableConcept-bold";
-  src: url("./../assets/fonts/Fractul-Alt/AcuminVariableConcept.woff2");
+  src: url("./../assets/fonts/AcuminVariableConcept/AcuminVariableConcept.woff2");
   font-weight: 900;
   font-display: swap;
 }
