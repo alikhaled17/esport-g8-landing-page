@@ -1,5 +1,6 @@
 :root {
   --violet-dark-color: #140739;
+  --violet-ligth-move: #7977a2;
 }
 
 * {
@@ -34,7 +35,7 @@ body.ar {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.en_num{
+.en_num {
   font-family: "AcuminVariableConcept" !important ;
 }
 

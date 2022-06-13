@@ -49,20 +49,20 @@ let Data = {
   en: {
     esportsmallnav: [
       "Home",
-      "E-Sports",
+      "Esports",
       "Festival",
       "Concerts",
-      "Summit",
+      "Next World Summit",
       "Game & Learn",
       "اللغة العربية",
       "",
       "© 2022 Gamers8. All rights reserved",
     ],
     esportnav: [
-      "E-Sports",
+      "Esports",
       "Festival",
       "Concerts",
-      "Summit",
+      "Next World Summit",
       "Game & Learn",
       "اللغة العربية",
     ],
@@ -97,7 +97,7 @@ let Data = {
       "Eight international artists, each of whom is guaranteed to whet the appetite of music lovers, will be appearing across the eight weeks of Gamers8, alongside numerous other local and regional talents.",
     ],
     summit: [
-      "Summit Factsheet",
+      "Next World Summit",
       "The Summit will provide a platform for highly engaging and innovative formats for every stakeholder of the Esports and gaming ecosystem. In addition, youth will be at the center of the event, thanks to the participation of leading academic institutions and organizations.",
       "<img src='./assets/images/pin.svg' alt=''>Gamers8 Festival",
       "<img src='./assets/images/calender.svg' class='calender-icon' id='calender-icon' alt=''>To be confirmed",
@@ -114,7 +114,7 @@ let Data = {
     ],
     scroll: [
       "Main",
-      "E-Sports",
+      "Esports",
       "Festival",
       "Concerts",
       "Summit",

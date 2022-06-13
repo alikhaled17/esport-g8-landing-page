@@ -66,6 +66,7 @@ body.ar .scroll-bar-container {
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 150px;
   padding: 203px 0;
 }
 
@@ -407,7 +408,7 @@ body.ar .festival > div {
 
 /* Start FOOTER */
 .eg8-footer {
-  background-color: black;
+  background-color: var(--violet-ligth-move);
   padding: 20px 0;
 }
 
@@ -424,6 +425,8 @@ body.ar .festival > div {
 
 .eg8-footer .copyrights {
   text-align: center;
+  font-family: "AcuminVariableConcept";
+  font-weight: bold;
 }
 
 .eg8-footer .footer-logos {
