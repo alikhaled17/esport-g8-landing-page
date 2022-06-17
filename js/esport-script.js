@@ -154,8 +154,8 @@ let Data = {
     game: ["Game & Learn"],
     footer: [
       "© 2022 Gamers8. All rights reserved",
-      "./assets/images/SAOC-LOGO-EN.png",
-      "./assets/images/saudi-esports-logo-en.png",
+      "../assets/images/SAOC-LOGO-EN.png",
+      "../assets/images/saudi-esports-logo-en.png",
     ],
     scroll: [
       "Main",
@@ -273,8 +273,8 @@ let Data = {
     game: ["إلعب وتعلَّم"],
     footer: [
       "© موسم الجيمرز - كل الحقوق محفوظة",
-      "./assets/images/SAOC-LOGO-AR.png",
-      "./assets/images/saudi-esports-logo-ar.png",
+      "../assets/images/SAOC-LOGO-AR.png",
+      "../assets/images/saudi-esports-logo-ar.png",
     ],
     scroll: [
       "الرئيسية",
@@ -329,23 +329,23 @@ function showData() {
     let htmlEllement = `
     <div class="tour-card">
       <div class="tournament-container speakerCard">
-        <img class="outer" src="./assets/images/tour-outer.svg" alt="top line" />
+        <img class="outer" src="../assets/images/tour-outer.svg" alt="top line" />
         
         <div class="tournament-clipped" >
 
           <div class="tournament-details">
             <div class="tournament-details-logo">
-                <img src="./assets/images${element.tourLogo}" alt="" />
+                <img src="../assets/images${element.tourLogo}" alt="" />
             </div>
             <div class="tournament-details-name">
                 <h6 class="tournament-details-name">${element.tourName}</h6>
             </div>
             <div class="tournament-details-location">
-                <img src="./assets/images/Group 21114.png" alt="location" />
+                <img src="../assets/images/Group 21114.png" alt="location" />
                 <p>${element.tourLocation}</p>
             </div>
             <div class="tournament-details-date">
-                <img src="./assets/images/Group 22532.png" alt="Date" />
+                <img src="../assets/images/Group 22532.png" alt="Date" />
                 <p>${element.tourDate}</p>
             </div>
           </div>
@@ -366,7 +366,7 @@ function showData() {
     const element = PageData.contacts.channels[i];
     let channelEllement = `
     <a target="_blank" href="${element.channelLink}" class="social-channel">
-      <img src="./assets/images${element.channelLogo}" alt="">
+      <img src="../assets/images${element.channelLogo}" alt="">
       <span>${element.channelName}</span>
     </a>
     `;
@@ -438,14 +438,14 @@ function changeLang() {
     document.body.classList.add("ar");
     document
       .getElementById("prize-pool")
-      .setAttribute("src", "./assets/images/prize-pool-ar.png");
+      .setAttribute("src", "../assets/images/prize-pool-ar.png");
   } else {
     lang = "en";
     showData();
     document.body.classList.remove("ar");
     document
       .getElementById("prize-pool")
-      .setAttribute("src", "./assets/images/prize-pool.png");
+      .setAttribute("src", "../assets/images/prize-pool.png");
   }
 }
 
