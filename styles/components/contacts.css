@@ -1,0 +1,86 @@
+
+
+/* Start CONTACTS */
+.contacts {
+    min-height: 80vh;
+    background: linear-gradient(
+        #14073918,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0),
+        #14073952,
+        #140739
+      ),
+      url("./../../../assets/images/mask-group-bg.png");
+      background-position: center;
+      background-size: cover;
+      background-repeat: repeat;
+  }
+  
+  .contacts .main-title {
+    margin-bottom: 50px;
+  }
+  
+  .contact-channels {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .contact-channels .social-channel {
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/images/channel-frame.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 65px;
+    padding: 10px 0;
+    margin: 10px 5px;
+    text-decoration: none;
+    text-underline-offset: none;
+    color: #fff;
+  }
+  
+  .contact-channels .social-channel img {
+    height: 60%;
+    margin: 0 10px;
+  }
+  
+  .contact-channels .social-channel:hover {
+    background-image: url('../../assets/images/channel-frame-hoverd.svg');
+  }
+  
+  @media (max-width: 1300px) {
+    .contact-channels .social-channel {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 750px) {
+    .contact-channels .social-channel {
+      width: 100%;
+    }
+  }
+  
+  
+  .hashs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 18px;
+    color: #991CE0;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .hashs .hash {
+    margin-left: 12px;
+  }
+  
+  body.ar .hashs .hash {
+    margin-left: 0;
+    margin-right: 12px;
+  }
+  /* End CONTACTS */

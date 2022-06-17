@@ -77,13 +77,52 @@ body.ar .scroll-bar-container {
 .professional-esports .professional-esports-img {
   width: 72%;
   min-height: 50px;
-  margin: 4% 0;
+  margin: 4% 0 -3% -5%;
 }
 
 .professional-esports .content p {
   font-weight: 400;
   width: 49%;
 }
+
+
+
+
+.professional-esports .esport-explore-btn {
+  margin-top: 20px;
+  cursor: pointer;
+  width: 260px;
+  height: 78px;
+  background: url('../assets/images/btn.svg'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  text-underline-offset: none;
+  font-style: none;
+}
+
+.professional-esports .esport-explore-text {
+  cursor: pointer;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  text-underline-offset: none;
+  font-style: none;
+}
+
+.professional-esports .esport-explore-btn:hover {
+  background: url('../assets/images/hover-btn.svg'); 
+  background-size: 102% 100%;
+}
+
+body.ar .professional-esports-img {
+  margin-right: -5%;
+}
+
 /* End Professional-Esports  */
 
 /* Start FESTEVAL */

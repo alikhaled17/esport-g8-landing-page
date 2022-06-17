@@ -33,6 +33,9 @@
 }
 
 .eg8-navbar-content .esport-nav-menu .nav-item {
+  text-decoration: none;
+  text-underline-offset: none;
+  color: #fff;
   cursor: pointer;
   height: 100%;
   display: flex;

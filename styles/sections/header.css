@@ -145,3 +145,122 @@
   }
 }
 /* End HEADER */
+
+
+
+
+
+
+
+
+
+
+
+/* Start E-sport HEADER */
+.esport8-header {
+  background: linear-gradient(rgba(255, 255, 255, 0.171), #140739b7, #140739),
+    url("./../../assets/images/header/header-bg-1920.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  padding-top: 248px;
+  margin-bottom: 0px;
+}
+
+.esport8-header .professional-esports-img {
+  width: 66%;
+  margin-left: -5%;
+}
+
+
+@media (max-width: 1900px) {
+  .esport8-header {
+    background: linear-gradient(rgba(255, 255, 255, 0.171), #140739b7, #140739),
+      url("./../../assets/images/header/header-bg-1500.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 1500px) {
+  .esport8-header {
+    background: linear-gradient(rgba(255, 255, 255, 0.171), #140739b7, #140739),
+      url("./../../assets/images/header/header-bg-1200.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 1200px) {
+  .esport8-header {
+    background: linear-gradient(rgba(255, 255, 255, 0.171), #140739b7, #140739),
+      url("./../../assets/images/header/header-bg-900.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 900px) {
+  .esport8-header {
+    background: linear-gradient(rgba(255, 255, 255, 0.171), #140739b7, #140739),
+      url("./../../assets/images/header/header-bg-600.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .esport8-header .professional-esports-img {
+    width: 95%;
+    margin-left: -5%;
+  }
+}
+@media (max-width: 600px) {
+  .esport8-header {
+    background: linear-gradient(rgba(255, 255, 255, 0.171), #140739b7, #140739),
+      url("./../../assets/images/header/header-bg-300.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.esport8-header .header-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 100px;
+}
+
+.esport8-header .scroll-down-note {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background: url("./../../assets/images/mask-group-bg.png");
+}
+
+.esport8-header .scroll-down-note p {
+  margin-top: 10px;
+  opacity: 0.8;
+  font-size: 11px;
+  width: 125px;
+}
+
+@media screen and (max-width: 1024px) {
+  .esport8-header {
+    margin-bottom: 44px;
+  }
+
+  .esport8-header h1 span {
+    display: block;
+  }
+
+  .esport8-header .header-title {
+    margin-top: 0;
+  }
+}
+
+
+body.ar .esport8-header .professional-esports-img{
+  margin-left: 0;
+  margin-right: -5%;
+}
+/* End E-sport HEADER */

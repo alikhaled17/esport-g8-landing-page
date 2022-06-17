@@ -75,3 +75,100 @@
 }
 
 /* End INTRODUCTION-TEXT */
+
+
+
+
+
+/* E-SPORT INTRODUCTION TEXT */
+.esport-introduction-text {
+  background: linear-gradient(
+      #140739ab,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      #14073980,
+      #140739c2,
+      #14073986
+    ),
+    url("./../../assets/images/mask-group-bg.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: repeat;
+  text-align: center;
+  padding: 15% 0 10%;
+}
+
+.esport-introduction-text .esport-introduction-text-content {
+  width: 80% ;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.esport-introduction-text .intro-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.esport-introduction-text .matches-date {
+  background-image: url('../../assets/images/esport-intro-text.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 2.5% 5% ;
+  margin: 4% 0 4%;
+  width: 100% ;
+  font-size: 1.5vw;
+}
+
+.esport-introduction-text .matches-date span {
+  font-size: 1.5vw;
+}
+
+.esport-introduction-text .follow-up {
+  color: #991CE0;
+  font-weight: normal;
+  font-size: 2vw;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .esport-introduction-text  {
+    background: linear-gradient(
+        #14073918,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0),
+        #14073952,
+        #140739
+      ),
+      url("./../../assets/images/mask-group-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  
+  .esport-introduction-text .esport-introduction-text-content {
+    width: 100% ;
+  }
+
+  .esport-introduction-text .matches-date {
+    margin: 2% 0 2%;
+  }
+
+  .esport-introduction-text .matches-date span {
+    font-size: 2.4vw;
+  }
+
+  .esport-introduction-text .follow-up {
+    font-size: 3vw;
+  }
+}
+/* E-SPORT INTRODUCTION TEXT */

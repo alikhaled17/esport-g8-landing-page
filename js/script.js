@@ -83,6 +83,7 @@ let Data = {
     professional: [
       "Professional Esports",
       "Tournaments will be played in a purpose-built venue right in the middle of the gaming dreamland, where fans can enjoy top-level Esports and an abundance of other entertainment activities.",
+      "Explore more"
     ],
     festival: [
       "Festival",
@@ -157,6 +158,7 @@ let Data = {
     professional: [
       "منافسات النخبة",
       "تقام بطولات منافسات النخبة في موقع ضخم مخصص للحدث العالمي ومزود بأحدث التقنيات لتقديم أفضل تجربة للمشاركين وللجماهير",
+      "استكشف المزيد",
     ],
     festival: [
       "العروض الترفيهية",
@@ -243,6 +245,7 @@ function showData() {
 
   $(".professional-esports .content h2").innerHTML = PageData.professional[0];
   $(".professional-esports .content p").innerHTML = PageData.professional[1];
+  $(".professional-esports .content span").innerHTML = PageData.professional[2];
 
   $(".festival .content h2").innerHTML = PageData.festival[0];
   $(".festival .content p").innerHTML = PageData.festival[1];
