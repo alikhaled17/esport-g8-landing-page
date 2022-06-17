@@ -105,6 +105,20 @@ body.ar .scroll-bar-container {
   font-style: none;
 }
 
+@media (max-width: 1300px) {
+  .professional-esports .esport-explore-btn {
+    width: 231px;
+    height: 69px;
+  }
+}
+
+@media (max-width: 900px) {
+  .professional-esports .esport-explore-btn {
+    width: 200px;
+    height: 60px;
+  }
+}
+
 .professional-esports .esport-explore-text {
   cursor: pointer;
   margin-top: 10px;
