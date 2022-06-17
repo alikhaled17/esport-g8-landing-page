@@ -376,8 +376,6 @@ window.addEventListener("scroll", () => {
 
 document.addEventListener('readystatechange', event => {
   if (event.target.readyState === 'complete') {
-    setTimeout(() => {
-      document.querySelector('.loader-containerx').remove()
-    }, 500)
+    document.querySelector('.loader-containerx').remove()
   }
 });
