@@ -1,14 +1,28 @@
 @font-face {
   font-family: "AcuminVariableConcept";
   src: url("./../assets/fonts/AcuminVariableConcept/AcuminVariableConcept.woff2");
-  font-weight: 500;
+  font-weight: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "AcuminVariableConcept-bold";
+  font-family: "AcuminVariableConcept";
   src: url("./../assets/fonts/AcuminVariableConcept/AcuminVariableConcept.woff2");
-  font-weight: 900;
+  font-weight: lighter;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AcuminVariableConcept";
+  src: url("./../assets/fonts/AcuminVariableConcept/AcuminVariableConcept.woff2");
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AcuminVariableConcept";
+  src: url("./../assets/fonts/AcuminVariableConcept/AcuminVariableConcept.woff2");
+  font-weight: bolder;
   font-display: swap;
 }
 

@@ -8,6 +8,7 @@
   padding-top: 248px;
   margin-bottom: 213px;
 }
+
 @media (max-width: 1900px) {
   .eg8-header {
     background: linear-gradient(rgba(255, 255, 255, 0.171), #140739b7, #140739),
@@ -16,6 +17,7 @@
     background-repeat: no-repeat;
   }
 }
+
 @media (max-width: 1500px) {
   .eg8-header {
     background: linear-gradient(rgba(255, 255, 255, 0.171), #140739b7, #140739),
@@ -168,8 +170,8 @@
 }
 
 .esport8-header .professional-esports-img {
-  width: 66%;
-  margin-left: -5%;
+  width: 42%;
+  margin-left: -3%;
 }
 
 
@@ -195,6 +197,11 @@
       url("./../../assets/images/header/header-bg-900.png");
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 60vh;
+  }
+  .esport8-header .professional-esports-img {
+    width: 55%;
+    margin-left: -7%;
   }
 }
 @media (max-width: 900px) {
@@ -225,6 +232,8 @@
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 100px;
+  margin-top: 50px;
+  
 }
 
 .esport8-header .scroll-down-note {
@@ -234,7 +243,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background: url("./../../assets/images/mask-group-bg.png");
+  /* background: url("./../../assets/images/mask-group-bg.png"); */
 }
 
 .esport8-header .scroll-down-note p {
@@ -261,6 +270,6 @@
 
 body.ar .esport8-header .professional-esports-img{
   margin-left: 0;
-  margin-right: -5%;
+  margin-right: -3%;
 }
 /* End E-sport HEADER */

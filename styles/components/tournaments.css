@@ -10,13 +10,19 @@ body.ar {
   
 .tournaments {
     background-image: url('../../assets/images/game-learn-programs-pattern.png');
-    background-position: -10% 8%;
-    background-size: 30% ;
+    background-position: -17% 1%;
+    background-size: 39% ;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     padding: 0;
-    padding: 100px 0;
+    padding: 0 0;
+}
+
+@media (max-width: 1050px) {
+    .tournaments {
+        padding: 50px 0 0;
+    }
 }
 
 .tournaments .main-title {
@@ -30,9 +36,9 @@ body.ar {
 }
 
 .tour-card {
-    width: 44%;
-    margin-right: 5%;
-    margin-bottom: 5%;
+    width: 46%;
+    margin-right: 4%;
+    margin-bottom: 4%;
 } 
 
 .tournament-container {
@@ -40,9 +46,22 @@ body.ar {
     cursor: pointer;
     transition: all 0.4s ease-in-out;
     height: 100%;
-    min-height: 450px;
+    min-height: 28vw;
     margin-bottom: 70px;
 }
+
+
+@media (max-width: 1000px) {
+    .tour-card {
+        width: 96%;
+        margin-right: 0;
+        margin-bottom: 10%;
+    } 
+    .tournament-container {
+        min-height: 50vw;
+    }
+}
+
 
 .tournament-container .outer {
     position: absolute;
@@ -72,7 +91,7 @@ body.ar {
     background-size: cover;
     background-position: center;
     background-image: linear-gradient( to right bottom,rgba(255, 255, 255, 0),
-    rgba(0, 0, 0, 0.938)), 
+    #140739), 
     url('../../assets/images/tour-card-bg.png');
 }
 
@@ -109,15 +128,6 @@ body.ar {
 
 
 @media (max-width: 1300px) {
-    .tour-card {
-        width: 98%;
-        margin: 6% 4%;
-    }     
-
-    .tournament-container {
-        min-height: 300px;
-    }
-
     .tournament-container .tournament-clipped {
         padding: 0 10% 4%;
     }
@@ -158,5 +168,5 @@ body.ar .tournament-details .tournament-details-date img {
 
 body.ar .tour-card {
     margin-right: 0;
-    margin-left: 5%;
+    margin-left: 4%;
 } 

@@ -7,6 +7,8 @@
   left: 0;
   top: 0;
   background: rgba(0, 0, 0, 0.3);
+  font-weight: 2500;
+
 }
 
 .eg8-navbar-content {
@@ -77,7 +79,7 @@
 
 .eg8-navbar-content .chng-to-arabic {
   font-weight: bold;
-  font-family: "Noto Kufi Arabic", sans-serif;
+  font-family: "Swissra", sans-serif;
   cursor: pointer;
 }
 

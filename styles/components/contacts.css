@@ -12,8 +12,9 @@
       ),
       url("../../assets/images/mask-group-bg.png");
       background-position: center;
-      background-size: cover;
+      background-size: contain;
       background-repeat: repeat;
+      padding: 100px 0;
   }
   
   .contacts .main-title {
