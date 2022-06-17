@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "AcuminVariableConcept";
   src: url("./../assets/fonts/AcuminVariableConcept/AcuminVariableConcept.woff2");
   font-weight: normal;
@@ -24,14 +24,15 @@
   src: url("./../assets/fonts/AcuminVariableConcept/AcuminVariableConcept.woff2");
   font-weight: bolder;
   font-display: swap;
-}
+} */
 
-@font-face {
+
+/* @font-face {
   font-family: "Noto Kufi Arabic";
   src: url("./../assets/fonts/NotoKufiArabic/NotoKufiArabic-Regular.woff2");
   font-weight: 500;
   font-display: swap;
-}
+} */
 
 @font-face {
   font-family: "Swissra";

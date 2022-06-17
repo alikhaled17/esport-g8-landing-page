@@ -18,7 +18,7 @@ body.ar .scroll-bar-container {
   align-items: flex-start;
   margin: 4px 0;
   transition: all 0.5s ease-in-out;
-  font-family: "AcuminVariableConcept" !important;
+  font-family: "Acumin Pro Condensed" !important;
 }
 
 .square {
@@ -334,7 +334,7 @@ body.ar .festival > div {
 .summit-factsheet .summit-date {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: "AcuminVariableConcept";
+  font-family: "Acumin Pro Condensed";
   display: grid;
   gap: 15px;
 }
@@ -464,7 +464,7 @@ body.ar .festival > div {
 
 .eg8-footer .copyrights {
   text-align: center;
-  font-family: "AcuminVariableConcept";
+  font-family: "Acumin Pro Condensed";
   font-weight: bold;
 }
 
@@ -592,7 +592,7 @@ body.ar .side-bar .side-list > .side-list-item.active span {
 }
 
 .ar .side-bar .side-footer .change-to-arabic {
-  font-family: "AcuminVariableConcept";
+  font-family: "Acumin Pro Condensed";
 }
 
 .side-bar .side-footer .side-footer-head {

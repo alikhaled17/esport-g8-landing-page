@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: "AcuminVariableConcept" !important;
+  font-family: "Acumin Pro Condensed" !important;
   font-weight: bolder;
   color: #ffffff !important;
   background-color: var(--violet-dark-color) !important;
@@ -30,7 +30,7 @@ body.ar {
 }
 
 .en_num {
-  font-family: "AcuminVariableConcept" !important ;
+  font-family: "Acumin Pro Condensed" !important ;
 }
 
 .Container {
