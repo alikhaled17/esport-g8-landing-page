@@ -214,13 +214,13 @@ function showData() {
     document.body.classList.remove("ar");
     document
       .getElementById("prize-pool")
-      .setAttribute("src", "../assets/images/prize-pool.png");
+      .setAttribute("src", "./assets/images/prize-pool.png");
   } else {
     PageData = Data.ar;
     document.body.classList.add("ar");
     document
     .getElementById("prize-pool")
-    .setAttribute("src", "../assets/images/prize-pool-ar.png");
+    .setAttribute("src", "./assets/images/prize-pool-ar.png");
   }
 
   $(".eg8-navbar .nav-item:nth-child(2) small").innerHTML =
