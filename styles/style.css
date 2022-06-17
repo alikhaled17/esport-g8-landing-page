@@ -103,19 +103,23 @@ body.ar .scroll-bar-container {
   color: #fff;
   text-underline-offset: none;
   font-style: none;
+  font-size: 24px;
 }
 
 @media (max-width: 1300px) {
   .professional-esports .esport-explore-btn {
     width: 231px;
     height: 69px;
+    font-size: 22px;
+    
   }
 }
 
 @media (max-width: 900px) {
   .professional-esports .esport-explore-btn {
-    width: 200px;
-    height: 60px;
+    width: 180px;
+    height: 56px;
+    font-size: 17px;
   }
 }
 
