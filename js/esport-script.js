@@ -189,7 +189,7 @@ let Data = {
       "English",
     ],
     header: [
-      "بطولات الالعاب الالكترونية",
+      "بطولات الألعاب الإلكترونية",
       "مرر للاسفل  <br> واكتشف المزيد",
     ],
     esportIntroduction: [
@@ -202,31 +202,31 @@ let Data = {
       cards: [
         {
           tourLogo: "/rocket-leage.png",
-          tourName: "Rocket League",
+          tourName: "<span class='en_num'>Rocket League</span>",
           tourLocation: "منطقة الالعاب الالكترونية - البوليفارد",
           tourDate: "١٤ يوليو ٢٠٢٢ - ١٧ يوليو ٢٠٢٢"
         },
         {
           tourLogo: "/dota.png",
-          tourName: "Dota 2",
+          tourName: " <span class='en_num'>Dota 2</span>",
           tourLocation: "منطقة الالعاب الالكترونية - البوليفارد",
           tourDate: "٢١ يوليو ٢٠٢٢ - ٢٤ يوليو ٢٠٢٢"
         },
         {
           tourLogo: "/fortnite.png",
-          tourName: "Fortnite",
+          tourName: "<span class='en_num'>Fortnite</span>",
           tourLocation: "منطقة الالعاب الالكترونية - البوليفارد",
           tourDate: "٢٨ يوليو ٢٠٢٢ - ٣١ يوليو ٢٠٢٢ "
         },
         {
           tourLogo: "/rainbow-six.png",
-          tourName: "Rainbow Six",
+          tourName: "<span class='en_num'>Rainbow Six</span>",
           tourLocation: "منطقة الالعاب الالكترونية - البوليفارد",
           tourDate: "٤ اغسطس ٢٠٢٢ - ٧ اغسطس ٢٠٢٢ "
         },
         {
           tourLogo: "/pubg.png",
-          tourName: "PUBG MOBILE",
+          tourName: "<span class='en_num'>PUBG MOBILE</span>",
           tourLocation: "منطقة الالعاب الالكترونية - البوليفارد",
           tourDate: "١١ اغسطس ٢٠٢٢ - ٢٠ اغسطس ٢٠٢٢ "
         },
@@ -267,8 +267,8 @@ let Data = {
         }
       ],
       hashs: [
-        "#جيمرز8",
-        "#العالم_الاخر_هنا!",
+        "#جيمرز<span class='en_num'>8</span>",
+        "#العالم_الأخر_هنا!",
         "#طريقك_للمجد",
       ]
     },
