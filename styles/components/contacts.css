@@ -28,7 +28,7 @@
   }
   
   .contact-channels .social-channel {
-    width: 22%;
+    width: 24%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,6 +45,11 @@
     letter-spacing: 2px;
     font-size: 22px;
   } 
+  
+  body.ar .contact-channels .social-channel {
+    letter-spacing: 0;
+    font-size: 17px;
+  }
   
   .contact-channels .social-channel img {
     height: 55%;
