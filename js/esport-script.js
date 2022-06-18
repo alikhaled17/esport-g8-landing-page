@@ -203,31 +203,31 @@ let Data = {
         {
           tourLogo: "/rocket-leage.png",
           tourName: "<span class='en_num'>Rocket League</span>",
-          tourLocation: "منطقة الالعاب الالكترونية - البوليفارد",
+          tourLocation: "منطقة الألعاب الإلكترونية - البوليفارد",
           tourDate: "١٤ يوليو ٢٠٢٢ - ١٧ يوليو ٢٠٢٢"
         },
         {
           tourLogo: "/dota.png",
           tourName: " <span class='en_num'>Dota 2</span>",
-          tourLocation: "منطقة الالعاب الالكترونية - البوليفارد",
+          tourLocation: "منطقة الألعاب الإلكترونية - البوليفارد",
           tourDate: "٢١ يوليو ٢٠٢٢ - ٢٤ يوليو ٢٠٢٢"
         },
         {
           tourLogo: "/fortnite.png",
           tourName: "<span class='en_num'>Fortnite</span>",
-          tourLocation: "منطقة الالعاب الالكترونية - البوليفارد",
+          tourLocation: "منطقة الألعاب الإلكترونية - البوليفارد",
           tourDate: "٢٨ يوليو ٢٠٢٢ - ٣١ يوليو ٢٠٢٢ "
         },
         {
           tourLogo: "/rainbow-six.png",
           tourName: "<span class='en_num'>Rainbow Six</span>",
-          tourLocation: "منطقة الالعاب الالكترونية - البوليفارد",
+          tourLocation: "منطقة الألعاب الإلكترونية - البوليفارد",
           tourDate: "٤ اغسطس ٢٠٢٢ - ٧ اغسطس ٢٠٢٢ "
         },
         {
           tourLogo: "/pubg.png",
           tourName: "<span class='en_num'>PUBG MOBILE</span>",
-          tourLocation: "منطقة الالعاب الالكترونية - البوليفارد",
+          tourLocation: "منطقة الألعاب الإلكترونية - البوليفارد",
           tourDate: "١١ اغسطس ٢٠٢٢ - ٢٠ اغسطس ٢٠٢٢ "
         },
       ]
