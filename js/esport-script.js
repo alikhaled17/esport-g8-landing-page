@@ -18,17 +18,14 @@ scrollToTop.addEventListener("click", () => {
 //   el2.classList.add("active");
 // };
 
-// document.querySelectorAll(".side-list-item").forEach((el, i) => {
-//   el.addEventListener("click", () => {
-//     document.querySelector(".side-bar").classList.remove("active");
-//     let id = el.getAttribute("data-section");
-//     if(id === "02") {
-//       return;
-//     }
-//     let sec = document.getElementById(id);
-//     window.scroll(sec.x, sec.offsetTop);
-//   });
-// });
+document.querySelectorAll(".side-list-item").forEach((el, i) => {
+  el.addEventListener("click", () => {
+    if(id === "02") {
+      document.querySelector(".side-bar").classList.remove("active");
+      return;
+    }
+  });
+});
 
 // document.querySelectorAll(".nav-item").forEach((el, i) => {
 //   el.addEventListener("click", () => {
