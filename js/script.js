@@ -23,6 +23,12 @@ document.querySelectorAll(".side-list-item").forEach((el, i) => {
   el.addEventListener("click", () => {
     document.querySelector(".side-bar").classList.remove("active");
     let id = el.getAttribute("data-section");
+
+    if(id === "02") {
+      window.location.href = "./esport/index.html";
+      return
+    }
+
     let sec = document.getElementById(id);
     window.scroll(sec.x, sec.offsetTop);
   });
@@ -31,6 +37,12 @@ document.querySelectorAll(".side-list-item").forEach((el, i) => {
 document.querySelectorAll(".nav-item").forEach((el, i) => {
   el.addEventListener("click", () => {
     let id = el.getAttribute("data-nav-content");
+
+    if(id === "02") {
+      window.location.href = "./esport/index.html";
+      return
+    }
+
     let sec = document.getElementById(id);
     window.scroll(sec.x, sec.offsetTop);
   });
