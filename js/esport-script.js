@@ -193,7 +193,7 @@ let Data = {
       "مرر للاسفل  <br> واكتشف المزيد",
     ],
     esportIntroduction: [
-      "بجائزة مُدهِشه بقيمة 15 مليون دولار سوف تتنافس عليها أكبر الفِرق في العالم هذا الصيف في الرياض، عاصمة المملكة العربية السعودية. كل بطولة ستكون تجربة من الخيـال ولن ينساها مجتمع الرياضات الإلكترونية بأكمله.",
+      "مجموع جوائز بقيمة 15 مليون دولار بيتنافس عليها أكبر الفِرق في العالم بموسم الجيمرز ذا الصيف في الرياض. كل بطولة بتكون تجربة من الخيال وبيشارك فيها نخبة الرياضيين في عالم الرياضات الإلكترونية في العالم.",
       "<span>احفظوا التاريخ</span><br>من 14 يوليو إلى 8 سبتمبر",
       "تابعنا وبتعرف أكثر"
     ],
@@ -238,32 +238,32 @@ let Data = {
         {
           channelLink: "https://www.facebook.com/Gamers8GG/",
           channelLogo: "/facebook-app-symbol.svg",
-          channelName: "انضم الينا علي فيسبوك",
+          channelName: "فيسبوك",
         },
         {
           channelLink: "https://www.youtube.com/channel/UCENNtCRTPTdH_IGXs42LuHQ",
           channelLogo: "/tube.svg",
-          channelName: "انضم الينا علي يوتيوب",
+          channelName: "يوتيوب",
         },
         {
           channelLink: "https://www.instagram.com/gamers8gg/",
           channelLogo: "/instgram.svg",
-          channelName: "انضم الينا علي انستجرام",
+          channelName: "انستجرام",
         },
         {
           channelLink: "https://www.twitch.tv/gamers8_en",
           channelLogo: "/txto.svg",
-          channelName: "انضم الينا علي تويتش",
+          channelName: "تويتش",
         },
         {
           channelLink: "https://twitter.com/Gamers8GG",
           channelLogo: "/twitter.svg",
-          channelName: "انضم الينا علي تويتر",
+          channelName: "تويتر",
         },
         {
           channelLink: "https://www.tiktok.com/@gamers8gg",
           channelLogo: "/tiktok.svg",
-          channelName: "انضم الينا علي تيك توك",
+          channelName: "تيك توك",
         }
       ],
       hashs: [
